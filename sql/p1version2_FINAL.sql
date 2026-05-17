@@ -1,0 +1,985 @@
+﻿-- ==========================================
+-- BASE DE DATOS: Torneo Deportivo
+-- Fecha: Mayo 16, 2026
+-- ==========================================
+
+CREATE DATABASE IF NOT EXISTS torneo_deportivo;
+USE torneo_deportivo;
+
+-- Tabla: Torneo
+CREATE TABLE IF NOT EXISTS Torneo(
+    id_torneo INT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    fecha_inicio DATE NOT NULL,
+    fecha_fin DATE NOT NULL,
+    deporte VARCHAR(50) NOT NULL,
+    CHECK (fecha_fin >= fecha_inicio)
+);
+
+-- Tabla: Equipo
+CREATE TABLE IF NOT EXISTS Equipo(
+    id_equipo INT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    ciudad VARCHAR(80)
+);
+
+-- Tabla: Participa (RelaciÃ³n muchos-a-muchos entre Torneo y Equipo)
+CREATE TABLE IF NOT EXISTS Participa(
+    id_torneo INT,
+    id_equipo INT,
+    PRIMARY KEY(id_torneo, id_equipo),
+    FOREIGN KEY (id_torneo) REFERENCES Torneo(id_torneo),
+    FOREIGN KEY (id_equipo) REFERENCES Equipo(id_equipo)
+);
+
+-- Tabla: Jugador
+CREATE TABLE IF NOT EXISTS Jugador(
+    id_jugador INT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    fecha_nac DATE,
+    posicion VARCHAR(50),
+    id_equipo INT NOT NULL,
+    FOREIGN KEY (id_equipo) REFERENCES Equipo(id_equipo)
+);
+
+-- Tabla: Partido
+CREATE TABLE IF NOT EXISTS Partido (
+    id_partido INT PRIMARY KEY,
+    fecha DATE NOT NULL,
+    marcador_local INT DEFAULT 0,
+    marcador_visitante INT DEFAULT 0,
+    lugar VARCHAR(100),
+    id_torneo INT NOT NULL,
+    id_equipo_local INT NOT NULL,
+    id_equipo_visitante INT NOT NULL,
+    FOREIGN KEY (id_torneo) REFERENCES Torneo (id_torneo),
+    FOREIGN KEY (id_equipo_local) REFERENCES Equipo (id_equipo),
+    FOREIGN KEY (id_equipo_visitante) REFERENCES Equipo (id_equipo),
+    CHECK (marcador_local >= 0),
+    CHECK (marcador_visitante >= 0),
+    CHECK (id_equipo_local <> id_equipo_visitante)
+);
+
+-- Tabla: EstadisticaJugador
+CREATE TABLE IF NOT EXISTS EstadisticaJugador(
+    id_jugador INT,
+    id_torneo INT,
+    goles INT DEFAULT 0,
+    asistencias INT DEFAULT 0,
+    tarjetas_rojas INT DEFAULT 0,
+    tarjetas_amarillas INT DEFAULT 0,
+    PRIMARY KEY(id_jugador, id_torneo),
+    FOREIGN KEY (id_jugador) REFERENCES Jugador(id_jugador),
+    FOREIGN KEY (id_torneo) REFERENCES Torneo(id_torneo),
+    CHECK(goles >= 0),
+    CHECK(asistencias >= 0),
+    CHECK(tarjetas_rojas >= 0),
+    CHECK(tarjetas_amarillas >= 0)
+);
+
+-- Tabla: Gol
+CREATE TABLE IF NOT EXISTS Gol(
+    id_gol INT PRIMARY KEY,
+    minuto INT,
+    id_partido INT,
+    id_jugador INT,
+    FOREIGN KEY(id_partido) REFERENCES Partido(id_partido),
+    FOREIGN KEY(id_jugador) REFERENCES Jugador(id_jugador)
+);
+
+-- ==========================================
+-- CONSULTAS DE TRABAJO
+-- ==========================================
+
+-- 1. Mostrar todos los partidos con detalles
+SELECT 
+    p.id_partido,
+    t.nombre AS torneo,
+    p.fecha,
+    e1.nombre AS equipo_local,
+    p.marcador_local,
+    p.marcador_visitante,
+    e2.nombre AS equipo_visitante,
+    p.lugar
+FROM Partido p
+JOIN Equipo e1 ON p.id_equipo_local = e1.id_equipo
+JOIN Equipo e2 ON p.id_equipo_visitante = e2.id_equipo
+JOIN Torneo t ON p.id_torneo = t.id_torneo
+ORDER BY p.fecha;
+
+-- 2. Obtener jugadores de un equipo especÃ­fico (Barcelona)
+SELECT 
+    j.id_jugador,
+    j.nombre,
+    j.posicion,
+    j.fecha_nac,
+    e.nombre AS equipo
+FROM Jugador j
+JOIN Equipo e ON j.id_equipo = e.id_equipo
+WHERE e.nombre = 'Barcelona'
+ORDER BY j.posicion, j.nombre;
+
+-- 3. Contar victorias por equipo
+SELECT 
+    nombre,
+    COUNT(*) AS total_victorias
+FROM(
+    -- Victorias como equipo local
+    SELECT e.nombre
+    FROM Partido p
+    JOIN Equipo e ON p.id_equipo_local = e.id_equipo
+    WHERE p.marcador_local > p.marcador_visitante
+    
+    UNION ALL
+    
+    -- Victorias como equipo visitante
+    SELECT e.nombre
+    FROM Partido p
+    JOIN Equipo e ON p.id_equipo_visitante = e.id_equipo
+    WHERE p.marcador_visitante > p.marcador_local
+) victorias
+GROUP BY nombre
+ORDER BY total_victorias DESC;
+
+-- 4. Tabla de posiciones (Puntos por equipo)
+SELECT
+    nombre,
+    SUM(puntos) AS total_puntos,
+    COUNT(*) AS partidos_jugados
+FROM(
+    -- Puntos como equipo local
+    SELECT
+        e.nombre,
+        CASE
+            WHEN p.marcador_local > p.marcador_visitante THEN 3
+            WHEN p.marcador_local = p.marcador_visitante THEN 1
+            ELSE 0
+        END AS puntos
+    FROM Partido p
+    JOIN Equipo e ON p.id_equipo_local = e.id_equipo
+    
+    UNION ALL
+    
+    -- Puntos como equipo visitante
+    SELECT
+        e.nombre,
+        CASE
+            WHEN p.marcador_visitante > p.marcador_local THEN 3
+            WHEN p.marcador_visitante = p.marcador_local THEN 1
+            ELSE 0
+        END AS puntos
+    FROM Partido p
+    JOIN Equipo e ON p.id_equipo_visitante = e.id_equipo
+) tabla_puntos
+GROUP BY nombre
+ORDER BY total_puntos DESC, partidos_jugados DESC;
+
+-- 5. Top 10 goleadores del torneo
+SELECT 
+    j.id_jugador,
+    j.nombre,
+    e.nombre AS equipo,
+    COUNT(g.id_gol) AS total_goles
+FROM Gol g
+JOIN Jugador j ON g.id_jugador = j.id_jugador
+JOIN Equipo e ON j.id_equipo = e.id_equipo
+GROUP BY j.id_jugador, j.nombre, e.nombre
+ORDER BY total_goles DESC
+LIMIT 10;
+
+-- 6. Total de goles por partido
+SELECT
+    p.id_partido,
+    CONCAT(e1.nombre, ' ', p.marcador_local, ' - ', p.marcador_visitante, ' ', e2.nombre) AS resultado,
+    p.fecha,
+    p.lugar,
+    (p.marcador_local + p.marcador_visitante) AS total_goles
+FROM Partido p
+JOIN Equipo e1 ON p.id_equipo_local = e1.id_equipo
+JOIN Equipo e2 ON p.id_equipo_visitante = e2.id_equipo
+ORDER BY p.fecha DESC;
+
+-- 7. Jugadores con mÃºltiples goles en un mismo partido (3 o mÃ¡s)
+SELECT
+    j.nombre AS jugador,
+    e.nombre AS equipo,
+    p.id_partido,
+    CONCAT(e1.nombre, ' vs ', e2.nombre) AS partido,
+    p.fecha,
+    COUNT(g.id_gol) AS goles_en_partido
+FROM Gol g
+JOIN Jugador j ON g.id_jugador = j.id_jugador
+JOIN Equipo e ON j.id_equipo = e.id_equipo
+JOIN Partido p ON g.id_partido = p.id_partido
+JOIN Equipo e1 ON p.id_equipo_local = e1.id_equipo
+JOIN Equipo e2 ON p.id_equipo_visitante = e2.id_equipo
+GROUP BY j.nombre, e.nombre, p.id_partido, e1.nombre, e2.nombre, p.fecha
+HAVING COUNT(g.id_gol) >= 3
+ORDER BY goles_en_partido DESC, p.fecha DESC;
+
+-- 8. EstadÃ­sticas de jugadores por torneo
+SELECT 
+    j.nombre AS jugador,
+    e.nombre AS equipo,
+    t.nombre AS torneo,
+    ej.goles,
+    ej.asistencias,
+    ej.tarjetas_rojas,
+    ej.tarjetas_amarillas
+FROM EstadisticaJugador ej
+JOIN Jugador j ON ej.id_jugador = j.id_jugador
+JOIN Equipo e ON j.id_equipo = e.id_equipo
+JOIN Torneo t ON ej.id_torneo = t.id_torneo
+WHERE ej.goles > 0
+ORDER BY ej.goles DESC, t.nombre, j.nombre;
+
+-- 9. Partidos de un equipo especÃ­fico (Barcelona)
+SELECT
+    p.id_partido,
+    p.fecha,
+    CONCAT(e1.nombre, ' (L) ', p.marcador_local, ' - ', p.marcador_visitante, ' ', e2.nombre, ' (V)') AS partido,
+    p.lugar,
+    CASE 
+        WHEN p.marcador_local > p.marcador_visitante THEN e1.nombre
+        WHEN p.marcador_visitante > p.marcador_local THEN e2.nombre
+        ELSE 'EMPATE'
+    END AS resultado
+FROM Partido p
+JOIN Equipo e1 ON p.id_equipo_local = e1.id_equipo
+JOIN Equipo e2 ON p.id_equipo_visitante = e2.id_equipo
+WHERE p.id_equipo_local = (SELECT id_equipo FROM Equipo WHERE nombre = 'Barcelona')
+   OR p.id_equipo_visitante = (SELECT id_equipo FROM Equipo WHERE nombre = 'Barcelona')
+ORDER BY p.fecha;
+
+-- 10. Enfrentamientos entre dos equipos (Real Madrid vs Barcelona)
+SELECT
+    p.id_partido,
+    p.fecha,
+    CONCAT(e1.nombre, ' ', p.marcador_local, ' - ', p.marcador_visitante, ' ', e2.nombre) AS resultado,
+    p.lugar,
+    CASE 
+        WHEN p.marcador_local > p.marcador_visitante THEN e1.nombre
+        WHEN p.marcador_visitante > p.marcador_local THEN e2.nombre
+        ELSE 'EMPATE'
+    END AS ganador
+FROM Partido p
+JOIN Equipo e1 ON p.id_equipo_local = e1.id_equipo
+JOIN Equipo e2 ON p.id_equipo_visitante = e2.id_equipo
+WHERE (e1.nombre = 'Real Madrid' AND e2.nombre = 'Barcelona')
+   OR (e1.nombre = 'Barcelona' AND e2.nombre = 'Real Madrid')
+ORDER BY p.fecha;
+-- UPDATE EQUIPOS
+UPDATE Equipo SET ciudad = 'Madrid' WHERE id_equipo = 1;
+UPDATE Equipo SET ciudad = 'Barcelona' WHERE id_equipo = 2;
+UPDATE Equipo SET ciudad = 'Gelsenkirchen' WHERE id_equipo = 3;
+UPDATE Equipo SET ciudad = 'Manchester' WHERE id_equipo = 4;
+UPDATE Equipo SET ciudad = 'London' WHERE id_equipo = 5;
+UPDATE Equipo SET ciudad = 'London' WHERE id_equipo = 6;
+UPDATE Equipo SET ciudad = 'Milan' WHERE id_equipo = 7;
+UPDATE Equipo SET ciudad = 'Donetsk' WHERE id_equipo = 8;
+UPDATE Equipo SET ciudad = 'Munich' WHERE id_equipo = 9;
+UPDATE Equipo SET ciudad = 'Unknown' WHERE id_equipo = 10;
+UPDATE Equipo SET ciudad = 'London' WHERE id_equipo = 11;
+UPDATE Equipo SET ciudad = 'Marseille' WHERE id_equipo = 12;
+UPDATE Equipo SET ciudad = 'Rome' WHERE id_equipo = 13;
+UPDATE Equipo SET ciudad = 'Lyon' WHERE id_equipo = 14;
+UPDATE Equipo SET ciudad = 'Unknown' WHERE id_equipo = 15;
+UPDATE Equipo SET ciudad = 'Valencia' WHERE id_equipo = 16;
+UPDATE Equipo SET ciudad = 'Turin' WHERE id_equipo = 17;
+UPDATE Equipo SET ciudad = 'Unknown' WHERE id_equipo = 18;
+UPDATE Equipo SET ciudad = 'Unknown' WHERE id_equipo = 19;
+UPDATE Equipo SET ciudad = 'Unknown' WHERE id_equipo = 20;
+UPDATE Equipo SET ciudad = 'Unknown' WHERE id_equipo = 21;
+UPDATE Equipo SET ciudad = 'Dortmund' WHERE id_equipo = 22;
+UPDATE Equipo SET ciudad = 'Manchester' WHERE id_equipo = 23;
+UPDATE Equipo SET ciudad = 'Unknown' WHERE id_equipo = 24;
+UPDATE Equipo SET ciudad = 'Unknown' WHERE id_equipo = 25;
+UPDATE Equipo SET ciudad = 'Unknown' WHERE id_equipo = 26;
+UPDATE Equipo SET ciudad = 'Unknown' WHERE id_equipo = 27;
+UPDATE Equipo SET ciudad = 'Unknown' WHERE id_equipo = 28;
+UPDATE Equipo SET ciudad = 'Unknown' WHERE id_equipo = 29;
+
+-- UPDATE PARTIDOS
+UPDATE Partido SET lugar = 'Santiago BernabÃ©u' WHERE id_partido = 1;
+UPDATE Partido SET lugar = 'Camp Nou' WHERE id_partido = 2;
+UPDATE Partido SET lugar = 'Veltins-Arena' WHERE id_partido = 3;
+UPDATE Partido SET lugar = 'Old Trafford' WHERE id_partido = 4;
+UPDATE Partido SET lugar = 'Santiago BernabÃ©u' WHERE id_partido = 5;
+UPDATE Partido SET lugar = 'Stamford Bridge' WHERE id_partido = 6;
+UPDATE Partido SET lugar = 'Stamford Bridge' WHERE id_partido = 7;
+UPDATE Partido SET lugar = 'Old Trafford' WHERE id_partido = 8;
+UPDATE Partido SET lugar = 'San Siro' WHERE id_partido = 9;
+UPDATE Partido SET lugar = 'Veltins-Arena' WHERE id_partido = 10;
+UPDATE Partido SET lugar = 'Camp Nou' WHERE id_partido = 11;
+UPDATE Partido SET lugar = 'Donbass Arena' WHERE id_partido = 12;
+UPDATE Partido SET lugar = 'San Siro' WHERE id_partido = 13;
+UPDATE Partido SET lugar = 'Allianz Arena' WHERE id_partido = 14;
+UPDATE Partido SET lugar = 'Unknown Stadium' WHERE id_partido = 15;
+UPDATE Partido SET lugar = 'Stamford Bridge' WHERE id_partido = 16;
+UPDATE Partido SET lugar = 'Stamford Bridge' WHERE id_partido = 17;
+UPDATE Partido SET lugar = 'Camp Nou' WHERE id_partido = 18;
+UPDATE Partido SET lugar = 'Orange Velodrome' WHERE id_partido = 19;
+UPDATE Partido SET lugar = 'Old Trafford' WHERE id_partido = 20;
+UPDATE Partido SET lugar = 'Stadio Olimpico' WHERE id_partido = 21;
+UPDATE Partido SET lugar = 'Donbass Arena' WHERE id_partido = 22;
+UPDATE Partido SET lugar = 'Stade de Gerland' WHERE id_partido = 23;
+UPDATE Partido SET lugar = 'Santiago BernabÃ©u' WHERE id_partido = 24;
+UPDATE Partido SET lugar = 'Unknown Stadium' WHERE id_partido = 25;
+UPDATE Partido SET lugar = 'Stamford Bridge' WHERE id_partido = 26;
+UPDATE Partido SET lugar = 'Mestalla' WHERE id_partido = 27;
+UPDATE Partido SET lugar = 'Veltins-Arena' WHERE id_partido = 28;
+UPDATE Partido SET lugar = 'Camp Nou' WHERE id_partido = 29;
+UPDATE Partido SET lugar = 'Camp Nou' WHERE id_partido = 30;
+UPDATE Partido SET lugar = 'Allianz Arena' WHERE id_partido = 31;
+UPDATE Partido SET lugar = 'Juventus Stadium' WHERE id_partido = 32;
+UPDATE Partido SET lugar = 'Santiago BernabÃ©u' WHERE id_partido = 33;
+UPDATE Partido SET lugar = 'Unknown Stadium' WHERE id_partido = 34;
+UPDATE Partido SET lugar = 'Allianz Arena' WHERE id_partido = 35;
+UPDATE Partido SET lugar = 'Unknown Stadium' WHERE id_partido = 36;
+UPDATE Partido SET lugar = 'Santiago BernabÃ©u' WHERE id_partido = 37;
+UPDATE Partido SET lugar = 'Unknown Stadium' WHERE id_partido = 38;
+UPDATE Partido SET lugar = 'Camp Nou' WHERE id_partido = 39;
+UPDATE Partido SET lugar = 'Juventus Stadium' WHERE id_partido = 40;
+UPDATE Partido SET lugar = 'Unknown Stadium' WHERE id_partido = 41;
+UPDATE Partido SET lugar = 'Stamford Bridge' WHERE id_partido = 42;
+UPDATE Partido SET lugar = 'Unknown Stadium' WHERE id_partido = 43;
+UPDATE Partido SET lugar = 'Juventus Stadium' WHERE id_partido = 44;
+UPDATE Partido SET lugar = 'Signal Iduna Park' WHERE id_partido = 45;
+UPDATE Partido SET lugar = 'Old Trafford' WHERE id_partido = 46;
+UPDATE Partido SET lugar = 'Camp Nou' WHERE id_partido = 47;
+UPDATE Partido SET lugar = 'Veltins-Arena' WHERE id_partido = 48;
+UPDATE Partido SET lugar = 'Santiago BernabÃ©u' WHERE id_partido = 49;
+UPDATE Partido SET lugar = 'Unknown Stadium' WHERE id_partido = 50;
+UPDATE Partido SET lugar = 'Unknown Stadium' WHERE id_partido = 51;
+UPDATE Partido SET lugar = 'Unknown Stadium' WHERE id_partido = 52;
+UPDATE Partido SET lugar = 'Stamford Bridge' WHERE id_partido = 53;
+UPDATE Partido SET lugar = 'Unknown Stadium' WHERE id_partido = 54;
+UPDATE Partido SET lugar = 'Unknown Stadium' WHERE id_partido = 55;
+UPDATE Partido SET lugar = 'Donbass Arena' WHERE id_partido = 56;
+UPDATE Partido SET lugar = 'Allianz Arena' WHERE id_partido = 57;
+UPDATE Partido SET lugar = 'Camp Nou' WHERE id_partido = 58;
+
+-- INSERT JUGADORES
+INSERT INTO Jugador VALUES (1, 'Lionel Messi', '1995-02-01', 'Delantero', 1);
+INSERT INTO Jugador VALUES (2, 'Luis Suarez', '1983-04-08', 'Centrocampista', 1);
+INSERT INTO Jugador VALUES (3, 'Sergio Aguero', '1979-12-04', 'Defensa', 1);
+INSERT INTO Jugador VALUES (4, 'Robert Lewandowski', '1992-02-19', 'Portero', 1);
+INSERT INTO Jugador VALUES (5, 'David Villa', '1988-01-01', 'Delantero', 1);
+INSERT INTO Jugador VALUES (6, 'Karim Benzema', '1977-04-08', 'Centrocampista', 1);
+INSERT INTO Jugador VALUES (7, 'Raul Gonzalez', '1991-10-01', 'Defensa', 1);
+INSERT INTO Jugador VALUES (8, 'Thierry Henry', '1992-04-23', 'Portero', 1);
+INSERT INTO Jugador VALUES (9, 'Zinedine Zidane', '1995-12-18', 'Delantero', 1);
+INSERT INTO Jugador VALUES (10, 'Ronaldinho', '1988-04-15', 'Centrocampista', 1);
+INSERT INTO Jugador VALUES (11, 'Pele', '1993-05-26', 'Defensa', 1);
+INSERT INTO Jugador VALUES (12, 'Gianluigi Buffon', '1975-03-23', 'Portero', 1);
+INSERT INTO Jugador VALUES (13, 'Luis Suarez', '1988-06-09', 'Delantero', 2);
+INSERT INTO Jugador VALUES (14, 'Sergio Aguero', '1979-04-25', 'Centrocampista', 2);
+INSERT INTO Jugador VALUES (15, 'Robert Lewandowski', '1985-02-03', 'Defensa', 2);
+INSERT INTO Jugador VALUES (16, 'David Villa', '1987-02-12', 'Portero', 2);
+INSERT INTO Jugador VALUES (17, 'Karim Benzema', '1986-10-09', 'Delantero', 2);
+INSERT INTO Jugador VALUES (18, 'Raul Gonzalez', '1976-12-15', 'Centrocampista', 2);
+INSERT INTO Jugador VALUES (19, 'Thierry Henry', '1992-02-13', 'Defensa', 2);
+INSERT INTO Jugador VALUES (20, 'Zinedine Zidane', '1977-09-10', 'Portero', 2);
+INSERT INTO Jugador VALUES (21, 'Ronaldinho', '1995-10-28', 'Delantero', 2);
+INSERT INTO Jugador VALUES (22, 'Pele', '1986-10-07', 'Centrocampista', 2);
+INSERT INTO Jugador VALUES (23, 'Gianluigi Buffon', '1977-01-22', 'Defensa', 2);
+INSERT INTO Jugador VALUES (24, 'Edwin van der Sar', '1982-05-03', 'Portero', 2);
+INSERT INTO Jugador VALUES (25, 'Sergio Aguero', '1982-02-13', 'Delantero', 3);
+INSERT INTO Jugador VALUES (26, 'Robert Lewandowski', '1983-08-21', 'Centrocampista', 3);
+INSERT INTO Jugador VALUES (27, 'David Villa', '1986-03-12', 'Defensa', 3);
+INSERT INTO Jugador VALUES (28, 'Karim Benzema', '1986-04-22', 'Portero', 3);
+INSERT INTO Jugador VALUES (29, 'Raul Gonzalez', '1983-12-22', 'Delantero', 3);
+INSERT INTO Jugador VALUES (30, 'Thierry Henry', '1995-02-20', 'Centrocampista', 3);
+INSERT INTO Jugador VALUES (31, 'Zinedine Zidane', '1995-03-18', 'Defensa', 3);
+INSERT INTO Jugador VALUES (32, 'Ronaldinho', '1982-03-15', 'Portero', 3);
+INSERT INTO Jugador VALUES (33, 'Pele', '1987-05-21', 'Delantero', 3);
+INSERT INTO Jugador VALUES (34, 'Gianluigi Buffon', '1992-04-22', 'Centrocampista', 3);
+INSERT INTO Jugador VALUES (35, 'Edwin van der Sar', '1985-01-08', 'Defensa', 3);
+INSERT INTO Jugador VALUES (36, 'Gerard Pique', '1976-06-13', 'Portero', 3);
+INSERT INTO Jugador VALUES (37, 'Robert Lewandowski', '1983-02-07', 'Delantero', 4);
+INSERT INTO Jugador VALUES (38, 'David Villa', '1993-12-11', 'Centrocampista', 4);
+INSERT INTO Jugador VALUES (39, 'Karim Benzema', '1981-11-16', 'Defensa', 4);
+INSERT INTO Jugador VALUES (40, 'Raul Gonzalez', '1987-11-15', 'Portero', 4);
+INSERT INTO Jugador VALUES (41, 'Thierry Henry', '1979-05-05', 'Delantero', 4);
+INSERT INTO Jugador VALUES (42, 'Zinedine Zidane', '1982-12-18', 'Centrocampista', 4);
+INSERT INTO Jugador VALUES (43, 'Ronaldinho', '1992-05-24', 'Defensa', 4);
+INSERT INTO Jugador VALUES (44, 'Pele', '1993-07-19', 'Portero', 4);
+INSERT INTO Jugador VALUES (45, 'Gianluigi Buffon', '1987-06-08', 'Delantero', 4);
+INSERT INTO Jugador VALUES (46, 'Edwin van der Sar', '1979-09-16', 'Centrocampista', 4);
+INSERT INTO Jugador VALUES (47, 'Gerard Pique', '1977-01-28', 'Defensa', 4);
+INSERT INTO Jugador VALUES (48, 'John Terry', '1978-03-21', 'Portero', 4);
+INSERT INTO Jugador VALUES (49, 'David Villa', '1980-11-14', 'Delantero', 5);
+INSERT INTO Jugador VALUES (50, 'Karim Benzema', '1994-02-13', 'Centrocampista', 5);
+INSERT INTO Jugador VALUES (51, 'Raul Gonzalez', '1987-10-15', 'Defensa', 5);
+INSERT INTO Jugador VALUES (52, 'Thierry Henry', '1991-05-18', 'Portero', 5);
+INSERT INTO Jugador VALUES (53, 'Zinedine Zidane', '1975-11-24', 'Delantero', 5);
+INSERT INTO Jugador VALUES (54, 'Ronaldinho', '1978-11-18', 'Centrocampista', 5);
+INSERT INTO Jugador VALUES (55, 'Pele', '1983-11-11', 'Defensa', 5);
+INSERT INTO Jugador VALUES (56, 'Gianluigi Buffon', '1978-05-14', 'Portero', 5);
+INSERT INTO Jugador VALUES (57, 'Edwin van der Sar', '1980-08-01', 'Delantero', 5);
+INSERT INTO Jugador VALUES (58, 'Gerard Pique', '1983-09-25', 'Centrocampista', 5);
+INSERT INTO Jugador VALUES (59, 'John Terry', '1980-09-04', 'Defensa', 5);
+INSERT INTO Jugador VALUES (60, 'Xavi Hernandez', '1995-05-27', 'Portero', 5);
+INSERT INTO Jugador VALUES (61, 'Karim Benzema', '1995-09-20', 'Delantero', 6);
+INSERT INTO Jugador VALUES (62, 'Raul Gonzalez', '1981-03-12', 'Centrocampista', 6);
+INSERT INTO Jugador VALUES (63, 'Thierry Henry', '1980-09-25', 'Defensa', 6);
+INSERT INTO Jugador VALUES (64, 'Zinedine Zidane', '1991-01-20', 'Portero', 6);
+INSERT INTO Jugador VALUES (65, 'Ronaldinho', '1985-08-01', 'Delantero', 6);
+INSERT INTO Jugador VALUES (66, 'Pele', '1978-06-27', 'Centrocampista', 6);
+INSERT INTO Jugador VALUES (67, 'Gianluigi Buffon', '1984-04-02', 'Defensa', 6);
+INSERT INTO Jugador VALUES (68, 'Edwin van der Sar', '1982-10-03', 'Portero', 6);
+INSERT INTO Jugador VALUES (69, 'Gerard Pique', '1977-12-16', 'Delantero', 6);
+INSERT INTO Jugador VALUES (70, 'John Terry', '1977-09-25', 'Centrocampista', 6);
+INSERT INTO Jugador VALUES (71, 'Xavi Hernandez', '1979-03-22', 'Defensa', 6);
+INSERT INTO Jugador VALUES (72, 'Andres Iniesta', '1990-09-06', 'Portero', 6);
+INSERT INTO Jugador VALUES (73, 'Raul Gonzalez', '1983-09-28', 'Delantero', 7);
+INSERT INTO Jugador VALUES (74, 'Thierry Henry', '1994-07-07', 'Centrocampista', 7);
+INSERT INTO Jugador VALUES (75, 'Zinedine Zidane', '1992-12-23', 'Defensa', 7);
+INSERT INTO Jugador VALUES (76, 'Ronaldinho', '1981-12-10', 'Portero', 7);
+INSERT INTO Jugador VALUES (77, 'Pele', '1987-11-21', 'Delantero', 7);
+INSERT INTO Jugador VALUES (78, 'Gianluigi Buffon', '1986-08-17', 'Centrocampista', 7);
+INSERT INTO Jugador VALUES (79, 'Edwin van der Sar', '1989-02-08', 'Defensa', 7);
+INSERT INTO Jugador VALUES (80, 'Gerard Pique', '1982-02-11', 'Portero', 7);
+INSERT INTO Jugador VALUES (81, 'John Terry', '1975-10-18', 'Delantero', 7);
+INSERT INTO Jugador VALUES (82, 'Xavi Hernandez', '1982-10-08', 'Centrocampista', 7);
+INSERT INTO Jugador VALUES (83, 'Andres Iniesta', '1975-02-23', 'Defensa', 7);
+INSERT INTO Jugador VALUES (84, 'Andrea Pirlo', '1995-01-08', 'Portero', 7);
+INSERT INTO Jugador VALUES (85, 'Thierry Henry', '1977-01-28', 'Delantero', 8);
+INSERT INTO Jugador VALUES (86, 'Zinedine Zidane', '1985-02-17', 'Centrocampista', 8);
+INSERT INTO Jugador VALUES (87, 'Ronaldinho', '1982-05-22', 'Defensa', 8);
+INSERT INTO Jugador VALUES (88, 'Pele', '1990-04-18', 'Portero', 8);
+INSERT INTO Jugador VALUES (89, 'Gianluigi Buffon', '1979-12-19', 'Delantero', 8);
+INSERT INTO Jugador VALUES (90, 'Edwin van der Sar', '1993-08-08', 'Centrocampista', 8);
+INSERT INTO Jugador VALUES (91, 'Gerard Pique', '1990-07-07', 'Defensa', 8);
+INSERT INTO Jugador VALUES (92, 'John Terry', '1978-02-22', 'Portero', 8);
+INSERT INTO Jugador VALUES (93, 'Xavi Hernandez', '1988-06-14', 'Delantero', 8);
+INSERT INTO Jugador VALUES (94, 'Andres Iniesta', '1988-08-28', 'Centrocampista', 8);
+INSERT INTO Jugador VALUES (95, 'Andrea Pirlo', '1976-11-21', 'Defensa', 8);
+INSERT INTO Jugador VALUES (96, 'Steven Gerrard', '1995-02-02', 'Portero', 8);
+INSERT INTO Jugador VALUES (97, 'Zinedine Zidane', '1987-12-11', 'Delantero', 9);
+INSERT INTO Jugador VALUES (98, 'Ronaldinho', '1978-04-07', 'Centrocampista', 9);
+INSERT INTO Jugador VALUES (99, 'Pele', '1981-09-15', 'Defensa', 9);
+INSERT INTO Jugador VALUES (100, 'Gianluigi Buffon', '1979-07-06', 'Portero', 9);
+INSERT INTO Jugador VALUES (101, 'Edwin van der Sar', '1983-08-08', 'Delantero', 9);
+INSERT INTO Jugador VALUES (102, 'Gerard Pique', '1977-08-26', 'Centrocampista', 9);
+INSERT INTO Jugador VALUES (103, 'John Terry', '1992-02-02', 'Defensa', 9);
+INSERT INTO Jugador VALUES (104, 'Xavi Hernandez', '1995-09-27', 'Portero', 9);
+INSERT INTO Jugador VALUES (105, 'Andres Iniesta', '1975-02-25', 'Delantero', 9);
+INSERT INTO Jugador VALUES (106, 'Andrea Pirlo', '1982-03-14', 'Centrocampista', 9);
+INSERT INTO Jugador VALUES (107, 'Steven Gerrard', '1990-08-07', 'Defensa', 9);
+INSERT INTO Jugador VALUES (108, 'Patrick Vieira', '1987-01-06', 'Portero', 9);
+INSERT INTO Jugador VALUES (109, 'Ronaldinho', '1987-01-13', 'Delantero', 10);
+INSERT INTO Jugador VALUES (110, 'Pele', '1983-08-10', 'Centrocampista', 10);
+INSERT INTO Jugador VALUES (111, 'Gianluigi Buffon', '1988-12-24', 'Defensa', 10);
+INSERT INTO Jugador VALUES (112, 'Edwin van der Sar', '1992-11-23', 'Portero', 10);
+INSERT INTO Jugador VALUES (113, 'Gerard Pique', '1990-03-07', 'Delantero', 10);
+INSERT INTO Jugador VALUES (114, 'John Terry', '1984-04-02', 'Centrocampista', 10);
+INSERT INTO Jugador VALUES (115, 'Xavi Hernandez', '1993-12-18', 'Defensa', 10);
+INSERT INTO Jugador VALUES (116, 'Andres Iniesta', '1976-12-11', 'Portero', 10);
+INSERT INTO Jugador VALUES (117, 'Andrea Pirlo', '1976-01-19', 'Delantero', 10);
+INSERT INTO Jugador VALUES (118, 'Steven Gerrard', '1990-09-28', 'Centrocampista', 10);
+INSERT INTO Jugador VALUES (119, 'Patrick Vieira', '1991-03-02', 'Defensa', 10);
+INSERT INTO Jugador VALUES (120, 'Claude Makele', '1991-02-28', 'Portero', 10);
+INSERT INTO Jugador VALUES (121, 'Pele', '1980-02-20', 'Delantero', 11);
+INSERT INTO Jugador VALUES (122, 'Gianluigi Buffon', '1977-11-28', 'Centrocampista', 11);
+INSERT INTO Jugador VALUES (123, 'Edwin van der Sar', '1982-07-04', 'Defensa', 11);
+INSERT INTO Jugador VALUES (124, 'Gerard Pique', '1993-04-19', 'Portero', 11);
+INSERT INTO Jugador VALUES (125, 'John Terry', '1994-01-20', 'Delantero', 11);
+INSERT INTO Jugador VALUES (126, 'Xavi Hernandez', '1977-07-22', 'Centrocampista', 11);
+INSERT INTO Jugador VALUES (127, 'Andres Iniesta', '1993-10-17', 'Defensa', 11);
+INSERT INTO Jugador VALUES (128, 'Andrea Pirlo', '1985-05-07', 'Portero', 11);
+INSERT INTO Jugador VALUES (129, 'Steven Gerrard', '1985-04-09', 'Delantero', 11);
+INSERT INTO Jugador VALUES (130, 'Patrick Vieira', '1987-03-22', 'Centrocampista', 11);
+INSERT INTO Jugador VALUES (131, 'Claude Makele', '1995-05-15', 'Defensa', 11);
+INSERT INTO Jugador VALUES (132, 'Didier Drogba', '1985-02-01', 'Portero', 11);
+INSERT INTO Jugador VALUES (133, 'Gianluigi Buffon', '1989-10-19', 'Delantero', 12);
+INSERT INTO Jugador VALUES (134, 'Edwin van der Sar', '1978-02-18', 'Centrocampista', 12);
+INSERT INTO Jugador VALUES (135, 'Gerard Pique', '1981-09-09', 'Defensa', 12);
+INSERT INTO Jugador VALUES (136, 'John Terry', '1979-06-03', 'Portero', 12);
+INSERT INTO Jugador VALUES (137, 'Xavi Hernandez', '1982-06-10', 'Delantero', 12);
+INSERT INTO Jugador VALUES (138, 'Andres Iniesta', '1980-08-27', 'Centrocampista', 12);
+INSERT INTO Jugador VALUES (139, 'Andrea Pirlo', '1992-12-10', 'Defensa', 12);
+INSERT INTO Jugador VALUES (140, 'Steven Gerrard', '1994-11-17', 'Portero', 12);
+INSERT INTO Jugador VALUES (141, 'Patrick Vieira', '1975-11-27', 'Delantero', 12);
+INSERT INTO Jugador VALUES (142, 'Claude Makele', '1992-05-22', 'Centrocampista', 12);
+INSERT INTO Jugador VALUES (143, 'Didier Drogba', '1978-03-09', 'Defensa', 12);
+INSERT INTO Jugador VALUES (144, 'Gonzalo Higuain', '1978-02-24', 'Portero', 12);
+INSERT INTO Jugador VALUES (145, 'Edwin van der Sar', '1992-03-09', 'Delantero', 13);
+INSERT INTO Jugador VALUES (146, 'Gerard Pique', '1984-10-07', 'Centrocampista', 13);
+INSERT INTO Jugador VALUES (147, 'John Terry', '1985-04-22', 'Defensa', 13);
+INSERT INTO Jugador VALUES (148, 'Xavi Hernandez', '1995-05-17', 'Portero', 13);
+INSERT INTO Jugador VALUES (149, 'Andres Iniesta', '1990-05-28', 'Delantero', 13);
+INSERT INTO Jugador VALUES (150, 'Andrea Pirlo', '1976-02-21', 'Centrocampista', 13);
+INSERT INTO Jugador VALUES (151, 'Steven Gerrard', '1988-05-02', 'Defensa', 13);
+INSERT INTO Jugador VALUES (152, 'Patrick Vieira', '1975-06-25', 'Portero', 13);
+INSERT INTO Jugador VALUES (153, 'Claude Makele', '1979-11-09', 'Delantero', 13);
+INSERT INTO Jugador VALUES (154, 'Didier Drogba', '1980-12-15', 'Centrocampista', 13);
+INSERT INTO Jugador VALUES (155, 'Gonzalo Higuain', '1992-12-14', 'Defensa', 13);
+INSERT INTO Jugador VALUES (156, 'Arjen Robben', '1992-01-04', 'Portero', 13);
+INSERT INTO Jugador VALUES (157, 'Gerard Pique', '1977-12-05', 'Delantero', 14);
+INSERT INTO Jugador VALUES (158, 'John Terry', '1992-01-27', 'Centrocampista', 14);
+INSERT INTO Jugador VALUES (159, 'Xavi Hernandez', '1986-10-18', 'Defensa', 14);
+INSERT INTO Jugador VALUES (160, 'Andres Iniesta', '1979-07-05', 'Portero', 14);
+INSERT INTO Jugador VALUES (161, 'Andrea Pirlo', '1976-05-12', 'Delantero', 14);
+INSERT INTO Jugador VALUES (162, 'Steven Gerrard', '1976-06-07', 'Centrocampista', 14);
+INSERT INTO Jugador VALUES (163, 'Patrick Vieira', '1982-11-04', 'Defensa', 14);
+INSERT INTO Jugador VALUES (164, 'Claude Makele', '1986-09-28', 'Portero', 14);
+INSERT INTO Jugador VALUES (165, 'Didier Drogba', '1988-10-24', 'Delantero', 14);
+INSERT INTO Jugador VALUES (166, 'Gonzalo Higuain', '1979-04-28', 'Centrocampista', 14);
+INSERT INTO Jugador VALUES (167, 'Arjen Robben', '1980-03-14', 'Defensa', 14);
+INSERT INTO Jugador VALUES (168, 'Frank Ribery', '1975-03-24', 'Portero', 14);
+INSERT INTO Jugador VALUES (169, 'John Terry', '1985-07-26', 'Delantero', 15);
+INSERT INTO Jugador VALUES (170, 'Xavi Hernandez', '1982-05-06', 'Centrocampista', 15);
+INSERT INTO Jugador VALUES (171, 'Andres Iniesta', '1978-07-28', 'Defensa', 15);
+INSERT INTO Jugador VALUES (172, 'Andrea Pirlo', '1976-08-08', 'Portero', 15);
+INSERT INTO Jugador VALUES (173, 'Steven Gerrard', '1981-08-12', 'Delantero', 15);
+INSERT INTO Jugador VALUES (174, 'Patrick Vieira', '1984-04-08', 'Centrocampista', 15);
+INSERT INTO Jugador VALUES (175, 'Claude Makele', '1975-11-07', 'Defensa', 15);
+INSERT INTO Jugador VALUES (176, 'Didier Drogba', '1987-06-09', 'Portero', 15);
+INSERT INTO Jugador VALUES (177, 'Gonzalo Higuain', '1977-05-12', 'Delantero', 15);
+INSERT INTO Jugador VALUES (178, 'Arjen Robben', '1995-09-13', 'Centrocampista', 15);
+INSERT INTO Jugador VALUES (179, 'Frank Ribery', '1992-06-01', 'Defensa', 15);
+INSERT INTO Jugador VALUES (180, 'Mesut Ozil', '1978-05-06', 'Portero', 15);
+INSERT INTO Jugador VALUES (181, 'Xavi Hernandez', '1993-05-02', 'Delantero', 16);
+INSERT INTO Jugador VALUES (182, 'Andres Iniesta', '1978-10-14', 'Centrocampista', 16);
+INSERT INTO Jugador VALUES (183, 'Andrea Pirlo', '1986-12-26', 'Defensa', 16);
+INSERT INTO Jugador VALUES (184, 'Steven Gerrard', '1985-07-20', 'Portero', 16);
+INSERT INTO Jugador VALUES (185, 'Patrick Vieira', '1991-02-13', 'Delantero', 16);
+INSERT INTO Jugador VALUES (186, 'Claude Makele', '1993-04-09', 'Centrocampista', 16);
+INSERT INTO Jugador VALUES (187, 'Didier Drogba', '1976-12-14', 'Defensa', 16);
+INSERT INTO Jugador VALUES (188, 'Gonzalo Higuain', '1975-09-26', 'Portero', 16);
+INSERT INTO Jugador VALUES (189, 'Arjen Robben', '1992-11-24', 'Delantero', 16);
+INSERT INTO Jugador VALUES (190, 'Frank Ribery', '1981-06-14', 'Centrocampista', 16);
+INSERT INTO Jugador VALUES (191, 'Mesut Ozil', '1977-11-11', 'Defensa', 16);
+INSERT INTO Jugador VALUES (192, 'Angel Di Maria', '1994-06-22', 'Portero', 16);
+INSERT INTO Jugador VALUES (193, 'Andres Iniesta', '1978-12-10', 'Delantero', 17);
+INSERT INTO Jugador VALUES (194, 'Andrea Pirlo', '1991-05-22', 'Centrocampista', 17);
+INSERT INTO Jugador VALUES (195, 'Steven Gerrard', '1988-06-13', 'Defensa', 17);
+INSERT INTO Jugador VALUES (196, 'Patrick Vieira', '1984-09-05', 'Portero', 17);
+INSERT INTO Jugador VALUES (197, 'Claude Makele', '1981-07-22', 'Delantero', 17);
+INSERT INTO Jugador VALUES (198, 'Didier Drogba', '1987-11-24', 'Centrocampista', 17);
+INSERT INTO Jugador VALUES (199, 'Gonzalo Higuain', '1980-10-19', 'Defensa', 17);
+INSERT INTO Jugador VALUES (200, 'Arjen Robben', '1984-07-18', 'Portero', 17);
+INSERT INTO Jugador VALUES (201, 'Frank Ribery', '1975-05-10', 'Delantero', 17);
+INSERT INTO Jugador VALUES (202, 'Mesut Ozil', '1981-07-26', 'Centrocampista', 17);
+INSERT INTO Jugador VALUES (203, 'Angel Di Maria', '1993-10-21', 'Defensa', 17);
+INSERT INTO Jugador VALUES (204, 'Eden Hazard', '1985-08-15', 'Portero', 17);
+INSERT INTO Jugador VALUES (205, 'Andrea Pirlo', '1989-11-07', 'Delantero', 18);
+INSERT INTO Jugador VALUES (206, 'Steven Gerrard', '1991-08-26', 'Centrocampista', 18);
+INSERT INTO Jugador VALUES (207, 'Patrick Vieira', '1980-11-03', 'Defensa', 18);
+INSERT INTO Jugador VALUES (208, 'Claude Makele', '1984-09-22', 'Portero', 18);
+INSERT INTO Jugador VALUES (209, 'Didier Drogba', '1995-10-11', 'Delantero', 18);
+INSERT INTO Jugador VALUES (210, 'Gonzalo Higuain', '1977-04-22', 'Centrocampista', 18);
+INSERT INTO Jugador VALUES (211, 'Arjen Robben', '1984-04-26', 'Defensa', 18);
+INSERT INTO Jugador VALUES (212, 'Frank Ribery', '1981-03-01', 'Portero', 18);
+INSERT INTO Jugador VALUES (213, 'Mesut Ozil', '1976-04-16', 'Delantero', 18);
+INSERT INTO Jugador VALUES (214, 'Angel Di Maria', '1994-02-15', 'Centrocampista', 18);
+INSERT INTO Jugador VALUES (215, 'Eden Hazard', '1988-11-19', 'Defensa', 18);
+INSERT INTO Jugador VALUES (216, 'Cristiano Ronaldo', '1981-12-23', 'Portero', 18);
+INSERT INTO Jugador VALUES (217, 'Steven Gerrard', '1987-08-13', 'Delantero', 19);
+INSERT INTO Jugador VALUES (218, 'Patrick Vieira', '1982-03-21', 'Centrocampista', 19);
+INSERT INTO Jugador VALUES (219, 'Claude Makele', '1975-02-25', 'Defensa', 19);
+INSERT INTO Jugador VALUES (220, 'Didier Drogba', '1988-04-06', 'Portero', 19);
+INSERT INTO Jugador VALUES (221, 'Gonzalo Higuain', '1991-08-02', 'Delantero', 19);
+INSERT INTO Jugador VALUES (222, 'Arjen Robben', '1992-04-28', 'Centrocampista', 19);
+INSERT INTO Jugador VALUES (223, 'Frank Ribery', '1978-08-05', 'Defensa', 19);
+INSERT INTO Jugador VALUES (224, 'Mesut Ozil', '1989-11-17', 'Portero', 19);
+INSERT INTO Jugador VALUES (225, 'Angel Di Maria', '1992-10-11', 'Delantero', 19);
+INSERT INTO Jugador VALUES (226, 'Eden Hazard', '1989-10-27', 'Centrocampista', 19);
+INSERT INTO Jugador VALUES (227, 'Cristiano Ronaldo', '1991-07-27', 'Defensa', 19);
+INSERT INTO Jugador VALUES (228, 'Lionel Messi', '1992-08-06', 'Portero', 19);
+INSERT INTO Jugador VALUES (229, 'Patrick Vieira', '1990-08-09', 'Delantero', 20);
+INSERT INTO Jugador VALUES (230, 'Claude Makele', '1982-11-09', 'Centrocampista', 20);
+INSERT INTO Jugador VALUES (231, 'Didier Drogba', '1991-08-21', 'Defensa', 20);
+INSERT INTO Jugador VALUES (232, 'Gonzalo Higuain', '1982-05-15', 'Portero', 20);
+INSERT INTO Jugador VALUES (233, 'Arjen Robben', '1977-12-10', 'Delantero', 20);
+INSERT INTO Jugador VALUES (234, 'Frank Ribery', '1982-05-11', 'Centrocampista', 20);
+INSERT INTO Jugador VALUES (235, 'Mesut Ozil', '1985-09-03', 'Defensa', 20);
+INSERT INTO Jugador VALUES (236, 'Angel Di Maria', '1979-03-08', 'Portero', 20);
+INSERT INTO Jugador VALUES (237, 'Eden Hazard', '1987-12-05', 'Delantero', 20);
+INSERT INTO Jugador VALUES (238, 'Cristiano Ronaldo', '1981-02-14', 'Centrocampista', 20);
+INSERT INTO Jugador VALUES (239, 'Lionel Messi', '1988-06-18', 'Defensa', 20);
+INSERT INTO Jugador VALUES (240, 'Luis Suarez', '1989-07-02', 'Portero', 20);
+INSERT INTO Jugador VALUES (241, 'Claude Makele', '1981-07-13', 'Delantero', 21);
+INSERT INTO Jugador VALUES (242, 'Didier Drogba', '1993-12-01', 'Centrocampista', 21);
+INSERT INTO Jugador VALUES (243, 'Gonzalo Higuain', '1993-07-16', 'Defensa', 21);
+INSERT INTO Jugador VALUES (244, 'Arjen Robben', '1975-06-10', 'Portero', 21);
+INSERT INTO Jugador VALUES (245, 'Frank Ribery', '1987-07-18', 'Delantero', 21);
+INSERT INTO Jugador VALUES (246, 'Mesut Ozil', '1992-10-08', 'Centrocampista', 21);
+INSERT INTO Jugador VALUES (247, 'Angel Di Maria', '1990-04-09', 'Defensa', 21);
+INSERT INTO Jugador VALUES (248, 'Eden Hazard', '1988-08-01', 'Portero', 21);
+INSERT INTO Jugador VALUES (249, 'Cristiano Ronaldo', '1987-06-22', 'Delantero', 21);
+INSERT INTO Jugador VALUES (250, 'Lionel Messi', '1987-12-06', 'Centrocampista', 21);
+INSERT INTO Jugador VALUES (251, 'Luis Suarez', '1989-03-20', 'Defensa', 21);
+INSERT INTO Jugador VALUES (252, 'Sergio Aguero', '1992-01-13', 'Portero', 21);
+INSERT INTO Jugador VALUES (253, 'Didier Drogba', '1993-10-22', 'Delantero', 22);
+INSERT INTO Jugador VALUES (254, 'Gonzalo Higuain', '1975-02-21', 'Centrocampista', 22);
+INSERT INTO Jugador VALUES (255, 'Arjen Robben', '1988-03-28', 'Defensa', 22);
+INSERT INTO Jugador VALUES (256, 'Frank Ribery', '1989-03-02', 'Portero', 22);
+INSERT INTO Jugador VALUES (257, 'Mesut Ozil', '1983-07-11', 'Delantero', 22);
+INSERT INTO Jugador VALUES (258, 'Angel Di Maria', '1981-08-11', 'Centrocampista', 22);
+INSERT INTO Jugador VALUES (259, 'Eden Hazard', '1985-07-09', 'Defensa', 22);
+INSERT INTO Jugador VALUES (260, 'Cristiano Ronaldo', '1988-05-27', 'Portero', 22);
+INSERT INTO Jugador VALUES (261, 'Lionel Messi', '1977-08-01', 'Delantero', 22);
+INSERT INTO Jugador VALUES (262, 'Luis Suarez', '1992-01-12', 'Centrocampista', 22);
+INSERT INTO Jugador VALUES (263, 'Sergio Aguero', '1982-11-03', 'Defensa', 22);
+INSERT INTO Jugador VALUES (264, 'Robert Lewandowski', '1995-01-25', 'Portero', 22);
+INSERT INTO Jugador VALUES (265, 'Gonzalo Higuain', '1975-04-07', 'Delantero', 23);
+INSERT INTO Jugador VALUES (266, 'Arjen Robben', '1975-10-05', 'Centrocampista', 23);
+INSERT INTO Jugador VALUES (267, 'Frank Ribery', '1982-03-16', 'Defensa', 23);
+INSERT INTO Jugador VALUES (268, 'Mesut Ozil', '1978-10-07', 'Portero', 23);
+INSERT INTO Jugador VALUES (269, 'Angel Di Maria', '1989-12-09', 'Delantero', 23);
+INSERT INTO Jugador VALUES (270, 'Eden Hazard', '1986-03-20', 'Centrocampista', 23);
+INSERT INTO Jugador VALUES (271, 'Cristiano Ronaldo', '1994-12-23', 'Defensa', 23);
+INSERT INTO Jugador VALUES (272, 'Lionel Messi', '1978-03-10', 'Portero', 23);
+INSERT INTO Jugador VALUES (273, 'Luis Suarez', '1978-10-01', 'Delantero', 23);
+INSERT INTO Jugador VALUES (274, 'Sergio Aguero', '1984-10-22', 'Centrocampista', 23);
+INSERT INTO Jugador VALUES (275, 'Robert Lewandowski', '1987-07-23', 'Defensa', 23);
+INSERT INTO Jugador VALUES (276, 'David Villa', '1981-02-19', 'Portero', 23);
+INSERT INTO Jugador VALUES (277, 'Arjen Robben', '1995-04-04', 'Delantero', 24);
+INSERT INTO Jugador VALUES (278, 'Frank Ribery', '1984-11-20', 'Centrocampista', 24);
+INSERT INTO Jugador VALUES (279, 'Mesut Ozil', '1978-10-26', 'Defensa', 24);
+INSERT INTO Jugador VALUES (280, 'Angel Di Maria', '1976-06-18', 'Portero', 24);
+INSERT INTO Jugador VALUES (281, 'Eden Hazard', '1988-11-12', 'Delantero', 24);
+INSERT INTO Jugador VALUES (282, 'Cristiano Ronaldo', '1977-09-21', 'Centrocampista', 24);
+INSERT INTO Jugador VALUES (283, 'Lionel Messi', '1985-01-28', 'Defensa', 24);
+INSERT INTO Jugador VALUES (284, 'Luis Suarez', '1988-08-04', 'Portero', 24);
+INSERT INTO Jugador VALUES (285, 'Sergio Aguero', '1988-06-21', 'Delantero', 24);
+INSERT INTO Jugador VALUES (286, 'Robert Lewandowski', '1989-12-05', 'Centrocampista', 24);
+INSERT INTO Jugador VALUES (287, 'David Villa', '1988-03-24', 'Defensa', 24);
+INSERT INTO Jugador VALUES (288, 'Karim Benzema', '1991-11-09', 'Portero', 24);
+INSERT INTO Jugador VALUES (289, 'Frank Ribery', '1994-09-25', 'Delantero', 25);
+INSERT INTO Jugador VALUES (290, 'Mesut Ozil', '1990-08-14', 'Centrocampista', 25);
+INSERT INTO Jugador VALUES (291, 'Angel Di Maria', '1993-05-11', 'Defensa', 25);
+INSERT INTO Jugador VALUES (292, 'Eden Hazard', '1982-02-09', 'Portero', 25);
+INSERT INTO Jugador VALUES (293, 'Cristiano Ronaldo', '1989-04-25', 'Delantero', 25);
+INSERT INTO Jugador VALUES (294, 'Lionel Messi', '1989-10-20', 'Centrocampista', 25);
+INSERT INTO Jugador VALUES (295, 'Luis Suarez', '1987-06-01', 'Defensa', 25);
+INSERT INTO Jugador VALUES (296, 'Sergio Aguero', '1990-06-06', 'Portero', 25);
+INSERT INTO Jugador VALUES (297, 'Robert Lewandowski', '1990-04-12', 'Delantero', 25);
+INSERT INTO Jugador VALUES (298, 'David Villa', '1983-06-09', 'Centrocampista', 25);
+INSERT INTO Jugador VALUES (299, 'Karim Benzema', '1994-12-09', 'Defensa', 25);
+INSERT INTO Jugador VALUES (300, 'Raul Gonzalez', '1992-01-17', 'Portero', 25);
+INSERT INTO Jugador VALUES (301, 'Mesut Ozil', '1981-02-08', 'Delantero', 26);
+INSERT INTO Jugador VALUES (302, 'Angel Di Maria', '1988-08-18', 'Centrocampista', 26);
+INSERT INTO Jugador VALUES (303, 'Eden Hazard', '1982-12-16', 'Defensa', 26);
+INSERT INTO Jugador VALUES (304, 'Cristiano Ronaldo', '1995-12-16', 'Portero', 26);
+INSERT INTO Jugador VALUES (305, 'Lionel Messi', '1989-01-03', 'Delantero', 26);
+INSERT INTO Jugador VALUES (306, 'Luis Suarez', '1984-04-13', 'Centrocampista', 26);
+INSERT INTO Jugador VALUES (307, 'Sergio Aguero', '1982-05-22', 'Defensa', 26);
+INSERT INTO Jugador VALUES (308, 'Robert Lewandowski', '1993-06-16', 'Portero', 26);
+INSERT INTO Jugador VALUES (309, 'David Villa', '1992-09-12', 'Delantero', 26);
+INSERT INTO Jugador VALUES (310, 'Karim Benzema', '1988-12-18', 'Centrocampista', 26);
+INSERT INTO Jugador VALUES (311, 'Raul Gonzalez', '1985-06-23', 'Defensa', 26);
+INSERT INTO Jugador VALUES (312, 'Thierry Henry', '1989-05-10', 'Portero', 26);
+INSERT INTO Jugador VALUES (313, 'Angel Di Maria', '1983-04-04', 'Delantero', 27);
+INSERT INTO Jugador VALUES (314, 'Eden Hazard', '1981-06-04', 'Centrocampista', 27);
+INSERT INTO Jugador VALUES (315, 'Cristiano Ronaldo', '1992-12-06', 'Defensa', 27);
+INSERT INTO Jugador VALUES (316, 'Lionel Messi', '1981-04-24', 'Portero', 27);
+INSERT INTO Jugador VALUES (317, 'Luis Suarez', '1990-05-24', 'Delantero', 27);
+INSERT INTO Jugador VALUES (318, 'Sergio Aguero', '1993-09-20', 'Centrocampista', 27);
+INSERT INTO Jugador VALUES (319, 'Robert Lewandowski', '1984-02-27', 'Defensa', 27);
+INSERT INTO Jugador VALUES (320, 'David Villa', '1981-05-08', 'Portero', 27);
+INSERT INTO Jugador VALUES (321, 'Karim Benzema', '1986-03-10', 'Delantero', 27);
+INSERT INTO Jugador VALUES (322, 'Raul Gonzalez', '1975-12-18', 'Centrocampista', 27);
+INSERT INTO Jugador VALUES (323, 'Thierry Henry', '1979-05-02', 'Defensa', 27);
+INSERT INTO Jugador VALUES (324, 'Zinedine Zidane', '1976-09-10', 'Portero', 27);
+INSERT INTO Jugador VALUES (325, 'Eden Hazard', '1979-11-28', 'Delantero', 28);
+INSERT INTO Jugador VALUES (326, 'Cristiano Ronaldo', '1990-02-28', 'Centrocampista', 28);
+INSERT INTO Jugador VALUES (327, 'Lionel Messi', '1975-10-10', 'Defensa', 28);
+INSERT INTO Jugador VALUES (328, 'Luis Suarez', '1990-08-15', 'Portero', 28);
+INSERT INTO Jugador VALUES (329, 'Sergio Aguero', '1985-03-02', 'Delantero', 28);
+INSERT INTO Jugador VALUES (330, 'Robert Lewandowski', '1983-08-04', 'Centrocampista', 28);
+INSERT INTO Jugador VALUES (331, 'David Villa', '1977-07-16', 'Defensa', 28);
+INSERT INTO Jugador VALUES (332, 'Karim Benzema', '1977-10-21', 'Portero', 28);
+INSERT INTO Jugador VALUES (333, 'Raul Gonzalez', '1976-03-05', 'Delantero', 28);
+INSERT INTO Jugador VALUES (334, 'Thierry Henry', '1993-05-03', 'Centrocampista', 28);
+INSERT INTO Jugador VALUES (335, 'Zinedine Zidane', '1982-02-18', 'Defensa', 28);
+INSERT INTO Jugador VALUES (336, 'Ronaldinho', '1988-10-20', 'Portero', 28);
+INSERT INTO Jugador VALUES (337, 'Cristiano Ronaldo', '1994-04-25', 'Delantero', 29);
+INSERT INTO Jugador VALUES (338, 'Lionel Messi', '1991-07-15', 'Centrocampista', 29);
+INSERT INTO Jugador VALUES (339, 'Luis Suarez', '1989-05-28', 'Defensa', 29);
+INSERT INTO Jugador VALUES (340, 'Sergio Aguero', '1993-07-10', 'Portero', 29);
+INSERT INTO Jugador VALUES (341, 'Robert Lewandowski', '1993-10-02', 'Delantero', 29);
+INSERT INTO Jugador VALUES (342, 'David Villa', '1994-12-04', 'Centrocampista', 29);
+INSERT INTO Jugador VALUES (343, 'Karim Benzema', '1981-11-07', 'Defensa', 29);
+INSERT INTO Jugador VALUES (344, 'Raul Gonzalez', '1983-11-03', 'Portero', 29);
+INSERT INTO Jugador VALUES (345, 'Thierry Henry', '1980-04-06', 'Delantero', 29);
+INSERT INTO Jugador VALUES (346, 'Zinedine Zidane', '1992-02-06', 'Centrocampista', 29);
+INSERT INTO Jugador VALUES (347, 'Ronaldinho', '1975-07-15', 'Defensa', 29);
+INSERT INTO Jugador VALUES (348, 'Pele', '1994-08-10', 'Portero', 29);
+
+-- INSERT GOLES
+INSERT INTO Gol VALUES (1, 30, 1, 13);
+INSERT INTO Gol VALUES (2, 37, 1, 17);
+INSERT INTO Gol VALUES (3, 59, 2, 24);
+INSERT INTO Gol VALUES (4, 88, 2, 2);
+INSERT INTO Gol VALUES (5, 34, 3, 40);
+INSERT INTO Gol VALUES (6, 76, 3, 47);
+INSERT INTO Gol VALUES (7, 26, 4, 47);
+INSERT INTO Gol VALUES (8, 15, 4, 43);
+INSERT INTO Gol VALUES (9, 29, 4, 45);
+INSERT INTO Gol VALUES (10, 20, 4, 47);
+INSERT INTO Gol VALUES (11, 19, 4, 29);
+INSERT INTO Gol VALUES (12, 8, 5, 2);
+INSERT INTO Gol VALUES (13, 40, 5, 3);
+INSERT INTO Gol VALUES (14, 73, 5, 10);
+INSERT INTO Gol VALUES (15, 57, 5, 5);
+INSERT INTO Gol VALUES (16, 60, 6, 2);
+INSERT INTO Gol VALUES (17, 39, 7, 48);
+INSERT INTO Gol VALUES (18, 52, 8, 48);
+INSERT INTO Gol VALUES (19, 65, 8, 41);
+INSERT INTO Gol VALUES (20, 64, 8, 69);
+INSERT INTO Gol VALUES (21, 11, 9, 80);
+INSERT INTO Gol VALUES (22, 6, 9, 82);
+INSERT INTO Gol VALUES (23, 42, 9, 31);
+INSERT INTO Gol VALUES (24, 33, 9, 34);
+INSERT INTO Gol VALUES (25, 12, 9, 25);
+INSERT INTO Gol VALUES (26, 87, 9, 28);
+INSERT INTO Gol VALUES (27, 76, 9, 34);
+INSERT INTO Gol VALUES (28, 87, 10, 25);
+INSERT INTO Gol VALUES (29, 74, 10, 29);
+INSERT INTO Gol VALUES (30, 23, 10, 73);
+INSERT INTO Gol VALUES (31, 67, 11, 20);
+INSERT INTO Gol VALUES (32, 57, 11, 23);
+INSERT INTO Gol VALUES (33, 24, 11, 17);
+INSERT INTO Gol VALUES (34, 56, 11, 22);
+INSERT INTO Gol VALUES (35, 63, 11, 23);
+INSERT INTO Gol VALUES (36, 61, 11, 86);
+INSERT INTO Gol VALUES (37, 53, 12, 18);
+INSERT INTO Gol VALUES (38, 42, 13, 102);
+INSERT INTO Gol VALUES (39, 14, 14, 107);
+INSERT INTO Gol VALUES (40, 43, 14, 99);
+INSERT INTO Gol VALUES (41, 89, 14, 79);
+INSERT INTO Gol VALUES (42, 37, 14, 80);
+INSERT INTO Gol VALUES (43, 52, 14, 83);
+INSERT INTO Gol VALUES (44, 5, 15, 69);
+INSERT INTO Gol VALUES (45, 12, 15, 68);
+INSERT INTO Gol VALUES (46, 33, 17, 126);
+INSERT INTO Gol VALUES (47, 15, 17, 126);
+INSERT INTO Gol VALUES (48, 66, 17, 19);
+INSERT INTO Gol VALUES (49, 85, 18, 13);
+INSERT INTO Gol VALUES (50, 60, 18, 21);
+INSERT INTO Gol VALUES (51, 7, 18, 19);
+INSERT INTO Gol VALUES (52, 67, 18, 124);
+INSERT INTO Gol VALUES (53, 80, 20, 42);
+INSERT INTO Gol VALUES (54, 81, 20, 44);
+INSERT INTO Gol VALUES (55, 7, 20, 140);
+INSERT INTO Gol VALUES (56, 35, 21, 148);
+INSERT INTO Gol VALUES (57, 17, 21, 153);
+INSERT INTO Gol VALUES (58, 57, 21, 89);
+INSERT INTO Gol VALUES (59, 63, 21, 96);
+INSERT INTO Gol VALUES (60, 4, 21, 86);
+INSERT INTO Gol VALUES (61, 78, 22, 95);
+INSERT INTO Gol VALUES (62, 21, 22, 88);
+INSERT INTO Gol VALUES (63, 71, 22, 89);
+INSERT INTO Gol VALUES (64, 71, 23, 157);
+INSERT INTO Gol VALUES (65, 12, 23, 7);
+INSERT INTO Gol VALUES (66, 15, 24, 4);
+INSERT INTO Gol VALUES (67, 16, 24, 8);
+INSERT INTO Gol VALUES (68, 20, 24, 11);
+INSERT INTO Gol VALUES (69, 38, 25, 56);
+INSERT INTO Gol VALUES (70, 35, 27, 189);
+INSERT INTO Gol VALUES (71, 62, 27, 31);
+INSERT INTO Gol VALUES (72, 32, 28, 32);
+INSERT INTO Gol VALUES (73, 71, 28, 32);
+INSERT INTO Gol VALUES (74, 50, 28, 27);
+INSERT INTO Gol VALUES (75, 77, 28, 184);
+INSERT INTO Gol VALUES (76, 18, 29, 21);
+INSERT INTO Gol VALUES (77, 36, 29, 14);
+INSERT INTO Gol VALUES (78, 44, 29, 19);
+INSERT INTO Gol VALUES (79, 35, 29, 45);
+INSERT INTO Gol VALUES (80, 37, 30, 13);
+INSERT INTO Gol VALUES (81, 39, 30, 24);
+INSERT INTO Gol VALUES (82, 75, 30, 22);
+INSERT INTO Gol VALUES (83, 63, 31, 107);
+INSERT INTO Gol VALUES (84, 58, 31, 99);
+INSERT INTO Gol VALUES (85, 62, 31, 105);
+INSERT INTO Gol VALUES (86, 43, 31, 18);
+INSERT INTO Gol VALUES (87, 70, 31, 21);
+INSERT INTO Gol VALUES (88, 59, 32, 199);
+INSERT INTO Gol VALUES (89, 25, 32, 198);
+INSERT INTO Gol VALUES (90, 31, 32, 12);
+INSERT INTO Gol VALUES (91, 50, 33, 10);
+INSERT INTO Gol VALUES (92, 53, 33, 196);
+INSERT INTO Gol VALUES (93, 41, 34, 205);
+INSERT INTO Gol VALUES (94, 61, 34, 216);
+INSERT INTO Gol VALUES (95, 49, 34, 216);
+INSERT INTO Gol VALUES (96, 85, 34, 103);
+INSERT INTO Gol VALUES (97, 20, 35, 107);
+INSERT INTO Gol VALUES (98, 5, 35, 104);
+INSERT INTO Gol VALUES (99, 65, 35, 99);
+INSERT INTO Gol VALUES (100, 43, 35, 106);
+INSERT INTO Gol VALUES (101, 57, 35, 98);
+INSERT INTO Gol VALUES (102, 68, 35, 98);
+INSERT INTO Gol VALUES (103, 2, 35, 212);
+INSERT INTO Gol VALUES (104, 19, 37, 12);
+INSERT INTO Gol VALUES (105, 84, 38, 235);
+INSERT INTO Gol VALUES (106, 10, 38, 15);
+INSERT INTO Gol VALUES (107, 34, 38, 20);
+INSERT INTO Gol VALUES (108, 80, 38, 18);
+INSERT INTO Gol VALUES (109, 51, 39, 24);
+INSERT INTO Gol VALUES (110, 11, 39, 23);
+INSERT INTO Gol VALUES (111, 87, 40, 198);
+INSERT INTO Gol VALUES (112, 49, 42, 129);
+INSERT INTO Gol VALUES (113, 81, 42, 246);
+INSERT INTO Gol VALUES (114, 63, 42, 252);
+INSERT INTO Gol VALUES (115, 5, 42, 249);
+INSERT INTO Gol VALUES (116, 9, 43, 130);
+INSERT INTO Gol VALUES (117, 81, 43, 124);
+INSERT INTO Gol VALUES (118, 37, 44, 203);
+INSERT INTO Gol VALUES (119, 12, 44, 196);
+INSERT INTO Gol VALUES (120, 13, 44, 259);
+INSERT INTO Gol VALUES (121, 13, 45, 203);
+INSERT INTO Gol VALUES (122, 22, 45, 200);
+INSERT INTO Gol VALUES (123, 39, 45, 204);
+INSERT INTO Gol VALUES (124, 6, 46, 265);
+INSERT INTO Gol VALUES (125, 8, 46, 18);
+INSERT INTO Gol VALUES (126, 46, 46, 17);
+INSERT INTO Gol VALUES (127, 56, 47, 18);
+INSERT INTO Gol VALUES (128, 32, 48, 3);
+INSERT INTO Gol VALUES (129, 53, 48, 9);
+INSERT INTO Gol VALUES (130, 88, 49, 10);
+INSERT INTO Gol VALUES (131, 22, 49, 3);
+INSERT INTO Gol VALUES (132, 11, 49, 3);
+INSERT INTO Gol VALUES (133, 49, 49, 34);
+INSERT INTO Gol VALUES (134, 88, 49, 34);
+INSERT INTO Gol VALUES (135, 64, 49, 28);
+INSERT INTO Gol VALUES (136, 19, 49, 34);
+INSERT INTO Gol VALUES (137, 60, 50, 280);
+INSERT INTO Gol VALUES (138, 33, 51, 227);
+INSERT INTO Gol VALUES (139, 33, 52, 236);
+INSERT INTO Gol VALUES (140, 2, 52, 71);
+INSERT INTO Gol VALUES (141, 37, 53, 68);
+INSERT INTO Gol VALUES (142, 70, 53, 71);
+INSERT INTO Gol VALUES (143, 10, 53, 231);
+INSERT INTO Gol VALUES (144, 45, 53, 236);
+INSERT INTO Gol VALUES (145, 39, 54, 298);
+INSERT INTO Gol VALUES (146, 55, 54, 215);
+INSERT INTO Gol VALUES (147, 33, 55, 216);
+INSERT INTO Gol VALUES (148, 39, 55, 212);
+INSERT INTO Gol VALUES (149, 50, 55, 208);
+INSERT INTO Gol VALUES (150, 14, 55, 212);
+INSERT INTO Gol VALUES (151, 49, 57, 100);
+INSERT INTO Gol VALUES (152, 46, 57, 106);
+INSERT INTO Gol VALUES (153, 38, 57, 106);
+INSERT INTO Gol VALUES (154, 38, 57, 108);
+INSERT INTO Gol VALUES (155, 85, 57, 97);
+INSERT INTO Gol VALUES (156, 36, 57, 103);
+INSERT INTO Gol VALUES (157, 73, 57, 97);
+INSERT INTO Gol VALUES (158, 7, 58, 23);
+INSERT INTO Gol VALUES (159, 64, 58, 22);
+INSERT INTO Gol VALUES (160, 30, 58, 17);
+INSERT INTO Gol VALUES (161, 46, 58, 202);
+
+-- INSERT ESTADISTICAS
+INSERT INTO EstadisticaJugador VALUES (2, 1, 3, 1, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (3, 1, 1, 0, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (3, 2, 3, 1, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (4, 1, 1, 0, 1, 3);
+INSERT INTO EstadisticaJugador VALUES (5, 1, 1, 0, 0, 2);
+INSERT INTO EstadisticaJugador VALUES (7, 1, 1, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (8, 1, 1, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (9, 2, 1, 0, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (10, 1, 1, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (10, 2, 2, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (11, 1, 1, 0, 0, 2);
+INSERT INTO EstadisticaJugador VALUES (12, 2, 2, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (13, 1, 2, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (13, 2, 1, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (14, 1, 1, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (15, 2, 1, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (17, 1, 2, 0, 0, 3);
+INSERT INTO EstadisticaJugador VALUES (17, 2, 2, 0, 0, 2);
+INSERT INTO EstadisticaJugador VALUES (18, 1, 1, 0, 0, 3);
+INSERT INTO EstadisticaJugador VALUES (18, 2, 4, 1, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (19, 1, 3, 1, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (20, 1, 1, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (20, 2, 1, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (21, 1, 2, 0, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (21, 2, 1, 0, 0, 3);
+INSERT INTO EstadisticaJugador VALUES (22, 1, 1, 0, 1, 3);
+INSERT INTO EstadisticaJugador VALUES (22, 2, 2, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (23, 1, 2, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (23, 2, 2, 0, 1, 3);
+INSERT INTO EstadisticaJugador VALUES (24, 1, 1, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (24, 2, 2, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (25, 1, 2, 0, 1, 3);
+INSERT INTO EstadisticaJugador VALUES (27, 1, 1, 0, 1, 3);
+INSERT INTO EstadisticaJugador VALUES (28, 1, 1, 0, 0, 3);
+INSERT INTO EstadisticaJugador VALUES (28, 2, 1, 0, 0, 3);
+INSERT INTO EstadisticaJugador VALUES (29, 1, 2, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (31, 1, 2, 0, 0, 2);
+INSERT INTO EstadisticaJugador VALUES (32, 1, 2, 0, 0, 3);
+INSERT INTO EstadisticaJugador VALUES (34, 1, 2, 0, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (34, 2, 3, 1, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (40, 1, 1, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (41, 1, 1, 0, 0, 3);
+INSERT INTO EstadisticaJugador VALUES (42, 1, 1, 0, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (43, 1, 1, 0, 0, 3);
+INSERT INTO EstadisticaJugador VALUES (44, 1, 1, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (45, 1, 2, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (47, 1, 3, 1, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (48, 1, 2, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (56, 1, 1, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (68, 1, 1, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (68, 2, 1, 0, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (69, 1, 2, 0, 0, 2);
+INSERT INTO EstadisticaJugador VALUES (71, 2, 2, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (73, 1, 1, 0, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (79, 1, 1, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (80, 1, 2, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (82, 1, 1, 0, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (83, 1, 1, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (86, 1, 2, 0, 0, 2);
+INSERT INTO EstadisticaJugador VALUES (88, 1, 1, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (89, 1, 2, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (95, 1, 1, 0, 0, 3);
+INSERT INTO EstadisticaJugador VALUES (96, 1, 1, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (97, 2, 2, 0, 0, 3);
+INSERT INTO EstadisticaJugador VALUES (98, 2, 2, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (99, 1, 1, 0, 1, 3);
+INSERT INTO EstadisticaJugador VALUES (99, 2, 2, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (100, 2, 1, 0, 1, 3);
+INSERT INTO EstadisticaJugador VALUES (102, 1, 1, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (103, 2, 2, 0, 1, 3);
+INSERT INTO EstadisticaJugador VALUES (104, 2, 1, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (105, 2, 1, 0, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (106, 2, 3, 1, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (107, 1, 1, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (107, 2, 2, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (108, 2, 1, 0, 1, 3);
+INSERT INTO EstadisticaJugador VALUES (124, 1, 1, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (124, 2, 1, 0, 0, 3);
+INSERT INTO EstadisticaJugador VALUES (126, 1, 2, 0, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (129, 2, 1, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (130, 2, 1, 0, 1, 3);
+INSERT INTO EstadisticaJugador VALUES (140, 1, 1, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (148, 1, 1, 0, 1, 3);
+INSERT INTO EstadisticaJugador VALUES (153, 1, 1, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (157, 1, 1, 0, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (184, 1, 1, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (189, 1, 1, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (196, 2, 2, 0, 0, 3);
+INSERT INTO EstadisticaJugador VALUES (198, 2, 2, 0, 0, 2);
+INSERT INTO EstadisticaJugador VALUES (199, 2, 1, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (200, 2, 1, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (202, 2, 1, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (203, 2, 2, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (204, 2, 1, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (205, 2, 1, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (208, 2, 1, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (212, 2, 3, 1, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (215, 2, 1, 0, 0, 2);
+INSERT INTO EstadisticaJugador VALUES (216, 2, 3, 1, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (227, 2, 1, 0, 1, 1);
+INSERT INTO EstadisticaJugador VALUES (231, 2, 1, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (235, 2, 1, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (236, 2, 2, 0, 0, 2);
+INSERT INTO EstadisticaJugador VALUES (246, 2, 1, 0, 1, 2);
+INSERT INTO EstadisticaJugador VALUES (249, 2, 1, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (252, 2, 1, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (259, 2, 1, 0, 1, 0);
+INSERT INTO EstadisticaJugador VALUES (265, 2, 1, 0, 0, 0);
+INSERT INTO EstadisticaJugador VALUES (280, 2, 1, 0, 0, 1);
+INSERT INTO EstadisticaJugador VALUES (298, 2, 1, 0, 1, 3);

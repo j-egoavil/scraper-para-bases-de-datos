@@ -1,0 +1,2039 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="es" data-lang="es" data-culture="es-ES">
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website# ">
+  <title>Historia: Juventus 1-3 Barcelona | UEFA Champions League 2014/15 Final | UEFA.com</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset="utf-8" />
+  <meta name="description" content="Juventus - Barcelona 2014/15. Toda la informaci&#xF3;n de este partido de UEFA Champions League incluyendo estad&#xED;sticas, goles, resultados, historia y mucho m&#xE1;s." />
+  <meta name="author" content="UEFA.com" />
+  <meta name="HandheldFriendly" content="true">
+  <meta name="MobileOptimized" content="320">
+  <meta name="application-name" content="UEFA.com">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="UEFA.com">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="twitter:text:title" content="Historia: Juventus 1-3 Barcelona: UEFA Champions League 2014/15 Final" />
+
+    <meta name="twitter:card" content="summary_large_image">
+
+    <meta property="og:url" content="https://es.uefa.com/uefachampionsleague/match/2015227--juventus-vs-barcelona/" />
+    <link rel="canonical" href="https://es.uefa.com/uefachampionsleague/match/2015227--juventus-vs-barcelona/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Historia: Juventus 1-3 Barcelona: UEFA Champions League 2014/15 Final" />
+    <meta property="og:image" content="https://img.uefa.com/imgml/stadium/uw/62875.jpg" />
+    <meta property="og:image:width" content="2048">
+    <meta property="og:image:height" content="1152">
+    <link rel="image_src" href="https://img.uefa.com/imgml/stadium/uw/62875.jpg" />
+  <meta property="og:description" content="Juventus - Barcelona 2014/15. Toda la informaci&#xF3;n de este partido de UEFA Champions League incluyendo estad&#xED;sticas, goles, resultados, historia y mucho m&#xE1;s." />
+  <meta property="og:site_name" content="UEFA.com" />
+    <link rel="shortcut icon" href="//img.uefa.com/imgml/favicon/comp/ucl.ico" />
+    <link rel="icon" href="//img.uefa.com/imgml/favicon/comp/ucl.ico" type="image/x-icon" />
+      <link rel="apple-touch-icon" href="https://img.uefa.com/imgml/favicon/apple-touch-icon.png" />
+      <link rel="apple-touch-icon-precomposed"
+        href="https://img.uefa.com/imgml/favicon/apple-touch-icon-precomposed.png" />
+      <link rel="apple-touch-icon" sizes="57x57"
+        href="https://img.uefa.com/imgml/favicon/apple-touch-icon-57x57.png" />
+      <link rel="apple-touch-icon" sizes="72x72"
+        href="https://img.uefa.com/imgml/favicon/apple-touch-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="76x76"
+        href="https://img.uefa.com/imgml/favicon/apple-touch-icon-76x76.png" />
+      <link rel="apple-touch-icon" sizes="114x114"
+        href="https://img.uefa.com/imgml/favicon/apple-touch-icon-114x114.png" />
+      <link rel="apple-touch-icon" sizes="120x120"
+        href="https://img.uefa.com/imgml/favicon/apple-touch-icon-120x120.png" />
+      <link rel="apple-touch-icon" sizes="144x144"
+        href="https://img.uefa.com/imgml/favicon/apple-touch-icon-144x144.png" />
+      <link rel="apple-touch-icon" sizes="152x152"
+        href="https://img.uefa.com/imgml/favicon/apple-touch-icon-152x152.png" />
+      <link rel="apple-touch-icon" sizes="180x180"
+        href="https://img.uefa.com/imgml/favicon/apple-touch-icon-180x180.png" />
+  <!-- mobile stuff -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <meta name="apple-itunes-app" content="app-id=1024506667" />
+    <link rel="manifest" href="/uefachampionsleague/libraries/manifest" />
+
+
+  <link rel="preload" crossorigin="anonymous" href="https://es.uefa.com/Content/fonts/icomoon/icomoon.woff"
+    as="font" />
+      <link rel="preload" crossorigin="anonymous" href="https://panenka.uefa.com/panenka/fonts/manrope/manrope-regular.woff2" as="font" />
+      <link rel="preload" crossorigin="anonymous" href="https://panenka.uefa.com/panenka/fonts/manrope/manrope-semibold.woff2" as="font" />
+      <link rel="preload" crossorigin="anonymous" href="https://panenka.uefa.com/panenka/fonts/manrope/manrope-bold.woff2" as="font" />
+      <link rel="preload" crossorigin="anonymous" href="https://panenka.uefa.com/panenka/fonts/champions/champions-bold.woff2" as="font" />
+      <link rel="preload" crossorigin="anonymous" href="https://panenka.uefa.com/panenka/fonts/champions/champions-regular.woff2" as="font" />
+
+  <link href="/CompiledAssets/UefaCom/css/preload.css?_t=cb0448b3c2ea881dde2f57443d3262a9" rel="stylesheet" type="text/css" /><link href="/CompiledAssets/UefaCom/css/modules/matches/match-timeline-preload.css?_t=a2d7daa9b7cb18745b314ee842590302" rel="stylesheet" type="text/css" /><link href="/CompiledAssets/UefaCom/css/modules/common/carousel-preload.css?_t=2af541d20270ffc4067ecca4e9a8b40b" rel="stylesheet" type="text/css" /><link href="/CompiledAssets/UefaCom/css/sections/match-page-preload.css?_t=1d2e0b85614c141709862b46f2d3ab5c" rel="stylesheet" type="text/css" /><link href="/CompiledAssets/UefaCom/css/modules/template/header-preload.css?_t=1c8d2f4fa97dbecc569591f93512b9ee" rel="stylesheet" type="text/css" /><link href="/CompiledAssets/UefaCom/css/modules/template/sticky-nav-preload.css?_t=80ca75e47325452bcc77385906ee54c7" rel="stylesheet" type="text/css" />
+  
+  <link rel="preload" href="/CompiledAssets/UefaCom/css/fonts/global.css?_t=d752637a4cc4230fecf23a273a392daf" as="style" onload="this.onload=null;this.rel='stylesheet';"><noscript><link rel="stylesheet" href="/CompiledAssets/UefaCom/css/fonts/global.css?_t=d752637a4cc4230fecf23a273a392daf"></noscript><link rel="preload" href="/CompiledAssets/UefaCom/css/competitions/uefachampionsleague/base.css?_t=846e0151bb86316b2289afbf406fde4a" as="style" onload="this.onload=null;this.rel='stylesheet';"><noscript><link rel="stylesheet" href="/CompiledAssets/UefaCom/css/competitions/uefachampionsleague/base.css?_t=846e0151bb86316b2289afbf406fde4a"></noscript>
+  <link rel="preload" href="/CompiledAssets/UefaCom/css/modules/editorial/cards-list.css?_t=1afc0fb831c396ad7fb9fb67649d4537" as="style" onload="this.onload=null;this.rel='stylesheet';"><noscript><link rel="stylesheet" href="/CompiledAssets/UefaCom/css/modules/editorial/cards-list.css?_t=1afc0fb831c396ad7fb9fb67649d4537"></noscript><link rel="preload" href="/CompiledAssets/UefaCom/css/modules/statistics/statistics-module.css?_t=193fb531fd945afa31a8513e6ec81462" as="style" onload="this.onload=null;this.rel='stylesheet';"><noscript><link rel="stylesheet" href="/CompiledAssets/UefaCom/css/modules/statistics/statistics-module.css?_t=193fb531fd945afa31a8513e6ec81462"></noscript><link rel="preload" href="/CompiledAssets/UefaCom/css/modules/editorial/editorial-carousel.css?_t=485713ba081c2b4210338707436ac2b8" as="style" onload="this.onload=null;this.rel='stylesheet';"><noscript><link rel="stylesheet" href="/CompiledAssets/UefaCom/css/modules/editorial/editorial-carousel.css?_t=485713ba081c2b4210338707436ac2b8"></noscript><link rel="preload" href="/CompiledAssets/UefaCom/css/modules/template/tabsmenu.css?_t=7846d771198ba8b236fa82eaaeb65e58" as="style" onload="this.onload=null;this.rel='stylesheet';"><noscript><link rel="stylesheet" href="/CompiledAssets/UefaCom/css/modules/template/tabsmenu.css?_t=7846d771198ba8b236fa82eaaeb65e58"></noscript><link rel="preload" href="/CompiledAssets/UefaCom/css/modules/common/promo-panel.css?_t=bfd760ed606b41f7f4e90e52f5985d71" as="style" onload="this.onload=null;this.rel='stylesheet';"><noscript><link rel="stylesheet" href="/CompiledAssets/UefaCom/css/modules/common/promo-panel.css?_t=bfd760ed606b41f7f4e90e52f5985d71"></noscript><link rel="preload" href="/CompiledAssets/UefaCom/css/modules/common/promo-generic-app-panel.css?_t=8da6e7e839f135a4fa860dd8f949801b" as="style" onload="this.onload=null;this.rel='stylesheet';"><noscript><link rel="stylesheet" href="/CompiledAssets/UefaCom/css/modules/common/promo-generic-app-panel.css?_t=8da6e7e839f135a4fa860dd8f949801b"></noscript><link rel="preload" href="/CompiledAssets/UefaCom/css/sections/match-page.css?_t=a20408d6f6c86efbcccbbb4bf86d4494" as="style" onload="this.onload=null;this.rel='stylesheet';"><noscript><link rel="stylesheet" href="/CompiledAssets/UefaCom/css/sections/match-page.css?_t=a20408d6f6c86efbcccbbb4bf86d4494"></noscript>
+  
+
+  <noscript>
+    <style>
+      html {
+        opacity: 1;
+      }
+    </style>
+  </noscript>
+
+  <script type="application/ld+json">
+{"@type":"WebPage","@context":"http://schema.org","@id":"https://es.uefa.com/uefachampionsleague/match/2015227--juventus-vs-barcelona/","url":"https://es.uefa.com/uefachampionsleague/match/2015227--juventus-vs-barcelona/","headline":"Historia: Juventus 1-3 Barcelona | UEFA Champions League 2014/15 Final | UEFA.com","description":"Juventus - Barcelona 2014/15. Toda la informaci\u00F3n de este partido de UEFA Champions League incluyendo estad\u00EDsticas, goles, resultados, historia y mucho m\u00E1s.","potentialAction":{"@type":"ReadAction","target":"https://es.uefa.com/uefachampionsleague/match/2015227--juventus-vs-barcelona/"}}  </script>
+
+  <script type="text/javascript">
+    window.environment = 'prd';
+    window.uefaBaseUrl = '//es.uefa.com';
+    window.uefaApiBaseUrl = '/api/v1/';
+    window.showTeamsDisclaimer = true;
+
+    window.competitionId = '1';
+    window.competitionFolder = 'ucl';
+    window.competitionBanner = 'ucl';
+    window.competitionTracking = 'ucl';
+    window.competitionCode = 'ucl';
+    window.competitionName = 'uefachampionsleague';
+    window.competitionUrl = 'uefachampionsleague';
+    window.isClub = true;
+    window.currentSeason = 2026;
+    window.currentPhase = '';
+    window.imgBaseUrl = 'https://img.uefa.com';
+
+    window.apiKey = 'ceeee1a5bb209502c6c438abd8f30aef179ce669bb9288f2d1cf2fa276de03f4';
+    window.fspApiLimit = 50;
+    window.matchApiUrl = 'https://match.uefa.com/';
+    window.compApiUrl = 'https://comp.uefa.com/';
+    window.compStatsApiUrl = 'https://compstats.uefa.com/';
+    window.standingsApiUrl = 'https://standings.uefa.com/';
+    window.drawApiUrl = 'https://fsp-draw-service.uefa.com/';
+    window.matchStatsApiUrl = 'https://matchstats.uefa.com/';
+    window.bracketApiUrl = 'https://bracket-service.uefa.com/';
+    window.masApiUrl = 'https://mas.uefa.com/';
+    window.domesticApiUrl = 'https://domestic.uefa.com/';
+    window.cardApiUrl = 'https://fsp-data-cards-service.uefa.com/';
+    window.performanceApiBaseUrl = 'https://fsp-players-ranking-service.uefa.com/';
+    window.broadcasterApiUrl = 'https://broadcaster.uefa.com/';
+    window.cobaltApiUrl = 'https://editorial.uefa.com/api/';
+    window.cobaltApiKey = 'bc1ff15c-814f-4318-b374-50ad9c1b7294';
+    window.cobaltBaseUrl = 'https://editorial.uefa.com/';
+    window.cobaltImgBaseUrl = 'https://editorial.uefa.com/';
+    window.sponsorApiUrl = 'https://fsp-sponsor-service.uefa.com/';
+    window.sponsorPhase = '';
+    window.pssApiUrl = 'https://pss.uefa.com/';
+    window.storyTellerApiKey = 'bcd199d7-77df-4e23-8035-e3542d56ebb4';
+    window.uefaTvApiKey = '';
+    window.uefaTvRealm = '';
+    window.uefaTvApiUrl = '';
+    window.gaGtagId = 'G-X6QJTK7ZQG';
+    window.consentManagerId = '51b6b8a8b21b3';
+
+    window.gamingHubComponentUrl = 'https://gaming.uefa.com/webcomponent/index.js';
+
+    window.videoAdvTag = 'https://pubads.g.doubleclick.net/gampad/ads?iu=/5874/universal_video&description_url=[description_url]&tfcd=0&npa=0&sz=512x288&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=[timestamp]&cust_params=application%3Dweb.uefacom%26section%3D[section]%26kind%3D[kind]';
+    window.videoAdsContext = 'Match';
+    window.bannerAdsContext = '';
+
+    window.idpScript = 'https://idpassets-ping.uefa.com/idp.js';
+    window.idpApiKey = '998b963a-5d91-4956-a062-33d809aaf15b';
+    window.idpScope = '';
+
+
+    window.syncFavouritesNotification = false;
+    window.syncFollowedNotification = false;
+
+    window.languageRedirection = false;
+
+    window.jwplayerScript = 'https://cdn.jwplayer.com/libraries/MRgM2eB8.js';
+    window.appInsightsConnectionString = 'InstrumentationKey=9c0b0885-769f-44f0-89f4-8a39a924aaa6;IngestionEndpoint=https://westeurope-2.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/';
+    window.appInsightsSamplingPercentage = 2;
+
+    window.impressionScrollThreshold = 40;
+    window.impressionTimeThreshold = 300;
+
+    window.newTableFormat = false;
+    window.enableVideoSponsorsLogo = false;
+    window.imageSizesConfig = [{"name":"clubs","match":"img(?:[-.]\\w\u002B)?\\.uefa\\.com\\/imgml\\/TP\\/teams\\/logos\\/(\\d\u002Bx\\d\u002B)\\/","sizes":[18,32,36,50,64,70,100,140,240,700],"type":"PATH","path":"\\/\\d\u002Bx\\d\u002B\\/"},{"name":"teams","match":"img(?:[-.]\\w\u002B)?\\.uefa\\.com\\/imgml\\/flags\\/(\\d\u002Bx\\d\u002B)\\/","sizes":[18,32,36,50,64,70,100,140,240,700],"type":"PATH","path":"\\/\\d\u002Bx\\d\u002B\\/"},{"name":"players","match":"img(?:[-.]\\w\u002B)?\\.uefa\\.com\\/imgml\\/TP\\/players\\/\\d\u002B\\/\\d\u002B\\/(\\d\u002Bx\\d\u002B)\\/","sizes":[27,75,324],"type":"PATH","path":"\\/\\d\u002Bx\\d\u002B\\/"},{"name":"editorial","match":"editorial(?:[-.]\\w\u002B)?\\.uefa\\.com","sizes":[158,276,280,369,490,556,656,988,2048],"type":"AKAMAI","path":"\\/\\d\u002Bx\\d\u002B\\/","qs":"imwidth"},{"name":"others","match":"img(?:\\.\\w\u002B)?\\.uefa\\.com","sizes":[36,65,75,83,140,166,324,400,700,5000],"type":"AKAMAI","path":"\\/\\d\u002Bx\\d\u002B\\/","qs":"imwidth"}];
+    window.frequencyCaps = true;
+  </script>
+  <script type="text/javascript">
+    window.d3OnLoad = (callback) => {
+      window.addEventListener('load', () => { callback(); }, false);
+    }
+  </script>
+
+  <!--[if lt IE 10]>
+      <script>document.getElementsByTagName("html")[0].className = "old-ie";</script>
+    <![endif]-->
+  
+  
+
+    <script type="text/javascript" data-cmp-ab="1" src="https://cdn.consentmanager.net/delivery/js/semiautomatic.min.js"
+      data-cmp-cdid="51b6b8a8b21b3" data-cmp-host="a.delivery.consentmanager.net"
+      data-cmp-cdn="cdn.consentmanager.net" data-cmp-codesrc="0">
+      </script>
+
+    <script type="text/javascript" src="//c.webtrends-optimize.com/acs/accounts/95cd9c25-c6b5-472c-b8a9-6ad5a1e400c8/js/wt.js">
+    </script>
+
+
+
+  <script type="text/javascript">
+    var trackVars = {"language":"ES","pageLanguage":"ES","pageTitle":"Historia: Juventus 1-3 Barcelona | UEFA Champions League 2014/15 Final | UEFA.com","competition":"ucl","competitionDate":"2015","environment":"production","hour":"0","minute":"46","date":"2026-05-16","dayOfWeek":"Saturday","second":"33","timezone":"00:00:00","siteType":"Website","contentSection1":"ucl","pageName":"/uefachampionsleague/match/2015227--juventus-vs-barcelona/","pageType":"match","pageSubType":"history","contentSection2":"history","contentSection3":"match","matchID":"2015227","matchName":"Juventus-Barcelona","matchStatus":"Finished","matchDay":"MD-13","seasonYear":"2015"};
+
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: 'Page Meta',
+      pageFormat: 'standard view',
+      userAgent: window.navigator.userAgent,
+      previousPage: document.referrer,
+      ...trackVars,
+    });
+  </script>
+    <script type="text/javascript">
+      window.d3OnLoad(function () {
+        if (!window.D3 || !window.D3.country) return;
+
+        window.D3.country.get().then(function (country) {
+          if (!country.fifaCountryCode) return;
+          window.dataLayer.push({
+            event: "Page Meta",
+            country: country.fifaCountryCode
+          });
+        });
+      });
+    </script>
+      <!-- Google Analytics -->
+      <script>
+        (function (i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) },
+            i[r].l = 1 * new Date();
+          a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-99223133-1', 'auto');
+        ga('set', 'transport', 'beacon');
+      </script>
+      <!-- end Google Analytics -->
+      <!-- Google Tag Manager -->
+      <script>
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+          var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5NXJMPQ');
+      </script>
+      <!-- end Google Tag Manager -->
+</head>
+
+<body class="langS pk-font--base-regular" pk-competition="ucl" pk-theme="light">
+
+    <!-- App Banner -->
+    <div pk-theme="light" class="js-app-panel app-banner">
+      <div class="pk-overflow--hidden">
+        <div class="pk-d--flex pk-align-items--center pk-justify-content--between pk-p--s pk-pl--0 pk-bg--background">
+          <pk-button class="js-app-close app-banner__close" appearance="icon" soft>
+            <pk-icon name="navigation-close" color="ui-03"></pk-icon>
+          </pk-button>
+          <div class="pk-w--100 pk-d--flex pk-align-items--center pk-gap--xs">
+            <div class="app-banner__icon"></div>
+            <div class="pk-d--flex pk-flex--column pk-gap--xs3">
+              <span class="pk-text--text-01 pk-font--base-semibold pk-font-size--s">
+                Champions League oficial
+              </span>
+              <span class="pk-text--text-03 pk-font--base-regular pk-font-size--xs2">
+                Resultados en directo y Fantasy
+            </span>
+          </div>
+        </div>
+        <pk-button slot="actions" width="auto" aria-label="Cons&#xED;guela"
+          class="js-app-button app-banner__btn pk-ml--xs">
+          Cons&#xED;guela
+        </pk-button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Environment: production -->
+  <!-- Version: 2.788.2 -->
+  <!-- Google Tag Manager (noscript) -->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5NXJMPQ" height="0" width="0"
+        style="display: none; visibility: hidden"></iframe>
+    </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
+    <!-- IE deprecation message - START -->
+
+<div class="ie-deprecation-banner">
+  <img class="ie-deprecation-banner__logo" alt="UEFA.COM" title="UEFA.COM" loading="lazy"
+    src="https://img.uefa.com/imgml/uefacom/elements/main-nav/uefa-logo-black.svg" />
+  <div class="ie-deprecation-banner__title">UEFA.com funciona mejor en otros navegadores</div>
+  <div class="ie-deprecation-banner__text">Para la mejor experiencia posible, recomendamos usar <a href='https://www.google.com/chrome/'>Chrome</a>, <a href='https://www.mozilla.org/firefox/'>Firefox</a> o <a href='https://www.microsoft.com/edge'>Microsoft Edge</a>.</div>
+</div>
+    <!-- IE deprecation message - END -->
+
+  
+
+
+
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/sections/match-page-preload.css?_t=1d2e0b85614c141709862b46f2d3ab5c" ></div>
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/sections/match-page.css?_t=a20408d6f6c86efbcccbbb4bf86d4494" ></div>
+
+<!-- Main wrapper -->
+<div class="main-wrap match-page-main-wrap js-match-content">
+  <a class="skip-link d3-plugin" data-plugin="skip-navigation" pk-theme="dark"
+    href='#main-content'>Saltar al contenido principal</a>
+  <!-- Header -->
+    <header class="header-wrap">
+      
+
+
+
+
+
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/template/header-preload.css?_t=1c8d2f4fa97dbecc569591f93512b9ee" ></div>
+  <div class="d3-react header header--competition pk-theme--dark pk-competition--base pk-d--flex pk-w--100" data-name="header" data-options="{&quot;menu&quot;:[{&quot;id&quot;:&quot;comp-featuring&quot;,&quot;text&quot;:&quot;comp_featuring&quot;,&quot;trackText&quot;:&quot;comp_featuring&quot;,&quot;href&quot;:&quot;&quot;,&quot;isActive&quot;:true,&quot;target&quot;:&quot;_self&quot;,&quot;menuItems&quot;:[{&quot;id&quot;:&quot;home&quot;,&quot;parentId&quot;:&quot;comp-featuring&quot;,&quot;text&quot;:&quot;Inicio&quot;,&quot;tag&quot;:&quot;nav_home&quot;,&quot;trackText&quot;:&quot;Home&quot;,&quot;href&quot;:&quot;/&quot;,&quot;isActive&quot;:true,&quot;target&quot;:&quot;_blank&quot;},{&quot;id&quot;:&quot;about&quot;,&quot;parentId&quot;:&quot;comp-featuring&quot;,&quot;text&quot;:&quot;Sobre&quot;,&quot;tag&quot;:&quot;about&quot;,&quot;trackText&quot;:&quot;About&quot;,&quot;href&quot;:&quot;/about/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_blank&quot;},{&quot;id&quot;:&quot;nationalassociations&quot;,&quot;parentId&quot;:&quot;comp-featuring&quot;,&quot;text&quot;:&quot;Federaciones nacionales&quot;,&quot;tag&quot;:&quot;nav_nationalassociations&quot;,&quot;trackText&quot;:&quot;National Associations&quot;,&quot;href&quot;:&quot;/nationalassociations/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_blank&quot;},{&quot;id&quot;:&quot;running-competitions&quot;,&quot;parentId&quot;:&quot;comp-featuring&quot;,&quot;text&quot;:&quot;Desarrollando competiciones&quot;,&quot;tag&quot;:&quot;running_competitions&quot;,&quot;trackText&quot;:&quot;Running Competitions&quot;,&quot;href&quot;:&quot;/running-competitions/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_blank&quot;},{&quot;id&quot;:&quot;developement&quot;,&quot;parentId&quot;:&quot;comp-featuring&quot;,&quot;text&quot;:&quot;Desarrollo&quot;,&quot;tag&quot;:&quot;development&quot;,&quot;trackText&quot;:&quot;Developement&quot;,&quot;href&quot;:&quot;/development/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_blank&quot;},{&quot;id&quot;:&quot;sustainability&quot;,&quot;parentId&quot;:&quot;comp-featuring&quot;,&quot;text&quot;:&quot;Sostenibilidad&quot;,&quot;tag&quot;:&quot;sustainability&quot;,&quot;trackText&quot;:&quot;Sustainability&quot;,&quot;href&quot;:&quot;/sustainability/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_blank&quot;},{&quot;id&quot;:&quot;newsmedia&quot;,&quot;parentId&quot;:&quot;comp-featuring&quot;,&quot;text&quot;:&quot;Noticias y medios de comunicaci\u00F3n&quot;,&quot;tag&quot;:&quot;nav_news_media&quot;,&quot;trackText&quot;:&quot;News \u0026 Media&quot;,&quot;href&quot;:&quot;/news-media/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_blank&quot;}]},{&quot;id&quot;:&quot;quick-links&quot;,&quot;text&quot;:&quot;quick_links&quot;,&quot;trackText&quot;:&quot;quick_links&quot;,&quot;href&quot;:&quot;&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;menuItems&quot;:[{&quot;id&quot;:&quot;comp_gaming&quot;,&quot;parentId&quot;:&quot;quick-links&quot;,&quot;text&quot;:&quot;UEFA Gaming&quot;,&quot;tag&quot;:&quot;nav_uefagaming&quot;,&quot;trackText&quot;:&quot;UEFA Gaming&quot;,&quot;icon&quot;:&quot;/uefacom/elements/logos/uefagaming.svg&quot;,&quot;href&quot;:&quot;https://gaming.uefa.com/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_blank&quot;},{&quot;id&quot;:&quot;comp_uefatv&quot;,&quot;parentId&quot;:&quot;quick-links&quot;,&quot;text&quot;:&quot;UEFA.tv&quot;,&quot;tag&quot;:&quot;nav_uefatv&quot;,&quot;trackText&quot;:&quot;UEFA.tv&quot;,&quot;icon&quot;:&quot;/uefacom/elements/logos/uefatv.svg&quot;,&quot;href&quot;:&quot;https://links.uefa.tv/uefacom-header&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_blank&quot;},{&quot;id&quot;:&quot;match-calendar&quot;,&quot;parentId&quot;:&quot;quick-links&quot;,&quot;text&quot;:&quot;Calendario de partidos&quot;,&quot;tag&quot;:&quot;match-calendar&quot;,&quot;trackText&quot;:&quot;Match Calendar&quot;,&quot;icon&quot;:&quot;tab-bar-matches&quot;,&quot;href&quot;:&quot;/match-calendar/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;customProperties&quot;:{&quot;livescores&quot;:&quot;true&quot;}},{&quot;id&quot;:&quot;store_team&quot;,&quot;parentId&quot;:&quot;quick-links&quot;,&quot;text&quot;:&quot;Tienda (selecciones nacionales)&quot;,&quot;tag&quot;:&quot;nav_teams_store&quot;,&quot;trackText&quot;:&quot;Store - NTC&quot;,&quot;icon&quot;:&quot;features-store&quot;,&quot;href&quot;:&quot;https://www.shopuefa.com/en/?_s=bm-fi-psc-uefa-hpshopnav&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_blank&quot;},{&quot;id&quot;:&quot;store_club&quot;,&quot;parentId&quot;:&quot;quick-links&quot;,&quot;text&quot;:&quot;Tienda (clubes)&quot;,&quot;tag&quot;:&quot;nav_clubs_store&quot;,&quot;trackText&quot;:&quot;Store - CC&quot;,&quot;icon&quot;:&quot;features-store&quot;,&quot;href&quot;:&quot;https://clubcompetitions-shop.com/es-eu?utm_source=uefa\u0026utm_medium=website\u0026utm_campaign=UCL-store&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_blank&quot;},{&quot;id&quot;:&quot;uefarankings&quot;,&quot;parentId&quot;:&quot;quick-links&quot;,&quot;text&quot;:&quot;Rankings UEFA&quot;,&quot;tag&quot;:&quot;nav_uefarankings&quot;,&quot;trackText&quot;:&quot;UEFA rankings&quot;,&quot;icon&quot;:&quot;features-stats&quot;,&quot;href&quot;:&quot;/nationalassociations/uefarankings/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;ticketshospitality&quot;,&quot;parentId&quot;:&quot;quick-links&quot;,&quot;text&quot;:&quot;Entradas/Hospitalidad&quot;,&quot;tag&quot;:&quot;ticketshospitality&quot;,&quot;trackText&quot;:&quot;Tickets and hospitality&quot;,&quot;icon&quot;:&quot;features-tickets&quot;,&quot;href&quot;:&quot;/tickets/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;&quot;}]},{&quot;id&quot;:&quot;uefa-competitions&quot;,&quot;text&quot;:&quot;Competiciones UEFA&quot;,&quot;tag&quot;:&quot;uefa_competitions&quot;,&quot;trackText&quot;:&quot;uefa_competitions&quot;,&quot;href&quot;:&quot;&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;menuItems&quot;:[{&quot;id&quot;:&quot;clubscomps&quot;,&quot;parentId&quot;:&quot;uefa-competitions&quot;,&quot;text&quot;:&quot;Equipos&quot;,&quot;tag&quot;:&quot;nav_club&quot;,&quot;trackText&quot;:&quot;clubscomps&quot;,&quot;href&quot;:&quot;&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;menuItems&quot;:[{&quot;id&quot;:&quot;ucl&quot;,&quot;parentId&quot;:&quot;clubscomps&quot;,&quot;text&quot;:&quot;UEFA Champions League&quot;,&quot;tag&quot;:&quot;nav_uefachampionsleague&quot;,&quot;trackText&quot;:&quot;UEFA Champions League&quot;,&quot;href&quot;:&quot;/uefachampionsleague/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;customProperties&quot;:{&quot;compCode&quot;:&quot;ucl&quot;}},{&quot;id&quot;:&quot;uel&quot;,&quot;parentId&quot;:&quot;clubscomps&quot;,&quot;text&quot;:&quot;UEFA Europa League&quot;,&quot;tag&quot;:&quot;nav_uefaeuropaleague&quot;,&quot;trackText&quot;:&quot;UEFA Europa League&quot;,&quot;href&quot;:&quot;/uefaeuropaleague/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;uecl&quot;,&quot;parentId&quot;:&quot;clubscomps&quot;,&quot;text&quot;:&quot;UEFA Conference League&quot;,&quot;tag&quot;:&quot;nav_uefaeuropaconferenceleague&quot;,&quot;trackText&quot;:&quot;UEFA Europa Conference League&quot;,&quot;href&quot;:&quot;/uefaconferenceleague/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;usc&quot;,&quot;parentId&quot;:&quot;clubscomps&quot;,&quot;text&quot;:&quot;Supercopa de la UEFA&quot;,&quot;tag&quot;:&quot;nav_uefasupercup&quot;,&quot;trackText&quot;:&quot;UEFA Super Cup&quot;,&quot;href&quot;:&quot;/uefasupercup/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;uyl&quot;,&quot;parentId&quot;:&quot;clubscomps&quot;,&quot;text&quot;:&quot;UEFA Youth League&quot;,&quot;tag&quot;:&quot;nav_uefayouthleague&quot;,&quot;trackText&quot;:&quot;UEFA Youth League&quot;,&quot;href&quot;:&quot;/uefayouthleague/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;iu20&quot;,&quot;parentId&quot;:&quot;clubscomps&quot;,&quot;text&quot;:&quot;Copa Intercontinental Sub-20&quot;,&quot;tag&quot;:&quot;nav_under20intercontinental&quot;,&quot;trackText&quot;:&quot;U20 Intercontinental&quot;,&quot;href&quot;:&quot;/under20intercontinental/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;customProperties&quot;:{&quot;compCode&quot;:&quot;iu20&quot;}}]},{&quot;id&quot;:&quot;nationalcomps&quot;,&quot;parentId&quot;:&quot;uefa-competitions&quot;,&quot;text&quot;:&quot;Selecciones&quot;,&quot;tag&quot;:&quot;nav_national&quot;,&quot;trackText&quot;:&quot;nationalcomps&quot;,&quot;href&quot;:&quot;&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;menuItems&quot;:[{&quot;id&quot;:&quot;eq&quot;,&quot;parentId&quot;:&quot;nationalcomps&quot;,&quot;text&quot;:&quot;Clasificatorios Europeos&quot;,&quot;tag&quot;:&quot;nav_euroqualifiers&quot;,&quot;trackText&quot;:&quot;European Qualifiers&quot;,&quot;href&quot;:&quot;/european-qualifiers/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;euro2028&quot;,&quot;parentId&quot;:&quot;nationalcomps&quot;,&quot;text&quot;:&quot;UEFA EURO 2028&quot;,&quot;tag&quot;:&quot;nav_euro2028&quot;,&quot;trackText&quot;:&quot;UEFA EURO 2028&quot;,&quot;href&quot;:&quot;/euro2028/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;unl&quot;,&quot;parentId&quot;:&quot;nationalcomps&quot;,&quot;text&quot;:&quot;UEFA Nations League&quot;,&quot;tag&quot;:&quot;nav_UEFA_Nations_League&quot;,&quot;trackText&quot;:&quot;UEFA Nations League&quot;,&quot;href&quot;:&quot;/uefanationsleague/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;fin&quot;,&quot;parentId&quot;:&quot;nationalcomps&quot;,&quot;text&quot;:&quot;Finalissima&quot;,&quot;tag&quot;:&quot;nav_finalissima&quot;,&quot;trackText&quot;:&quot;Finalissima&quot;,&quot;href&quot;:&quot;/finalissima/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;u21&quot;,&quot;parentId&quot;:&quot;nationalcomps&quot;,&quot;text&quot;:&quot;Europeo sub-21 de la UEFA&quot;,&quot;tag&quot;:&quot;nav_under21&quot;,&quot;trackText&quot;:&quot;UEFA Under-21&quot;,&quot;href&quot;:&quot;/under21/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;}]},{&quot;id&quot;:&quot;womencomps&quot;,&quot;parentId&quot;:&quot;uefa-competitions&quot;,&quot;text&quot;:&quot;F\u00FAtbol femenino&quot;,&quot;tag&quot;:&quot;nav_women&quot;,&quot;trackText&quot;:&quot;womencomps&quot;,&quot;href&quot;:&quot;&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;menuItems&quot;:[{&quot;id&quot;:&quot;wucl&quot;,&quot;parentId&quot;:&quot;womencomps&quot;,&quot;text&quot;:&quot;UEFA Women\u0027s Champions League&quot;,&quot;tag&quot;:&quot;nav_womenschampionsleague&quot;,&quot;trackText&quot;:&quot;UEFA Women\u0027s Champions League&quot;,&quot;href&quot;:&quot;/womenschampionsleague/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;weuro&quot;,&quot;parentId&quot;:&quot;womencomps&quot;,&quot;text&quot;:&quot;Campeonato de Europa Femenino de la UEFA&quot;,&quot;tag&quot;:&quot;nav_woco&quot;,&quot;trackText&quot;:&quot;UEFA Women\u0027s EURO&quot;,&quot;href&quot;:&quot;/womenseuro/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;uwec&quot;,&quot;parentId&quot;:&quot;womencomps&quot;,&quot;text&quot;:&quot;UEFA Women\u2019s Europa Cup&quot;,&quot;tag&quot;:&quot;nav_womenseuropacup&quot;,&quot;trackText&quot;:&quot;UEFA Women\u0027s Europa Cup&quot;,&quot;href&quot;:&quot;/womenseuropacup/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;weq&quot;,&quot;parentId&quot;:&quot;womencomps&quot;,&quot;text&quot;:&quot;Clasificatorios Europeos Femeninos&quot;,&quot;tag&quot;:&quot;nav_womenseuropeanqualifiers&quot;,&quot;trackText&quot;:&quot;Women\u0027s European Qualifiers&quot;,&quot;href&quot;:&quot;/womenseuropeanqualifiers/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;uwnl&quot;,&quot;parentId&quot;:&quot;womencomps&quot;,&quot;text&quot;:&quot;UEFA Women\u0027s Nations League&quot;,&quot;tag&quot;:&quot;nav_uwnl&quot;,&quot;trackText&quot;:&quot;UEFA Women\u0027s Nations League&quot;,&quot;href&quot;:&quot;/womensnationsleague/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;wfin&quot;,&quot;parentId&quot;:&quot;womencomps&quot;,&quot;text&quot;:&quot;Finalissima Femenina&quot;,&quot;tag&quot;:&quot;nav_womensfinalissima&quot;,&quot;trackText&quot;:&quot;Women\u0027s Finalissima&quot;,&quot;href&quot;:&quot;/womensfinalissima/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;wu19&quot;,&quot;parentId&quot;:&quot;womencomps&quot;,&quot;text&quot;:&quot;Europeo femenino sub-19 de la UEFA&quot;,&quot;tag&quot;:&quot;nav_wunder19&quot;,&quot;trackText&quot;:&quot;UEFA Women\u0027s Under-19&quot;,&quot;href&quot;:&quot;/womensunder19/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;wu17&quot;,&quot;parentId&quot;:&quot;womencomps&quot;,&quot;text&quot;:&quot;Europeo femenino sub-17 de la UEFA&quot;,&quot;tag&quot;:&quot;nav_wunder17&quot;,&quot;trackText&quot;:&quot;UEFA Women\u0027s Under-17&quot;,&quot;href&quot;:&quot;/womensunder17/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;}]},{&quot;id&quot;:&quot;youthcomps&quot;,&quot;parentId&quot;:&quot;uefa-competitions&quot;,&quot;text&quot;:&quot;Juvenil y amateur&quot;,&quot;tag&quot;:&quot;nav_youth_amateur&quot;,&quot;trackText&quot;:&quot;youthcomps&quot;,&quot;href&quot;:&quot;&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;menuItems&quot;:[{&quot;id&quot;:&quot;u19&quot;,&quot;parentId&quot;:&quot;youthcomps&quot;,&quot;text&quot;:&quot;Europeo sub-19 de la UEFA&quot;,&quot;tag&quot;:&quot;nav_under19&quot;,&quot;trackText&quot;:&quot;UEFA Under-19&quot;,&quot;href&quot;:&quot;/under19/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;customProperties&quot;:{&quot;nolang&quot;:&quot;ja&quot;}},{&quot;id&quot;:&quot;u17&quot;,&quot;parentId&quot;:&quot;youthcomps&quot;,&quot;text&quot;:&quot;Europeo sub-17 de la UEFA&quot;,&quot;tag&quot;:&quot;nav_under17&quot;,&quot;trackText&quot;:&quot;UEFA Under-17&quot;,&quot;href&quot;:&quot;/under17/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;customProperties&quot;:{&quot;nolang&quot;:&quot;ja&quot;}},{&quot;id&quot;:&quot;rcup&quot;,&quot;parentId&quot;:&quot;youthcomps&quot;,&quot;text&quot;:&quot;Copa de las Regiones&quot;,&quot;tag&quot;:&quot;nav_regionscup&quot;,&quot;trackText&quot;:&quot;UEFA Regions\u0027 Cup&quot;,&quot;href&quot;:&quot;/regionscup/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;customProperties&quot;:{&quot;nolang&quot;:&quot;ja&quot;}}]},{&quot;id&quot;:&quot;futsalcomps&quot;,&quot;parentId&quot;:&quot;uefa-competitions&quot;,&quot;text&quot;:&quot;F\u00FAtbol sala&quot;,&quot;tag&quot;:&quot;nav_futsal&quot;,&quot;trackText&quot;:&quot;futsalcomps&quot;,&quot;href&quot;:&quot;&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;menuItems&quot;:[{&quot;id&quot;:&quot;fcl&quot;,&quot;parentId&quot;:&quot;futsalcomps&quot;,&quot;text&quot;:&quot;UEFA Champions League de F\u00FAtbol Sala&quot;,&quot;tag&quot;:&quot;nav_uefafutsalchampionsleague&quot;,&quot;trackText&quot;:&quot;Futsal Champions League&quot;,&quot;href&quot;:&quot;/uefafutsalchampionsleague/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;feuro&quot;,&quot;parentId&quot;:&quot;futsalcomps&quot;,&quot;text&quot;:&quot;Eurocopa de F\u00FAtbol Sala de la UEFA&quot;,&quot;tag&quot;:&quot;nav_futchamp&quot;,&quot;trackText&quot;:&quot;UEFA Futsal EURO&quot;,&quot;href&quot;:&quot;/futsaleuro/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;futfin&quot;,&quot;parentId&quot;:&quot;futsalcomps&quot;,&quot;text&quot;:&quot;Finalissima de f\u00FAtbol sala&quot;,&quot;tag&quot;:&quot;nav_futsalfinalissima&quot;,&quot;trackText&quot;:&quot;Futsal Finalissima&quot;,&quot;href&quot;:&quot;/futsalfinalissima/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;wfeuro&quot;,&quot;parentId&quot;:&quot;futsalcomps&quot;,&quot;text&quot;:&quot;Eurocopa Femenina de F\u00FAtbol Sala de la UEFA&quot;,&quot;tag&quot;:&quot;nav_womensfutsaleuro&quot;,&quot;trackText&quot;:&quot;UEFA Women\u0027s Futsal EURO&quot;,&quot;href&quot;:&quot;/womensfutsaleuro/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;fu19&quot;,&quot;parentId&quot;:&quot;futsalcomps&quot;,&quot;text&quot;:&quot;Eurocopa sub-19 de f\u00FAtbol sala de la UEFA&quot;,&quot;tag&quot;:&quot;nav_futsalunder19&quot;,&quot;trackText&quot;:&quot;UEFA U-19 Futsal EURO&quot;,&quot;href&quot;:&quot;/futsalunder19/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;fwc&quot;,&quot;parentId&quot;:&quot;futsalcomps&quot;,&quot;text&quot;:&quot;Copa Mundial de F\u00FAtbol Sala de la FIFA&quot;,&quot;tag&quot;:&quot;nav_futwc&quot;,&quot;trackText&quot;:&quot;FIFA Futsal World Cup&quot;,&quot;href&quot;:&quot;/futsalworldcup/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;ffwwc&quot;,&quot;parentId&quot;:&quot;futsalcomps&quot;,&quot;text&quot;:&quot;Clasificatorios Europeos Femeninos de F\u00FAtbol Sala&quot;,&quot;tag&quot;:&quot;nav_ffwwc&quot;,&quot;trackText&quot;:&quot;Women\u2019s Futsal European Qualifiers&quot;,&quot;href&quot;:&quot;/womensfutsalqualifiers/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;}]}]}],&quot;isCompetitionContext&quot;:true,&quot;activateLoginButton&quot;:true,&quot;theme&quot;:&quot;dark&quot;}" data-force-inview="false">
+<div class="header__content header-skl pk-w--100">
+
+</div>
+  </div>
+
+  </header>
+  <!-- Content wrapper -->
+  <div class="body">
+    <div class="content-wrap">
+      <!-- Navigation -->
+      <div class="navigation navigation--sticky d3-plugin" data-plugin="sticky">
+        
+
+
+
+
+
+
+
+
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/template/sticky-nav-preload.css?_t=80ca75e47325452bcc77385906ee54c7" ></div>
+
+
+  <div class="d3-react navigation-wrapper  pk-theme--dark" data-name="menu" data-options="{&quot;items&quot;:[{&quot;id&quot;:&quot;ma&quot;,&quot;text&quot;:&quot;Partidos&quot;,&quot;tag&quot;:&quot;nav_matches&quot;,&quot;trackText&quot;:&quot;Matches&quot;,&quot;href&quot;:&quot;/uefachampionsleague/fixtures-results/&quot;,&quot;isActive&quot;:true,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;sd&quot;,&quot;text&quot;:&quot;Clasificaci\u00F3n&quot;,&quot;tag&quot;:&quot;table&quot;,&quot;trackText&quot;:&quot;Table&quot;,&quot;href&quot;:&quot;/uefachampionsleague/standings/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;uefatv&quot;,&quot;text&quot;:&quot;UEFA.tv&quot;,&quot;tag&quot;:&quot;nav_uefatv&quot;,&quot;trackText&quot;:&quot;Uefa.tv&quot;,&quot;href&quot;:&quot;/uefachampionsleague/uefatv/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;draw&quot;,&quot;text&quot;:&quot;Sorteos&quot;,&quot;tag&quot;:&quot;draws&quot;,&quot;trackText&quot;:&quot;Draw&quot;,&quot;href&quot;:&quot;/uefachampionsleague/draws/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;gaming&quot;,&quot;text&quot;:&quot;Gaming&quot;,&quot;tag&quot;:&quot;nav_gaminghub&quot;,&quot;trackText&quot;:&quot;Gaming&quot;,&quot;href&quot;:&quot;https://gaming.uefa.com/es/uefachampionsleague&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;menuItems&quot;:[{&quot;id&quot;:&quot;Overview&quot;,&quot;parentId&quot;:&quot;gaming&quot;,&quot;text&quot;:&quot;Todos los juegos&quot;,&quot;tag&quot;:&quot;allgames&quot;,&quot;trackText&quot;:&quot;Gaming&quot;,&quot;href&quot;:&quot;https://gaming.uefa.com/es/uefachampionsleague&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;customProperties&quot;:{&quot;thirdparty&quot;:&quot;true&quot;}},{&quot;id&quot;:&quot;fantasy&quot;,&quot;parentId&quot;:&quot;gaming&quot;,&quot;text&quot;:&quot;Fantasy Football&quot;,&quot;tag&quot;:&quot;fantasyfootball&quot;,&quot;trackText&quot;:&quot;fantasy&quot;,&quot;href&quot;:&quot;https://gaming.uefa.com/es/uclfantasy&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;customProperties&quot;:{&quot;thirdparty&quot;:&quot;true&quot;}},{&quot;id&quot;:&quot;predictor&quot;,&quot;parentId&quot;:&quot;gaming&quot;,&quot;text&quot;:&quot;Pronostica Seis&quot;,&quot;tag&quot;:&quot;predict_six&quot;,&quot;trackText&quot;:&quot;predictor&quot;,&quot;href&quot;:&quot;https://gaming.uefa.com/es/uclpredictor&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;customProperties&quot;:{&quot;thirdparty&quot;:&quot;true&quot;}},{&quot;id&quot;:&quot;bracket&quot;,&quot;parentId&quot;:&quot;gaming&quot;,&quot;text&quot;:&quot;Bracket&quot;,&quot;tag&quot;:&quot;bracket&quot;,&quot;trackText&quot;:&quot;bracket&quot;,&quot;href&quot;:&quot;https://gaming.uefa.com/es/uclbracket&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;gotd&quot;,&quot;parentId&quot;:&quot;gaming&quot;,&quot;text&quot;:&quot;Gol del D\u00EDa&quot;,&quot;tag&quot;:&quot;goal_of_the_day_capitalized&quot;,&quot;trackText&quot;:&quot;Goal of the Day&quot;,&quot;href&quot;:&quot;/uefachampionsleague/goal-of-the-day/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;potw&quot;,&quot;parentId&quot;:&quot;gaming&quot;,&quot;text&quot;:&quot;Jugador de la Semana&quot;,&quot;tag&quot;:&quot;player_of_the_week&quot;,&quot;trackText&quot;:&quot;potw&quot;,&quot;href&quot;:&quot;/uefachampionsleague/player-of-the-week/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;customProperties&quot;:{&quot;thirdparty&quot;:&quot;false&quot;}},{&quot;id&quot;:&quot;echampionsleague&quot;,&quot;parentId&quot;:&quot;gaming&quot;,&quot;text&quot;:&quot;eChampions League&quot;,&quot;tag&quot;:&quot;echampions-league&quot;,&quot;trackText&quot;:&quot;echampions league&quot;,&quot;href&quot;:&quot;/uefachampionsleague/esports/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;myprofile&quot;,&quot;parentId&quot;:&quot;gaming&quot;,&quot;text&quot;:&quot;Mi perfil de juegos&quot;,&quot;tag&quot;:&quot;my_gaming_profile&quot;,&quot;trackText&quot;:&quot;My gaming profile&quot;,&quot;href&quot;:&quot;https://gaming.uefa.com/es/uefachampionsleague/profile&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;}]},{&quot;id&quot;:&quot;st&quot;,&quot;text&quot;:&quot;Datos&quot;,&quot;tag&quot;:&quot;nav_stats_short&quot;,&quot;trackText&quot;:&quot;Stats&quot;,&quot;href&quot;:&quot;/uefachampionsleague/statistics/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;menuItems&quot;:[{&quot;id&quot;:&quot;statistics&quot;,&quot;parentId&quot;:&quot;st&quot;,&quot;text&quot;:&quot;Estad\u00EDsticas de la temporada&quot;,&quot;tag&quot;:&quot;season_stats&quot;,&quot;trackText&quot;:&quot;Stats&quot;,&quot;href&quot;:&quot;/uefachampionsleague/statistics/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;clubs&quot;,&quot;parentId&quot;:&quot;st&quot;,&quot;text&quot;:&quot;Estad\u00EDsticas de equipo&quot;,&quot;tag&quot;:&quot;history_clubrankings_title&quot;,&quot;trackText&quot;:&quot;Stats - Team&quot;,&quot;href&quot;:&quot;/uefachampionsleague/statistics/clubs/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;players&quot;,&quot;parentId&quot;:&quot;st&quot;,&quot;text&quot;:&quot;Estad\u00EDsticas de jugador&quot;,&quot;tag&quot;:&quot;history_playerrankings_title&quot;,&quot;trackText&quot;:&quot;Stats - Player&quot;,&quot;href&quot;:&quot;/uefachampionsleague/statistics/players/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;topscorer&quot;,&quot;parentId&quot;:&quot;st&quot;,&quot;text&quot;:&quot;M\u00E1ximo goleador&quot;,&quot;tag&quot;:&quot;top_scorer&quot;,&quot;trackText&quot;:&quot;Stats - Top scorer&quot;,&quot;href&quot;:&quot;/uefachampionsleague/top-scorer/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;alltime&quot;,&quot;parentId&quot;:&quot;st&quot;,&quot;text&quot;:&quot;Estad\u00EDsticas hist\u00F3ricas&quot;,&quot;tag&quot;:&quot;all_time_stats&quot;,&quot;trackText&quot;:&quot;Stats - All time&quot;,&quot;href&quot;:&quot;/uefachampionsleague/statistics/all-time/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;performancezone&quot;,&quot;parentId&quot;:&quot;st&quot;,&quot;text&quot;:&quot;Performance Zone&quot;,&quot;tag&quot;:&quot;performancezone&quot;,&quot;trackText&quot;:&quot;Performance zone&quot;,&quot;href&quot;:&quot;/uefachampionsleague/performancezone/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;}]},{&quot;id&quot;:&quot;cl&quot;,&quot;text&quot;:&quot;Equipos&quot;,&quot;tag&quot;:&quot;nav_teams&quot;,&quot;trackText&quot;:&quot;Teams&quot;,&quot;href&quot;:&quot;/uefachampionsleague/clubs/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;ne&quot;,&quot;text&quot;:&quot;Noticias&quot;,&quot;tag&quot;:&quot;nav_news&quot;,&quot;trackText&quot;:&quot;News&quot;,&quot;href&quot;:&quot;/uefachampionsleague/news/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;ticketing&quot;,&quot;text&quot;:&quot;Entradas&quot;,&quot;tag&quot;:&quot;tickets&quot;,&quot;trackText&quot;:&quot;Tickets&quot;,&quot;href&quot;:&quot;/uefachampionsleague/ticketing/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;menuItems&quot;:[{&quot;id&quot;:&quot;hospitality&quot;,&quot;parentId&quot;:&quot;ticketing&quot;,&quot;text&quot;:&quot;Hospitalidad&quot;,&quot;tag&quot;:&quot;menu_hospitality&quot;,&quot;trackText&quot;:&quot;Hospitality&quot;,&quot;href&quot;:&quot;/uefachampionsleague/ticketing/hospitality/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;}]},{&quot;id&quot;:&quot;eg&quot;,&quot;text&quot;:&quot;Final&quot;,&quot;tag&quot;:&quot;final&quot;,&quot;trackText&quot;:&quot;Final&quot;,&quot;href&quot;:&quot;/uefachampionsleague/event-guide/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;hi&quot;,&quot;text&quot;:&quot;Historia&quot;,&quot;tag&quot;:&quot;nav_history&quot;,&quot;trackText&quot;:&quot;History&quot;,&quot;href&quot;:&quot;/uefachampionsleague/history/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;,&quot;menuItems&quot;:[{&quot;id&quot;:&quot;history&quot;,&quot;parentId&quot;:&quot;hi&quot;,&quot;text&quot;:&quot;Temporadas&quot;,&quot;tag&quot;:&quot;seasons&quot;,&quot;trackText&quot;:&quot;History - Featured&quot;,&quot;href&quot;:&quot;/uefachampionsleague/history/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;rankings&quot;,&quot;parentId&quot;:&quot;hi&quot;,&quot;text&quot;:&quot;Estad\u00EDsticas hist\u00F3ricas&quot;,&quot;tag&quot;:&quot;all_time_stats&quot;,&quot;trackText&quot;:&quot;History - Stats&quot;,&quot;href&quot;:&quot;/uefachampionsleague/history/rankings/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;videod&quot;,&quot;parentId&quot;:&quot;hi&quot;,&quot;text&quot;:&quot;V\u00EDdeos&quot;,&quot;tag&quot;:&quot;nav_video&quot;,&quot;trackText&quot;:&quot;History - Video&quot;,&quot;href&quot;:&quot;/uefachampionsleague/history/video/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;hclubs&quot;,&quot;parentId&quot;:&quot;hi&quot;,&quot;text&quot;:&quot;Equipos&quot;,&quot;tag&quot;:&quot;nav_teams&quot;,&quot;trackText&quot;:&quot;History - Clubs&quot;,&quot;href&quot;:&quot;/uefachampionsleague/history/clubs/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;mosttitles&quot;,&quot;parentId&quot;:&quot;hi&quot;,&quot;text&quot;:&quot;M\u00E1s t\u00EDtulos&quot;,&quot;tag&quot;:&quot;history_teamtopwinners&quot;,&quot;trackText&quot;:&quot;History - Most titles&quot;,&quot;href&quot;:&quot;/uefachampionsleague/history/winners/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;}],&quot;customProperties&quot;:{&quot;nolang&quot;:&quot;j&quot;}},{&quot;id&quot;:&quot;about&quot;,&quot;text&quot;:&quot;Sobre&quot;,&quot;tag&quot;:&quot;about&quot;,&quot;trackText&quot;:&quot;About&quot;,&quot;href&quot;:&quot;/uefachampionsleague/about/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},{&quot;id&quot;:&quot;store&quot;,&quot;text&quot;:&quot;Tienda (clubes)&quot;,&quot;tag&quot;:&quot;nav_clubs_store&quot;,&quot;trackText&quot;:&quot;Store (Clubs)&quot;,&quot;href&quot;:&quot;https://clubcompetitions-shop.com/?utm_source=uefa\u0026utm_medium=website\u0026utm_campaign=UCL-store&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;&quot;}],&quot;trnItem&quot;:{&quot;id&quot;:&quot;trnname&quot;,&quot;text&quot;:&quot;UEFA Champions League&quot;,&quot;tag&quot;:&quot;comp_uefachampionsleague&quot;,&quot;trackText&quot;:&quot;Home&quot;,&quot;href&quot;:&quot;/uefachampionsleague/&quot;,&quot;isActive&quot;:false,&quot;target&quot;:&quot;_self&quot;},&quot;activateFavouriteClub&quot;:false,&quot;activateLoginButton&quot;:false,&quot;theme&quot;:&quot;dark&quot;,&quot;isCorporateContext&quot;:false,&quot;sponsorStripLibrary&quot;:&quot;/uefachampionsleague/libraries/promo/_sponsor_strip&quot;}" data-force-inview="false">
+<div class="menu-skl pk-d--flex pk-align-items--center pk-justify-content--between pk-w--100">
+    <a href="/uefachampionsleague/" class="menu-skl__logo pk-d--block pk-mr--xl2" title="UEFA Champions League" role='option'
+      aria-disabled='false' aria-label="UEFA Champions League">UEFA Champions League</a>
+    <div class="menu-skl__items pk-d--flex pk-align-items--center pk-justify-content--start pk-gap--l pk-gap-sm--xl2">
+      <div class="menu-skl__item"></div>
+      <div class="menu-skl__item"></div>
+      <div class="menu-skl__item"></div>
+      <div class="menu-skl__item"></div>
+      <div class="menu-skl__item"></div>
+      <div class="menu-skl__item"></div>
+      <div class="menu-skl__item"></div>
+    </div>
+
+    <div>
+    </div>
+  </div>
+  </div>
+
+
+      </div>
+      <div id="main-content" class="navigation js-content">
+        
+
+
+<div class="match-header__container pk-theme--dark">
+  
+
+
+
+
+  <div class="d3-react match-header" data-name="match-header" data-options="{&quot;theme&quot;:&quot;dark&quot;,&quot;match&quot;:{&quot;status&quot;:&quot;Finished&quot;,&quot;kickOffTime&quot;:{&quot;date&quot;:&quot;2015-06-06T00:00:00&quot;,&quot;dateTime&quot;:&quot;2015-06-06T18:45:00&#x2B;00:00&quot;,&quot;utcOffsetInHours&quot;:2},&quot;fullTimeAt&quot;:&quot;2015-06-06T20:42:59.8&#x2B;00:00&quot;,&quot;id&quot;:&quot;2015227&quot;,&quot;seasonYear&quot;:&quot;2015&quot;},&quot;showSeason&quot;:true,&quot;showAudiocommentary&quot;:false,&quot;showNotificationIcon&quot;:true,&quot;bottomPanelSelector&quot;:&quot;.promo-app-notification-panel&quot;,&quot;disableTeamsLink&quot;:true,&quot;disablePlayerLink&quot;:true,&quot;blockHighlights&quot;:true,&quot;broadcasters&quot;:{&quot;showLabel&quot;:true},&quot;streamMessage&quot;:false}" data-force-inview="true">
+<div></div>  </div>
+
+<h1 class="hideTitle">Juventus vs Barcelona </h1>
+
+
+
+
+
+<div class="pk-container match-menu__container pk-py--0">
+  <div class="pk-col pk-col--span-12 d3-plugin" data-plugin="matchmenulive" data-options="{&quot;match&quot;:{&quot;id&quot;:&quot;2015227&quot;,&quot;status&quot;:&quot;Finished&quot;,&quot;kickOffTime&quot;:{&quot;date&quot;:&quot;2015-06-06T00:00:00&quot;,&quot;dateTime&quot;:&quot;2015-06-06T18:45:00&#x2B;00:00&quot;,&quot;utcOffsetInHours&quot;:2},&quot;fullTimeAt&quot;:&quot;2015-06-06T20:42:59.8&#x2B;00:00&quot;},&quot;apiKey&quot;:&quot;ceeee1a5bb209502c6c438abd8f30aef179ce669bb9288f2d1cf2fa276de03f4&quot;}">
+    
+
+
+
+
+
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/template/tabsmenu.css?_t=7846d771198ba8b236fa82eaaeb65e58" ></div>
+
+<div class="tabsmenu" pk-theme="dark">
+  <pk-tabs enable-more="false" data-plugin="routed-menu"
+    data-options="{&quot;targetSelector&quot;:&quot;.content-wrap \u003E .content&quot;,&quot;scrollToTop&quot;:false}" class="d3-plugin">
+          <pk-tab tab-id="ovhistory" selected="selected" highlight="highlight" class=""
+            data-custom-props="null" onclick="this.querySelector('a').click()">
+            <a itemprop="item" class="pk-d--flex pk-align-items--center js-menu-item js-tracking-link"
+              href="/uefachampionsleague/match/2015227--juventus-vs-barcelona/" data-pagemeta="{&quot;pageName&quot;:&quot;/uefachampionsleague/match/2015227--juventus-vs-barcelona/&quot;,&quot;pageType&quot;:&quot;match&quot;,&quot;pageSubType&quot;:&quot;current season&quot;,&quot;contentSection2&quot;:&quot;matches&quot;,&quot;contentSection3&quot;:&quot;2015227--juventus-vs-barcelona&quot;}" target="_self">
+Resumen            </a>
+          </pk-tab>
+          <pk-tab tab-id="ln" class=" with-custom-props js-lineups hidden"
+            data-custom-props="{&quot;css-class&quot;:&quot;js-lineups hidden&quot;}" onclick="this.querySelector('a').click()">
+            <a itemprop="item" class="pk-d--flex pk-align-items--center js-menu-item js-tracking-link"
+              href="/uefachampionsleague/match/2015227--juventus-vs-barcelona/lineups/" data-pagemeta="{&quot;pageName&quot;:&quot;/uefachampionsleague/match/2015227--juventus-vs-barcelona/lineups/&quot;,&quot;pageType&quot;:&quot;lineups&quot;,&quot;pageSubType&quot;:&quot;current season&quot;,&quot;contentSection2&quot;:&quot;matches&quot;,&quot;contentSection3&quot;:&quot;2015227--juventus-vs-barcelona&quot;}" target="lineups">
+Alineaciones            </a>
+          </pk-tab>
+          <pk-tab tab-id="sl" class=" with-custom-props js-squadlist hidden"
+            data-custom-props="{&quot;css-class&quot;:&quot;js-squadlist hidden&quot;}" onclick="this.querySelector('a').click()">
+            <a itemprop="item" class="pk-d--flex pk-align-items--center js-menu-item js-tracking-link"
+              href="/uefachampionsleague/match/2015227--juventus-vs-barcelona/lineups/" data-pagemeta="{&quot;pageName&quot;:&quot;/uefachampionsleague/match/2015227--juventus-vs-barcelona/lineups/&quot;,&quot;pageType&quot;:&quot;lineups&quot;,&quot;pageSubType&quot;:&quot;current season&quot;,&quot;contentSection2&quot;:&quot;matches&quot;,&quot;contentSection3&quot;:&quot;2015227--juventus-vs-barcelona&quot;}" target="squadlists">
+Plantillas            </a>
+          </pk-tab>
+          <pk-tab tab-id="co" class=""
+            data-custom-props="null" onclick="this.querySelector('a').click()">
+            <a itemprop="item" class="pk-d--flex pk-align-items--center js-menu-item js-tracking-link"
+              href="/uefachampionsleague/match/2015227--juventus-vs-barcelona/events/" data-pagemeta="{&quot;pageName&quot;:&quot;/uefachampionsleague/match/2015227--juventus-vs-barcelona/&quot;,&quot;pageType&quot;:&quot;match commentary&quot;,&quot;pageSubType&quot;:&quot;history&quot;,&quot;contentSection2&quot;:&quot;history&quot;,&quot;contentSection3&quot;:&quot;2015227--juventus-vs-barcelona&quot;}" target="history.match.events">
+Novedades            </a>
+          </pk-tab>
+          <pk-tab tab-id="mi" class=""
+            data-custom-props="null" onclick="this.querySelector('a').click()">
+            <a itemprop="item" class="pk-d--flex pk-align-items--center js-menu-item js-tracking-link"
+              href="/uefachampionsleague/match/2015227--juventus-vs-barcelona/matchinfo/" data-pagemeta="{&quot;pageName&quot;:&quot;/uefachampionsleague/match/2015227--juventus-vs-barcelona/matchinfo/&quot;,&quot;pageType&quot;:&quot;matchinfo&quot;,&quot;pageSubType&quot;:&quot;current season&quot;,&quot;contentSection2&quot;:&quot;matches&quot;,&quot;contentSection3&quot;:&quot;2015227--juventus-vs-barcelona&quot;}" target="matchinfo">
+Información del partido            </a>
+          </pk-tab>
+  </pk-tabs>
+</div>
+
+
+
+  </div>
+</div>
+
+</div>
+
+
+
+
+
+  <div class="pk-col pk-col--span-00-4 pk-col--span-ss-4 pk-col--span-xs-4 pk-col--span-sm-8 pk-col--span-md-12 pk-col--span-lg-12 pk-pt--s pk-pt-md--l pk-pb--0" id="match-banner">
+    <div class="pk-col--content">
+      
+
+
+
+
+<div id="div-gpt-ad-448ec420844a740ba992bd67199474d3088b2933e2b587b97777f939847449fa" class="js-gpt-banner promoLibrary leaderboard"
+  data-options="{&quot;width&quot;:0,&quot;height&quot;:0,&quot;type&quot;:&quot;leaderboard&quot;,&quot;position&quot;:&quot;top&quot;,&quot;adPath&quot;:&quot;/5874/ucl.spanish/matchcentre&quot;,&quot;countryTargeting&quot;:false,&quot;competitionBanner&quot;:&quot;ucl&quot;}">
+</div>
+<!--End ad tag-->
+    </div>
+  </div>
+
+
+
+
+
+  <pk-bottom-panel class="pk-bottom-panel pk-theme--light promo-app-notification-panel d3-plugin" 
+  data-plugin="pk-bottom-panel" size="medium" data-force-inview="true" data-options="{&quot;openingTime&quot;:2147483647,&quot;trackingEventLabel&quot;:&quot;app download&quot;}">
+    
+
+
+
+
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/common/promo-panel.css?_t=bfd760ed606b41f7f4e90e52f5985d71" ></div>
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/common/promo-generic-app-panel.css?_t=8da6e7e839f135a4fa860dd8f949801b" ></div>
+
+<div data-plugin=promo-app-download data-options={&quot;btnUrl&quot;:&quot;https://championsleagueapp.page.link/x9tS&quot;} class="generic-promo-panel  generic-promo-panel-layout d3-plugin">
+  <div class="generic-promo-panel__text">
+
+      <div class="app-icon"></div>
+
+      <span class="generic-promo-panel__text--title">
+        ¿Quieres alertas de goles y de alineaciones oficiales? ¡Consigue la aplicación ahora!
+      </span>
+  </div>
+
+
+
+
+    <div class="actions-wrapper">
+
+<pk-button class="pk-button download-app js-tracking-link"
+  appearance="contained" disabled="false"
+  form-id="" link-target="_blank"
+  link-href="https://championsleagueapp.page.link/x9tS"
+  type="button" slot=cta
+  width="" data-tracking="{&quot;more&quot;:{&quot;interaction&quot;:&quot;Dialog - Main action&quot;}}"
+  high-contrast="false" >
+  <span class="pk-button__label">Consigue la app</span>
+</pk-button>
+
+<pk-button class="pk-button no-download-app "
+  appearance="outlined" disabled="false"
+  link-href=""
+  type="button" slot=nodownload
+  width="" data-tracking=""
+  high-contrast="false" >
+  <span class="pk-button__label">Ahora no</span>
+</pk-button>
+    </div>
+</div>
+
+
+  </pk-bottom-panel>
+
+      </div>
+      <!-- Main content -->
+      <div id="matchpage-content" class="content">
+        
+
+
+<div class="two-cols-layout pk-column-gap--xl">
+  <div class="first-column">
+    
+
+
+
+  <div role="region" class="pk-container pflazyload pflazy-bg pk-pt--0 pk-px-md--0">
+    
+
+
+
+
+  <div class="pk-col pk-col--span-00-4 pk-col--span-ss-4 pk-col--span-xs-4 pk-col--span-sm-8 pk-col--span-md-12 pk-col--span-lg-12 match-page-overview-wrap match-page-overview-wrap--report pk-m--0">
+    <div class="pk-col--content">
+      
+
+
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/editorial/cards-list.css?_t=1afc0fb831c396ad7fb9fb67649d4537" ></div>
+
+
+<div
+  class="common-card d3-plugin adaptive-card"
+  data-plugin="pk-adaptive-cards" data-options="{&quot;isContentOver&quot;:true}">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;El dominio del Bar\u00E7a se extiende a Europa&quot;,&quot;id&quot;:&quot;0252-0cd2c6f59206-5da9b1b51cab-1000&quot;,&quot;category&quot;:&quot;Cat&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0252-0cd2c6f59206-5da9b1b51cab-1000--el-dominio-del-barca-se-extiende-a-europa/" target="_self" title="El dominio del Bar&#xE7;a se extiende a Europa">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="horizontal"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="El dominio del Bar&#231;a se extiende a Europa" title="El dominio del Bar&#231;a se extiende a Europa" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+
+      <h3 class="article--title">
+        El dominio del Bar&#xE7;a se extiende a Europa
+      </h3>
+
+
+        <div class="article_body">
+        </div>
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+</div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="pk-col pk-col--span-00-4 pk-col--span-ss-4 pk-col--span-xs-4 pk-col--span-sm-8 pk-col--span-md-12 pk-col--span-lg-12 match-page-overview-wrap match-page-overview-wrap--matchfacts pk-m--0">
+      <header class="pk-col--header section--title">
+<h2 class=" ">Eventos del partido</h2>      </header>
+    <div class="pk-col--content pk-pb--m">
+      
+
+
+
+
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/matches/match-timeline-preload.css?_t=a2d7daa9b7cb18745b314ee842590302" ></div>
+
+
+  <div class="d3-react match-timeline pk-d--flex pk-justify-content--center pk-pb--m pk-pb-sm--0" data-name="match-timeline" data-options="{&quot;interval&quot;:-1,&quot;match&quot;:{&quot;status&quot;:&quot;Finished&quot;,&quot;kickOffTime&quot;:{&quot;date&quot;:&quot;2015-06-06T00:00:00&quot;,&quot;dateTime&quot;:&quot;2015-06-06T18:45:00&#x2B;00:00&quot;,&quot;utcOffsetInHours&quot;:2},&quot;fullTimeAt&quot;:&quot;2015-06-06T20:42:59.8&#x2B;00:00&quot;,&quot;id&quot;:&quot;2015227&quot;},&quot;includeVarEvents&quot;:false}" data-force-inview="false">
+<pk-spinner class="match-timeline__spinner"></pk-spinner>  </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="pk-col pk-col--span-00-4 pk-col--span-ss-4 pk-col--span-xs-4 pk-col--span-sm-8 pk-col--span-md-12 pk-col--span-lg-12 match-page-overview-wrap match-page-overview-wrap--stats pk-m--0">
+      <header class="pk-col--header ">
+<h2 class=" ">Estadísticas</h2>      </header>
+    <div class="pk-col--content">
+      
+
+
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/statistics/statistics-module.css?_t=193fb531fd945afa31a8513e6ec81462" ></div>
+<div class="stats-module stats-module--full-width pk-my--m">
+  <h3 class="stats-module__title pk-mb--m">
+    Actuaci&#xF3;n
+  </h3>
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=circular-comparison class="js-live-stat"
+      data-stat-type="ball_possession" label="Posesi&#xF3;n (%)"
+      data="39"
+      track-area-color="ui-02"
+      second-data="61"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=circular-comparison class="js-live-stat"
+      data-stat-type="passes_accuracy" label="Precisi&#xF3;n en el pase (%)"
+      data="83"
+      track-area-color="ui-02"
+      second-data="89"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="passes_attempted" label="Pases realizados"
+      data="343"
+      track-area-color="elevation-01"
+      second-data="570"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="passes_completed" label="Pases completados"
+      data="286"
+      track-area-color="elevation-01"
+      second-data="505"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="distance_covered" label="Distancia recorrida (km)"
+      data="114,25"
+      track-area-color="elevation-01"
+      second-data="111,99"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/statistics/statistics-module.css?_t=193fb531fd945afa31a8513e6ec81462" ></div>
+<div class="stats-module stats-module--full-width pk-my--m">
+  <h3 class="stats-module__title pk-mb--m">
+    Ataque
+  </h3>
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="goals" label="Goles"
+      data="1"
+      track-area-color="elevation-01"
+      second-data="3"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="attempts" label="Disparos totales"
+      data="14"
+      track-area-color="elevation-01"
+      second-data="18"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="attempts_on_target" label="Disparos a puerta"
+      data="6"
+      track-area-color="elevation-01"
+      second-data="8"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="attempts_off_target" label="Disparos fuera"
+      data="6"
+      track-area-color="elevation-01"
+      second-data="10"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="attempts_blocked" label="Bloqueados"
+      data="2"
+      track-area-color="elevation-01"
+      second-data="0"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="corners" label="Saques de esquina sacados"
+      data="8"
+      track-area-color="elevation-01"
+      second-data="6"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="offsides" label="Fueras de juego"
+      data="1"
+      track-area-color="elevation-01"
+      second-data="0"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/statistics/statistics-module.css?_t=193fb531fd945afa31a8513e6ec81462" ></div>
+<div class="stats-module stats-module--full-width pk-my--m">
+  <h3 class="stats-module__title pk-mb--m">
+    Defensa
+  </h3>
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="recovered_ball" label="Balones recuperados"
+      data="28"
+      track-area-color="elevation-01"
+      second-data="39"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="tackles" label="Duelos"
+      data="10"
+      track-area-color="elevation-01"
+      second-data="4"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="blocked" label="Disparos bloqueados"
+      data="0"
+      track-area-color="elevation-01"
+      second-data="2"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="clearance_completed" label="Despejes completados"
+      data="11"
+      track-area-color="elevation-01"
+      second-data="15"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+</div>
+
+
+
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/statistics/statistics-module.css?_t=193fb531fd945afa31a8513e6ec81462" ></div>
+<div class="stats-module stats-module--full-width pk-my--m">
+  <h3 class="stats-module__title pk-mb--m">
+    Amonestaciones
+  </h3>
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="yellow_cards" label="Tarjetas amarillas"
+      data="2"
+      track-area-color="elevation-01"
+      second-data="1"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="red_cards" label="Tarjetas rojas"
+      data="0"
+      track-area-color="elevation-01"
+      second-data="0"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="stats-module__single-stat stats-module__single-stat--comparison">
+      <pk-list-stat-item type=comparison class="js-live-stat"
+      data-stat-type="fouls_committed" label="Faltas cometidas"
+      data="24"
+      track-area-color="elevation-01"
+      second-data="12"></pk-list-stat-item>
+    </div>
+
+
+
+
+
+
+</div>
+
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="pk-col pk-col--span-00-4 pk-col--span-ss-4 pk-col--span-xs-4 pk-col--span-sm-8 pk-col--span-md-12 pk-col--span-lg-12 match-page-overview-wrap match-page-overview-wrap--articles pk-m--0">
+    <div class="pk-col--content">
+      
+
+
+
+<div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/common/carousel-preload.css?_t=2af541d20270ffc4067ecca4e9a8b40b" ></div><div class="hidden d3-stylesheet" data-href="/CompiledAssets/UefaCom/css/modules/editorial/editorial-carousel.css?_t=485713ba081c2b4210338707436ac2b8" ></div>
+<div class="editorial-carousel editorial-list clearfix">
+
+  <pk-carousel static-first-slide="false" breakpoints="{&quot;0&quot;:{&quot;slidesPerView&quot;:&quot;auto&quot;,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:16},&quot;440&quot;:{&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:16},&quot;768&quot;:{&quot;slidesPerGroup&quot;:2,&quot;spaceBetween&quot;:16},&quot;960&quot;:{&quot;slidesPerGroup&quot;:2,&quot;spaceBetween&quot;:32},&quot;1200&quot;:{&quot;slidesPerGroup&quot;:2,&quot;spaceBetween&quot;:32},&quot;1440&quot;:{&quot;slidesPerGroup&quot;:2,&quot;spaceBetween&quot;:32}}" class="pk-carousel d3-plugin js-tracking-container" data-plugin="pk-carousel" data-options="{&quot;desktopCardFormat&quot;:&quot;&quot;,&quot;mobileCardFormat&quot;:&quot;wide&quot;,&quot;cardFormat&quot;:&quot;wide&quot;,&quot;category&quot;:&quot;swipe&quot;,&quot;more&quot;:{&quot;interaction&quot;:null}}"
+    style="&#xA;    --carousel-slides:1.2;&#xA;    --carousel-slides--phone:1.4;&#xA;    --carousel-slides--tablet:2.4;&#xA;    --carousel-slides--desktop:2.4;&#xA;    --carousel-slides--desktop-lg:2.4;&#xA;    --carousel-slides--desktop-xl:2.4;" data-tracking-container="">
+        <div slot="headline" role="heading" aria-level="2">
+          Noticias relacionadas
+        </div>
+
+
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Alves seguir\u00E1 dos a\u00F1os m\u00E1s en el Barcelona&quot;,&quot;id&quot;:&quot;0250-0c510e3d2b65-5ed1a61c1981-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0250-0c510e3d2b65-5ed1a61c1981-1000--alves-seguira-dos-anos-mas-en-el-barcelona/" target="_self" title="Alves seguir&#xE1; dos a&#xF1;os m&#xE1;s en el Barcelona">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0250-0c510e3d3009-c8c4555b495a-1000/format/wide1/2254937_w1.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0250-0c510e3d3009-c8c4555b495a-1000/format/wide1/2254937_w1.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0250-0c510e3d3009-c8c4555b495a-1000/format/wide1/2254937_w1.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0250-0c510e3d3009-c8c4555b495a-1000/format/wide1/2254937_w1.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0250-0c510e3d3009-c8c4555b495a-1000/format/wide1/2254937_w1.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0250-0c510e3d3009-c8c4555b495a-1000/format/wide1/2254937_w1.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0250-0c510e3d3009-c8c4555b495a-1000/format/wide1/2254937_w1.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0250-0c510e3d3009-c8c4555b495a-1000/format/wide1/2254937_w1.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0250-0c510e3d3009-c8c4555b495a-1000/format/wide1/2254937_w1.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Alves seguir&#225; dos a&#241;os m&#225;s en el Barcelona" title="Alves seguir&#225; dos a&#241;os m&#225;s en el Barcelona" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0250-0c510e3d3009-c8c4555b495a-1000/format/wide1/2254937_w1.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="9/6/2015 10:10:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-09T10:10:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      09/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Alves seguir&#xE1; dos a&#xF1;os m&#xE1;s en el Barcelona
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;\u0022El Bar\u00E7a es el mejor equipo del mundo\u0022&quot;,&quot;id&quot;:&quot;0222-0e910ef105aa-3ff9af991497-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e910ef105aa-3ff9af991497-1000--el-barca-es-el-mejor-equipo-del-mundo/" target="_self" title="&quot;El Bar&#xE7;a es el mejor equipo del mundo&quot;">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0253-0e910ef11ee6-562291cbd008-1000/format/wide1/gianluigi_buffon_juventus_.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0253-0e910ef11ee6-562291cbd008-1000/format/wide1/gianluigi_buffon_juventus_.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0253-0e910ef11ee6-562291cbd008-1000/format/wide1/gianluigi_buffon_juventus_.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0253-0e910ef11ee6-562291cbd008-1000/format/wide1/gianluigi_buffon_juventus_.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0253-0e910ef11ee6-562291cbd008-1000/format/wide1/gianluigi_buffon_juventus_.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0253-0e910ef11ee6-562291cbd008-1000/format/wide1/gianluigi_buffon_juventus_.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0253-0e910ef11ee6-562291cbd008-1000/format/wide1/gianluigi_buffon_juventus_.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0253-0e910ef11ee6-562291cbd008-1000/format/wide1/gianluigi_buffon_juventus_.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0253-0e910ef11ee6-562291cbd008-1000/format/wide1/gianluigi_buffon_juventus_.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="&quot;El Bar&#231;a es el mejor equipo del mundo&quot;" title="&quot;El Bar&#231;a es el mejor equipo del mundo&quot;" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0253-0e910ef11ee6-562291cbd008-1000/format/wide1/gianluigi_buffon_juventus_.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="6/6/2015 23:38:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-06T23:38:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      06/06/2015
+    </span>
+
+      <h3 class="article--title">
+        &quot;El Bar&#xE7;a es el mejor equipo del mundo&quot;
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;\u0022Quiero felicitar a todo el equipo\u0022&quot;,&quot;id&quot;:&quot;0253-0d7ff48940f7-42e54c10c793-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0253-0d7ff48940f7-42e54c10c793-1000--quiero-felicitar-a-todo-el-equipo/" target="_self" title="&quot;Quiero felicitar a todo el equipo&quot;">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0253-0d7ff48980f3-b727929bce43-1000/format/wide1/andres_iniesta_fc_barcelona_.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0253-0d7ff48980f3-b727929bce43-1000/format/wide1/andres_iniesta_fc_barcelona_.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0253-0d7ff48980f3-b727929bce43-1000/format/wide1/andres_iniesta_fc_barcelona_.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0253-0d7ff48980f3-b727929bce43-1000/format/wide1/andres_iniesta_fc_barcelona_.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0253-0d7ff48980f3-b727929bce43-1000/format/wide1/andres_iniesta_fc_barcelona_.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0253-0d7ff48980f3-b727929bce43-1000/format/wide1/andres_iniesta_fc_barcelona_.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0253-0d7ff48980f3-b727929bce43-1000/format/wide1/andres_iniesta_fc_barcelona_.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0253-0d7ff48980f3-b727929bce43-1000/format/wide1/andres_iniesta_fc_barcelona_.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0253-0d7ff48980f3-b727929bce43-1000/format/wide1/andres_iniesta_fc_barcelona_.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="&quot;Quiero felicitar a todo el equipo&quot;" title="&quot;Quiero felicitar a todo el equipo&quot;" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0253-0d7ff48980f3-b727929bce43-1000/format/wide1/andres_iniesta_fc_barcelona_.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="6/6/2015 22:48:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-06T22:48:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      06/06/2015
+    </span>
+
+      <h3 class="article--title">
+        &quot;Quiero felicitar a todo el equipo&quot;
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Lichtsteiner lamenta la ocasi\u00F3n perdida&quot;,&quot;id&quot;:&quot;0222-0e9b6db3dc3f-56f6261a65e0-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e9b6db3dc3f-56f6261a65e0-1000--lichtsteiner-lamenta-la-ocasion-perdida/" target="_self" title="Lichtsteiner lamenta la ocasi&#xF3;n perdida">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0222-0e9b6db3cdda-80e77337ca9f-1000/format/wide1/juventus_defender_stefan_lichtsteiner_talks_to_uefa.com.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0222-0e9b6db3cdda-80e77337ca9f-1000/format/wide1/juventus_defender_stefan_lichtsteiner_talks_to_uefa.com.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0222-0e9b6db3cdda-80e77337ca9f-1000/format/wide1/juventus_defender_stefan_lichtsteiner_talks_to_uefa.com.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0222-0e9b6db3cdda-80e77337ca9f-1000/format/wide1/juventus_defender_stefan_lichtsteiner_talks_to_uefa.com.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0222-0e9b6db3cdda-80e77337ca9f-1000/format/wide1/juventus_defender_stefan_lichtsteiner_talks_to_uefa.com.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0222-0e9b6db3cdda-80e77337ca9f-1000/format/wide1/juventus_defender_stefan_lichtsteiner_talks_to_uefa.com.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0222-0e9b6db3cdda-80e77337ca9f-1000/format/wide1/juventus_defender_stefan_lichtsteiner_talks_to_uefa.com.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0222-0e9b6db3cdda-80e77337ca9f-1000/format/wide1/juventus_defender_stefan_lichtsteiner_talks_to_uefa.com.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0222-0e9b6db3cdda-80e77337ca9f-1000/format/wide1/juventus_defender_stefan_lichtsteiner_talks_to_uefa.com.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Lichtsteiner lamenta la ocasi&#243;n perdida" title="Lichtsteiner lamenta la ocasi&#243;n perdida" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0222-0e9b6db3cdda-80e77337ca9f-1000/format/wide1/juventus_defender_stefan_lichtsteiner_talks_to_uefa.com.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="6/6/2015 21:43:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-06T21:43:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      06/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Lichtsteiner lamenta la ocasi&#xF3;n perdida
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;\u0022Estos jugadores no se cansan de ganar\u0022&quot;,&quot;id&quot;:&quot;0250-0c510e4775dd-664685fab6ba-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0250-0c510e4775dd-664685fab6ba-1000--estos-jugadores-no-se-cansan-de-ganar/" target="_self" title="&quot;Estos jugadores no se cansan de ganar&quot;">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0250-0c510e477406-fe6fa2391fbb-1000/format/wide1/luis_enrique_enjoys_his_moment_of_triumph.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0250-0c510e477406-fe6fa2391fbb-1000/format/wide1/luis_enrique_enjoys_his_moment_of_triumph.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0250-0c510e477406-fe6fa2391fbb-1000/format/wide1/luis_enrique_enjoys_his_moment_of_triumph.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0250-0c510e477406-fe6fa2391fbb-1000/format/wide1/luis_enrique_enjoys_his_moment_of_triumph.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0250-0c510e477406-fe6fa2391fbb-1000/format/wide1/luis_enrique_enjoys_his_moment_of_triumph.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0250-0c510e477406-fe6fa2391fbb-1000/format/wide1/luis_enrique_enjoys_his_moment_of_triumph.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0250-0c510e477406-fe6fa2391fbb-1000/format/wide1/luis_enrique_enjoys_his_moment_of_triumph.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0250-0c510e477406-fe6fa2391fbb-1000/format/wide1/luis_enrique_enjoys_his_moment_of_triumph.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0250-0c510e477406-fe6fa2391fbb-1000/format/wide1/luis_enrique_enjoys_his_moment_of_triumph.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="&quot;Estos jugadores no se cansan de ganar&quot;" title="&quot;Estos jugadores no se cansan de ganar&quot;" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0250-0c510e477406-fe6fa2391fbb-1000/format/wide1/luis_enrique_enjoys_his_moment_of_triumph.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="6/6/2015 21:12:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-06T21:12:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      06/06/2015
+    </span>
+
+      <h3 class="article--title">
+        &quot;Estos jugadores no se cansan de ganar&quot;
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Espa\u00F1a ampl\u00EDa su ventaja&quot;,&quot;id&quot;:&quot;0222-0e910ddcb30b-4a44cfeab81b-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e910ddcb30b-4a44cfeab81b-1000--espana-amplia-su-ventaja/" target="_self" title="Espa&#xF1;a ampl&#xED;a su ventaja">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0222-0e910ddc5184-c0b1ef4e2671-1000/format/wide1/lionel_messi_xavi_hernandez_fc_barcelona_.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0222-0e910ddc5184-c0b1ef4e2671-1000/format/wide1/lionel_messi_xavi_hernandez_fc_barcelona_.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0222-0e910ddc5184-c0b1ef4e2671-1000/format/wide1/lionel_messi_xavi_hernandez_fc_barcelona_.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0222-0e910ddc5184-c0b1ef4e2671-1000/format/wide1/lionel_messi_xavi_hernandez_fc_barcelona_.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0222-0e910ddc5184-c0b1ef4e2671-1000/format/wide1/lionel_messi_xavi_hernandez_fc_barcelona_.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0222-0e910ddc5184-c0b1ef4e2671-1000/format/wide1/lionel_messi_xavi_hernandez_fc_barcelona_.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0222-0e910ddc5184-c0b1ef4e2671-1000/format/wide1/lionel_messi_xavi_hernandez_fc_barcelona_.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0222-0e910ddc5184-c0b1ef4e2671-1000/format/wide1/lionel_messi_xavi_hernandez_fc_barcelona_.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0222-0e910ddc5184-c0b1ef4e2671-1000/format/wide1/lionel_messi_xavi_hernandez_fc_barcelona_.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Espa&#241;a ampl&#237;a su ventaja" title="Espa&#241;a ampl&#237;a su ventaja" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0222-0e910ddc5184-c0b1ef4e2671-1000/format/wide1/lionel_messi_xavi_hernandez_fc_barcelona_.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="6/6/2015 20:49:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-06T20:49:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      06/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Espa&#xF1;a ampl&#xED;a su ventaja
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Quinto t\u00EDtulo para el Bar\u00E7a&quot;,&quot;id&quot;:&quot;0252-0cd2c6f59205-b21a946071a8-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0252-0cd2c6f59205-b21a946071a8-1000--quinto-titulo-para-el-barca/" target="_self" title="Quinto t&#xED;tulo para el Bar&#xE7;a">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0252-0cdc628e042e-3883f4b2b9cc-1000/format/wide1/fc_barcelona_players_celebrate.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0252-0cdc628e042e-3883f4b2b9cc-1000/format/wide1/fc_barcelona_players_celebrate.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0252-0cdc628e042e-3883f4b2b9cc-1000/format/wide1/fc_barcelona_players_celebrate.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0252-0cdc628e042e-3883f4b2b9cc-1000/format/wide1/fc_barcelona_players_celebrate.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0252-0cdc628e042e-3883f4b2b9cc-1000/format/wide1/fc_barcelona_players_celebrate.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0252-0cdc628e042e-3883f4b2b9cc-1000/format/wide1/fc_barcelona_players_celebrate.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0252-0cdc628e042e-3883f4b2b9cc-1000/format/wide1/fc_barcelona_players_celebrate.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0252-0cdc628e042e-3883f4b2b9cc-1000/format/wide1/fc_barcelona_players_celebrate.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0252-0cdc628e042e-3883f4b2b9cc-1000/format/wide1/fc_barcelona_players_celebrate.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Quinto t&#237;tulo para el Bar&#231;a" title="Quinto t&#237;tulo para el Bar&#231;a" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0252-0cdc628e042e-3883f4b2b9cc-1000/format/wide1/fc_barcelona_players_celebrate.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="6/6/2015 20:25:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-06T20:25:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      06/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Quinto t&#xED;tulo para el Bar&#xE7;a
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;El dominio del Bar\u00E7a se extiende a Europa&quot;,&quot;id&quot;:&quot;0252-0cd2c6f59206-5da9b1b51cab-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0252-0cd2c6f59206-5da9b1b51cab-1000--el-dominio-del-barca-se-extiende-a-europa/" target="_self" title="El dominio del Bar&#xE7;a se extiende a Europa">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="El dominio del Bar&#231;a se extiende a Europa" title="El dominio del Bar&#231;a se extiende a Europa" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0295-1cee52418b16-9e92bcb77b11-1000/format/wide1/barcelona_savour_their_final_victory_in_berlin.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="6/6/2015 19:30:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-06T19:30:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      06/06/2015
+    </span>
+
+      <h3 class="article--title">
+        El dominio del Bar&#xE7;a se extiende a Europa
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Previa: Juventus - Barcelona&quot;,&quot;id&quot;:&quot;0222-0e910bf0ecf3-32f95d46023b-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e910bf0ecf3-32f95d46023b-1000--previa-juventus-barcelona/" target="_self" title="Previa: Juventus - Barcelona">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0222-0e910bf0e340-ac8f35613425-1000/format/wide1/olympiastadion_in_berlin.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0222-0e910bf0e340-ac8f35613425-1000/format/wide1/olympiastadion_in_berlin.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0222-0e910bf0e340-ac8f35613425-1000/format/wide1/olympiastadion_in_berlin.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0222-0e910bf0e340-ac8f35613425-1000/format/wide1/olympiastadion_in_berlin.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0222-0e910bf0e340-ac8f35613425-1000/format/wide1/olympiastadion_in_berlin.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0222-0e910bf0e340-ac8f35613425-1000/format/wide1/olympiastadion_in_berlin.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0222-0e910bf0e340-ac8f35613425-1000/format/wide1/olympiastadion_in_berlin.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0222-0e910bf0e340-ac8f35613425-1000/format/wide1/olympiastadion_in_berlin.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0222-0e910bf0e340-ac8f35613425-1000/format/wide1/olympiastadion_in_berlin.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Previa: Juventus - Barcelona" title="Previa: Juventus - Barcelona" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0222-0e910bf0e340-ac8f35613425-1000/format/wide1/olympiastadion_in_berlin.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="6/6/2015 10:45:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-06T10:45:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      06/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Previa: Juventus - Barcelona
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Juventus - Barcelona: predicciones de antiguos campeones&quot;,&quot;id&quot;:&quot;0222-0e910bb5ddb3-6eaaceadb78e-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e910bb5ddb3-6eaaceadb78e-1000--juventus-barcelona-predicciones-de-antiguos-campeones/" target="_self" title="Juventus - Barcelona: predicciones de antiguos campeones">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0222-0e910bb5dcbc-72b15a538d02-1000/format/wide1/eric_abidal_expects_lionel_messi_to_lead_barcelona_to_glory.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0222-0e910bb5dcbc-72b15a538d02-1000/format/wide1/eric_abidal_expects_lionel_messi_to_lead_barcelona_to_glory.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0222-0e910bb5dcbc-72b15a538d02-1000/format/wide1/eric_abidal_expects_lionel_messi_to_lead_barcelona_to_glory.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0222-0e910bb5dcbc-72b15a538d02-1000/format/wide1/eric_abidal_expects_lionel_messi_to_lead_barcelona_to_glory.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0222-0e910bb5dcbc-72b15a538d02-1000/format/wide1/eric_abidal_expects_lionel_messi_to_lead_barcelona_to_glory.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0222-0e910bb5dcbc-72b15a538d02-1000/format/wide1/eric_abidal_expects_lionel_messi_to_lead_barcelona_to_glory.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0222-0e910bb5dcbc-72b15a538d02-1000/format/wide1/eric_abidal_expects_lionel_messi_to_lead_barcelona_to_glory.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0222-0e910bb5dcbc-72b15a538d02-1000/format/wide1/eric_abidal_expects_lionel_messi_to_lead_barcelona_to_glory.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0222-0e910bb5dcbc-72b15a538d02-1000/format/wide1/eric_abidal_expects_lionel_messi_to_lead_barcelona_to_glory.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Juventus - Barcelona: predicciones de antiguos campeones" title="Juventus - Barcelona: predicciones de antiguos campeones" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0222-0e910bb5dcbc-72b15a538d02-1000/format/wide1/eric_abidal_expects_lionel_messi_to_lead_barcelona_to_glory.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="6/6/2015 10:00:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-06T10:00:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      06/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Juventus - Barcelona: predicciones de antiguos campeones
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Festival de luces en Berl\u00EDn&quot;,&quot;id&quot;:&quot;0222-0e9b6cf72342-dcd07ce13407-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e9b6cf72342-dcd07ce13407-1000--festival-de-luces-en-berlin/" target="_self" title="Festival de luces en Berl&#xED;n">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0222-0e9b6cf7276b-c46692a959ff-1000/format/wide1/the_brandenburg_gate_lit_up_in_the_colours_of_barcelona.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0222-0e9b6cf7276b-c46692a959ff-1000/format/wide1/the_brandenburg_gate_lit_up_in_the_colours_of_barcelona.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0222-0e9b6cf7276b-c46692a959ff-1000/format/wide1/the_brandenburg_gate_lit_up_in_the_colours_of_barcelona.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0222-0e9b6cf7276b-c46692a959ff-1000/format/wide1/the_brandenburg_gate_lit_up_in_the_colours_of_barcelona.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0222-0e9b6cf7276b-c46692a959ff-1000/format/wide1/the_brandenburg_gate_lit_up_in_the_colours_of_barcelona.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0222-0e9b6cf7276b-c46692a959ff-1000/format/wide1/the_brandenburg_gate_lit_up_in_the_colours_of_barcelona.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0222-0e9b6cf7276b-c46692a959ff-1000/format/wide1/the_brandenburg_gate_lit_up_in_the_colours_of_barcelona.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0222-0e9b6cf7276b-c46692a959ff-1000/format/wide1/the_brandenburg_gate_lit_up_in_the_colours_of_barcelona.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0222-0e9b6cf7276b-c46692a959ff-1000/format/wide1/the_brandenburg_gate_lit_up_in_the_colours_of_barcelona.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Festival de luces en Berl&#237;n" title="Festival de luces en Berl&#237;n" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0222-0e9b6cf7276b-c46692a959ff-1000/format/wide1/the_brandenburg_gate_lit_up_in_the_colours_of_barcelona.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="5/6/2015 20:00:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-05T20:00:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      05/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Festival de luces en Berl&#xED;n
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Amor de aficionado&quot;,&quot;id&quot;:&quot;0222-0e9109eb03df-0a160e831079-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e9109eb03df-0a160e831079-1000--amor-de-aficionado/" target="_self" title="Amor de aficionado">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0222-0e9109eb0e78-3b3cec7b6085-1000/format/wide1/nicolo_de_marchi.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0222-0e9109eb0e78-3b3cec7b6085-1000/format/wide1/nicolo_de_marchi.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0222-0e9109eb0e78-3b3cec7b6085-1000/format/wide1/nicolo_de_marchi.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0222-0e9109eb0e78-3b3cec7b6085-1000/format/wide1/nicolo_de_marchi.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0222-0e9109eb0e78-3b3cec7b6085-1000/format/wide1/nicolo_de_marchi.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0222-0e9109eb0e78-3b3cec7b6085-1000/format/wide1/nicolo_de_marchi.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0222-0e9109eb0e78-3b3cec7b6085-1000/format/wide1/nicolo_de_marchi.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0222-0e9109eb0e78-3b3cec7b6085-1000/format/wide1/nicolo_de_marchi.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0222-0e9109eb0e78-3b3cec7b6085-1000/format/wide1/nicolo_de_marchi.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Amor de aficionado" title="Amor de aficionado" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0222-0e9109eb0e78-3b3cec7b6085-1000/format/wide1/nicolo_de_marchi.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="5/6/2015 17:29:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-05T17:29:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      05/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Amor de aficionado
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Piqu\u00E9 y Neymar analizan la final&quot;,&quot;id&quot;:&quot;0222-0e9b6c385320-95fbeb36762f-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e9b6c385320-95fbeb36762f-1000--pique-y-neymar-analizan-la-final/" target="_self" title="Piqu&#xE9; y Neymar analizan la final">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0222-0e9b6c385118-ce5be2f57c62-1000/format/wide1/barcelona_s_gerard_pique_speaks_to_the_media.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0222-0e9b6c385118-ce5be2f57c62-1000/format/wide1/barcelona_s_gerard_pique_speaks_to_the_media.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0222-0e9b6c385118-ce5be2f57c62-1000/format/wide1/barcelona_s_gerard_pique_speaks_to_the_media.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0222-0e9b6c385118-ce5be2f57c62-1000/format/wide1/barcelona_s_gerard_pique_speaks_to_the_media.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0222-0e9b6c385118-ce5be2f57c62-1000/format/wide1/barcelona_s_gerard_pique_speaks_to_the_media.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0222-0e9b6c385118-ce5be2f57c62-1000/format/wide1/barcelona_s_gerard_pique_speaks_to_the_media.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0222-0e9b6c385118-ce5be2f57c62-1000/format/wide1/barcelona_s_gerard_pique_speaks_to_the_media.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0222-0e9b6c385118-ce5be2f57c62-1000/format/wide1/barcelona_s_gerard_pique_speaks_to_the_media.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0222-0e9b6c385118-ce5be2f57c62-1000/format/wide1/barcelona_s_gerard_pique_speaks_to_the_media.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Piqu&#233; y Neymar analizan la final" title="Piqu&#233; y Neymar analizan la final" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0222-0e9b6c385118-ce5be2f57c62-1000/format/wide1/barcelona_s_gerard_pique_speaks_to_the_media.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="5/6/2015 17:00:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-05T17:00:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      05/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Piqu&#xE9; y Neymar analizan la final
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Buffon y Bonucci, sobre la final&quot;,&quot;id&quot;:&quot;0222-0e9b6b773c9f-25468056bd08-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e9b6b773c9f-25468056bd08-1000--buffon-y-bonucci-sobre-la-final/" target="_self" title="Buffon y Bonucci, sobre la final">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0222-0e9b6b773b97-9c86c09ef08a-1000/format/wide1/gianluigi_buffon_left_and_leonardo_bonucci_at_the_pre-match_press_conference.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0222-0e9b6b773b97-9c86c09ef08a-1000/format/wide1/gianluigi_buffon_left_and_leonardo_bonucci_at_the_pre-match_press_conference.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0222-0e9b6b773b97-9c86c09ef08a-1000/format/wide1/gianluigi_buffon_left_and_leonardo_bonucci_at_the_pre-match_press_conference.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0222-0e9b6b773b97-9c86c09ef08a-1000/format/wide1/gianluigi_buffon_left_and_leonardo_bonucci_at_the_pre-match_press_conference.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0222-0e9b6b773b97-9c86c09ef08a-1000/format/wide1/gianluigi_buffon_left_and_leonardo_bonucci_at_the_pre-match_press_conference.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0222-0e9b6b773b97-9c86c09ef08a-1000/format/wide1/gianluigi_buffon_left_and_leonardo_bonucci_at_the_pre-match_press_conference.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0222-0e9b6b773b97-9c86c09ef08a-1000/format/wide1/gianluigi_buffon_left_and_leonardo_bonucci_at_the_pre-match_press_conference.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0222-0e9b6b773b97-9c86c09ef08a-1000/format/wide1/gianluigi_buffon_left_and_leonardo_bonucci_at_the_pre-match_press_conference.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0222-0e9b6b773b97-9c86c09ef08a-1000/format/wide1/gianluigi_buffon_left_and_leonardo_bonucci_at_the_pre-match_press_conference.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Buffon y Bonucci, sobre la final" title="Buffon y Bonucci, sobre la final" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0222-0e9b6b773b97-9c86c09ef08a-1000/format/wide1/gianluigi_buffon_left_and_leonardo_bonucci_at_the_pre-match_press_conference.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="5/6/2015 15:45:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-05T15:45:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      05/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Buffon y Bonucci, sobre la final
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Una final, 11 pa\u00EDses&quot;,&quot;id&quot;:&quot;0222-0e9107e69793-c6752a25ca49-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e9107e69793-c6752a25ca49-1000--una-final-11-paises/" target="_self" title="Una final, 11 pa&#xED;ses">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0256-0e9107e6be3a-ca61836d1dc0-1000/format/wide1/claudio_bravo_arturo_vidal_chile_.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0256-0e9107e6be3a-ca61836d1dc0-1000/format/wide1/claudio_bravo_arturo_vidal_chile_.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0256-0e9107e6be3a-ca61836d1dc0-1000/format/wide1/claudio_bravo_arturo_vidal_chile_.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0256-0e9107e6be3a-ca61836d1dc0-1000/format/wide1/claudio_bravo_arturo_vidal_chile_.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0256-0e9107e6be3a-ca61836d1dc0-1000/format/wide1/claudio_bravo_arturo_vidal_chile_.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0256-0e9107e6be3a-ca61836d1dc0-1000/format/wide1/claudio_bravo_arturo_vidal_chile_.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0256-0e9107e6be3a-ca61836d1dc0-1000/format/wide1/claudio_bravo_arturo_vidal_chile_.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0256-0e9107e6be3a-ca61836d1dc0-1000/format/wide1/claudio_bravo_arturo_vidal_chile_.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0256-0e9107e6be3a-ca61836d1dc0-1000/format/wide1/claudio_bravo_arturo_vidal_chile_.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Una final, 11 pa&#237;ses" title="Una final, 11 pa&#237;ses" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0256-0e9107e6be3a-ca61836d1dc0-1000/format/wide1/claudio_bravo_arturo_vidal_chile_.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="5/6/2015 9:00:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-05T09:00:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      05/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Una final, 11 pa&#xED;ses
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Una final sin humos&quot;,&quot;id&quot;:&quot;0222-0e910797c857-dd4e133cc396-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e910797c857-dd4e133cc396-1000--una-final-sin-humos/" target="_self" title="Una final sin humos">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0222-0e910797c76d-d5edc614ba09-1000/format/wide1/olympiastadion_berlin.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0222-0e910797c76d-d5edc614ba09-1000/format/wide1/olympiastadion_berlin.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0222-0e910797c76d-d5edc614ba09-1000/format/wide1/olympiastadion_berlin.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0222-0e910797c76d-d5edc614ba09-1000/format/wide1/olympiastadion_berlin.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0222-0e910797c76d-d5edc614ba09-1000/format/wide1/olympiastadion_berlin.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0222-0e910797c76d-d5edc614ba09-1000/format/wide1/olympiastadion_berlin.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0222-0e910797c76d-d5edc614ba09-1000/format/wide1/olympiastadion_berlin.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0222-0e910797c76d-d5edc614ba09-1000/format/wide1/olympiastadion_berlin.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0222-0e910797c76d-d5edc614ba09-1000/format/wide1/olympiastadion_berlin.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Una final sin humos" title="Una final sin humos" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0222-0e910797c76d-d5edc614ba09-1000/format/wide1/olympiastadion_berlin.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="5/6/2015 8:24:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-05T08:24:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      05/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Una final sin humos
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;\u0022Creo que voy a llorar\u0022&quot;,&quot;id&quot;:&quot;0222-0e9106dab4c6-be639c29fc9e-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e9106dab4c6-be639c29fc9e-1000--creo-que-voy-a-llorar/" target="_self" title="&quot;Creo que voy a llorar&quot;">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0222-0e9106dab440-ef49f9adec35-1000/format/wide1/ultimate_champions_pich.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0222-0e9106dab440-ef49f9adec35-1000/format/wide1/ultimate_champions_pich.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0222-0e9106dab440-ef49f9adec35-1000/format/wide1/ultimate_champions_pich.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0222-0e9106dab440-ef49f9adec35-1000/format/wide1/ultimate_champions_pich.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0222-0e9106dab440-ef49f9adec35-1000/format/wide1/ultimate_champions_pich.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0222-0e9106dab440-ef49f9adec35-1000/format/wide1/ultimate_champions_pich.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0222-0e9106dab440-ef49f9adec35-1000/format/wide1/ultimate_champions_pich.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0222-0e9106dab440-ef49f9adec35-1000/format/wide1/ultimate_champions_pich.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0222-0e9106dab440-ef49f9adec35-1000/format/wide1/ultimate_champions_pich.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="&quot;Creo que voy a llorar&quot;" title="&quot;Creo que voy a llorar&quot;" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0222-0e9106dab440-ef49f9adec35-1000/format/wide1/ultimate_champions_pich.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="4/6/2015 14:00:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-04T14:00:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      04/06/2015
+    </span>
+
+      <h3 class="article--title">
+        &quot;Creo que voy a llorar&quot;
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Consiga el programa de la final&quot;,&quot;id&quot;:&quot;0222-0e9105b8a106-d220da93b864-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e9105b8a106-d220da93b864-1000--consiga-el-programa-de-la-final/" target="_self" title="Consiga el programa de la final">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0222-0e9105b8a2fc-a1c58f1bf272-1000/format/wide1/uefa_champions_league_final_2015_official_programme.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0222-0e9105b8a2fc-a1c58f1bf272-1000/format/wide1/uefa_champions_league_final_2015_official_programme.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0222-0e9105b8a2fc-a1c58f1bf272-1000/format/wide1/uefa_champions_league_final_2015_official_programme.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0222-0e9105b8a2fc-a1c58f1bf272-1000/format/wide1/uefa_champions_league_final_2015_official_programme.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0222-0e9105b8a2fc-a1c58f1bf272-1000/format/wide1/uefa_champions_league_final_2015_official_programme.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0222-0e9105b8a2fc-a1c58f1bf272-1000/format/wide1/uefa_champions_league_final_2015_official_programme.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0222-0e9105b8a2fc-a1c58f1bf272-1000/format/wide1/uefa_champions_league_final_2015_official_programme.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0222-0e9105b8a2fc-a1c58f1bf272-1000/format/wide1/uefa_champions_league_final_2015_official_programme.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0222-0e9105b8a2fc-a1c58f1bf272-1000/format/wide1/uefa_champions_league_final_2015_official_programme.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Consiga el programa de la final" title="Consiga el programa de la final" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0222-0e9105b8a2fc-a1c58f1bf272-1000/format/wide1/uefa_champions_league_final_2015_official_programme.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="4/6/2015 9:45:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-04T09:45:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      04/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Consiga el programa de la final
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Juventus - Barcelona: la opini\u00F3n de los reporteros&quot;,&quot;id&quot;:&quot;0222-0e90f9e27f5e-d5b193213b84-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0222-0e90f9e27f5e-d5b193213b84-1000--juventus-barcelona-la-opinion-de-los-reporteros/" target="_self" title="Juventus - Barcelona: la opini&#xF3;n de los reporteros">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0253-0e90f9e27be6-071daf509db6-1000/format/wide1/gianluigi_buffon_is_delighted_as_juventus_edge_3-2_ahead_on_aggregate.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0253-0e90f9e27be6-071daf509db6-1000/format/wide1/gianluigi_buffon_is_delighted_as_juventus_edge_3-2_ahead_on_aggregate.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0253-0e90f9e27be6-071daf509db6-1000/format/wide1/gianluigi_buffon_is_delighted_as_juventus_edge_3-2_ahead_on_aggregate.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0253-0e90f9e27be6-071daf509db6-1000/format/wide1/gianluigi_buffon_is_delighted_as_juventus_edge_3-2_ahead_on_aggregate.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0253-0e90f9e27be6-071daf509db6-1000/format/wide1/gianluigi_buffon_is_delighted_as_juventus_edge_3-2_ahead_on_aggregate.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0253-0e90f9e27be6-071daf509db6-1000/format/wide1/gianluigi_buffon_is_delighted_as_juventus_edge_3-2_ahead_on_aggregate.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0253-0e90f9e27be6-071daf509db6-1000/format/wide1/gianluigi_buffon_is_delighted_as_juventus_edge_3-2_ahead_on_aggregate.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0253-0e90f9e27be6-071daf509db6-1000/format/wide1/gianluigi_buffon_is_delighted_as_juventus_edge_3-2_ahead_on_aggregate.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0253-0e90f9e27be6-071daf509db6-1000/format/wide1/gianluigi_buffon_is_delighted_as_juventus_edge_3-2_ahead_on_aggregate.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Juventus - Barcelona: la opini&#243;n de los reporteros" title="Juventus - Barcelona: la opini&#243;n de los reporteros" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0253-0e90f9e27be6-071daf509db6-1000/format/wide1/gianluigi_buffon_is_delighted_as_juventus_edge_3-2_ahead_on_aggregate.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="3/6/2015 6:25:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-06-03T06:25:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      03/06/2015
+    </span>
+
+      <h3 class="article--title">
+        Juventus - Barcelona: la opini&#xF3;n de los reporteros
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+        <div class="item swiper-slide wide-card " data-videoid="">
+
+
+  <div
+    class="card editorial-content   card-article js-tracking-card "
+    data-plugin="pk-card-sponsor" data-options="null"
+    data-event-label="" data-tracking="{&quot;name&quot;:&quot;Juve y Bar\u00E7a, sus precedentes en finales&quot;,&quot;id&quot;:&quot;0221-0e90f9e29026-70678f0287b2-1000&quot;,&quot;category&quot;:&quot;article card&quot;}">
+      <a class="card-content card-link" href="/uefachampionsleague/news/0221-0e90f9e29026-70678f0287b2-1000--juve-y-barca-sus-precedentes-en-finales/" target="_self" title="Juve y Bar&#xE7;a, sus precedentes en finales">
+
+
+
+  <pk-card role="article" elevation="false" stroke="true"
+    class="pk-card  pk-card--stroked  with-picture js-pk-card-sponsor"
+    content="default" orientation="portrait"
+  >
+    <div slot="heading">
+      <figure class="article--img-wrap">
+
+
+    <!-- cardFormat: Wide -->
+<div class="pflazyload-wrapper pflazyload-wrapper-sm-wide">
+<picture>
+<source media="(min-width: 0px)"  srcset="https://img.uefa.com/imgml/void.svg" data-srcset="https://editorial.uefa.com/resources/0221-0e90f9e27775-325ec05e9380-1000/format/wide1/celebration_fc_barcelona_.jpeg?imwidth=158 158w, https://editorial.uefa.com/resources/0221-0e90f9e27775-325ec05e9380-1000/format/wide1/celebration_fc_barcelona_.jpeg?imwidth=276 276w, https://editorial.uefa.com/resources/0221-0e90f9e27775-325ec05e9380-1000/format/wide1/celebration_fc_barcelona_.jpeg?imwidth=280 280w, https://editorial.uefa.com/resources/0221-0e90f9e27775-325ec05e9380-1000/format/wide1/celebration_fc_barcelona_.jpeg?imwidth=369 369w, https://editorial.uefa.com/resources/0221-0e90f9e27775-325ec05e9380-1000/format/wide1/celebration_fc_barcelona_.jpeg?imwidth=490 490w, https://editorial.uefa.com/resources/0221-0e90f9e27775-325ec05e9380-1000/format/wide1/celebration_fc_barcelona_.jpeg?imwidth=556 556w, https://editorial.uefa.com/resources/0221-0e90f9e27775-325ec05e9380-1000/format/wide1/celebration_fc_barcelona_.jpeg?imwidth=656 656w, https://editorial.uefa.com/resources/0221-0e90f9e27775-325ec05e9380-1000/format/wide1/celebration_fc_barcelona_.jpeg?imwidth=988 988w, https://editorial.uefa.com/resources/0221-0e90f9e27775-325ec05e9380-1000/format/wide1/celebration_fc_barcelona_.jpeg?imwidth=2048 2048w" data-format="w1" ><img alt="Juve y Bar&#231;a, sus precedentes en finales" title="Juve y Bar&#231;a, sus precedentes en finales" data-sizes="auto" loading="lazy"  src="https://img.uefa.com/imgml/void.svg" data-src="https://editorial.uefa.com/resources/0221-0e90f9e27775-325ec05e9380-1000/format/wide1/celebration_fc_barcelona_.jpeg?imwidth=158"  data-format="w1" data-fallback="https://img.uefa.com/imgml/uefacom/ucl/fallback.jpg" class="pflazyload lazyfade picture article--img img-responsive" >
+</picture>
+</div>
+      </figure>
+    </div>
+    <div slot="body" class="article--content">
+      <span class="live-indicator">Live</span>
+
+    <span title="31/5/2015 13:07:00 &#x2B;00:00" class="article--date d3-plugin pk-text--text-03" data-plugin="timeago"
+      data-options="{&quot;targetDate&quot;:&quot;2015-05-31T13:07:00&#x2B;00:00&quot;,&quot;dateFormat&quot;:&quot;DD/MM/YYYY&quot;,&quot;min&quot;:59,&quot;max&quot;:14}">
+      31/05/2015
+    </span>
+
+      <h3 class="article--title">
+        Juve y Bar&#xE7;a, sus precedentes en finales
+      </h3>
+
+
+
+
+    </div>
+  </pk-card>
+
+
+      </a>
+  </div>
+        </div>
+  </pk-carousel>
+</div>
+
+
+
+
+
+    </div>
+  </div>
+
+
+  </div>
+
+  </div>
+  <div class="second-column">
+    
+
+
+
+
+
+
+  <div class="d3-react match-info-column pk-theme--light" data-name="match-info-column" data-options="{&quot;matchOptions&quot;:{&quot;match&quot;:{&quot;status&quot;:&quot;Finished&quot;,&quot;kickOffTime&quot;:{&quot;date&quot;:&quot;2015-06-06T00:00:00&quot;,&quot;dateTime&quot;:&quot;2015-06-06T18:45:00&#x2B;00:00&quot;,&quot;utcOffsetInHours&quot;:2},&quot;fullTimeAt&quot;:&quot;2015-06-06T20:42:59.8&#x2B;00:00&quot;,&quot;id&quot;:&quot;2015227&quot;,&quot;competition&quot;:{&quot;id&quot;:&quot;1&quot;,&quot;region&quot;:&quot;Continental&quot;}}},&quot;lineupsBanner&quot;:&quot;exclusive_matchday&quot;,&quot;isFutsal&quot;:false,&quot;showMatchH2HCta&quot;:true,&quot;showPotm&quot;:true,&quot;potmStatTypes&quot;:{&quot;unknown&quot;:[&quot;minutes_played_official&quot;,&quot;goals&quot;,&quot;top_speed&quot;,&quot;distance_covered&quot;],&quot;forward&quot;:[&quot;minutes_played_official&quot;,&quot;goals&quot;,&quot;attempts&quot;,&quot;assists&quot;,&quot;top_speed&quot;,&quot;distance_covered&quot;],&quot;midfielder&quot;:[&quot;minutes_played_official&quot;,&quot;goals&quot;,&quot;passes_accuracy&quot;,&quot;assists&quot;,&quot;top_speed&quot;,&quot;distance_covered&quot;],&quot;defender&quot;:[&quot;minutes_played_official&quot;,&quot;goals&quot;,&quot;tackles&quot;,&quot;recovered_ball&quot;,&quot;top_speed&quot;,&quot;distance_covered&quot;],&quot;goalkeeper&quot;:[&quot;minutes_played_official&quot;,&quot;saves&quot;,&quot;clean_sheet&quot;,&quot;top_speed&quot;,&quot;distance_covered&quot;]},&quot;isFemaleCompetition&quot;:false,&quot;disableTeamLink&quot;:true,&quot;disablePlayerLink&quot;:true,&quot;newTableFormat&quot;:false,&quot;enableLegend&quot;:true,&quot;tableViewMode&quot;:&quot;SIMPLIFIED&quot;}" data-force-inview="false">
+  </div>
+
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div pk-theme="light" class="gototop hidden d3-plugin js-tracking-link" data-plugin="gototop"
+      data-tracking="{&quot;name&quot;:&quot;navigation_top&quot;,&quot;more&quot;:{&quot;navigation_type&quot;:&quot;click&quot;}}" title="Arriba">
+      <pk-icon class="gototop__icon" size="50" color="interaction-compl" name="navigation-chevron-up"
+        title="Arriba"></pk-icon>
+      <div class="gototop__text">Arriba</div>
+    </div>
+
+    <div class="emergency-hard__wrapper">
+      
+
+
+
+<style>
+:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+</style>
+    </div>
+
+  <div class="d3-react" data-name="react-query-devtools" data-force-inview="true"></div>
+  <div class="d3-react" data-name="AutoLogoutPanel" data-force-inview="true"></div>
+
+  <script>
+    const params = new URLSearchParams(location.search);
+    document.body.classList.toggle('d3mobileapp', params.has('mobileView'));
+  </script>
+
+  <script src="/CompiledAssets/UefaCom/js/base.js?_t=29290e8506c31550e384398030036fcb" type="text/javascript" defer></script>
+  
+</body>
+
+</html>

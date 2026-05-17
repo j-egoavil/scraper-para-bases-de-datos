@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2010-2011 Champions League Stats</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>2010-2011 Champions League</h1>
+    <p>Temporada: 2010-2011</p>
+    
+    <h2>Teams</h2>
+    <table border="1">
+        <tr>
+            <th>Team Name</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td><a href="/teams/fc-barcelona/">FC Barcelona</a></td>
+            <td>Barcelona</td>
+        </tr>
+        <tr>
+            <td><a href="/teams/manchester-united/">Manchester United</a></td>
+            <td>Manchester</td>
+        </tr>
+        <tr>
+            <td><a href="/teams/ac-milan/">AC Milan</a></td>
+            <td>Milan</td>
+        </tr>
+        <tr>
+            <td><a href="/teams/bayern-munich/">Bayern Munich</a></td>
+            <td>Munich</td>
+        </tr>
+        <tr>
+            <td><a href="/teams/inter-milan/">Inter Milan</a></td>
+            <td>Milan</td>
+        </tr>
+        <tr>
+            <td><a href="/teams/arsenal/">Arsenal</a></td>
+            <td>London</td>
+        </tr>
+        <tr>
+            <td><a href="/teams/real-madrid/">Real Madrid</a></td>
+            <td>Madrid</td>
+        </tr>
+        <tr>
+            <td><a href="/teams/chelsea/">Chelsea</a></td>
+            <td>London</td>
+        </tr>
+    </table>
+
+    <h2>Matches</h2>
+    <table border="1">
+        <tr>
+            <th>Date</th>
+            <th>Local Team</th>
+            <th>Visitor Team</th>
+            <th>Score</th>
+            <th>Location</th>
+        </tr>
+        <tr>
+            <td>2010-09-14</td>
+            <td>FC Barcelona</td>
+            <td>AC Milan</td>
+            <td>2 - 0</td>
+            <td>Camp Nou</td>
+        </tr>
+        <tr>
+            <td>2010-09-15</td>
+            <td>Manchester United</td>
+            <td>Bayern Munich</td>
+            <td>3 - 1</td>
+            <td>Old Trafford</td>
+        </tr>
+        <tr>
+            <td>2010-09-22</td>
+            <td>AC Milan</td>
+            <td>FC Barcelona</td>
+            <td>0 - 2</td>
+            <td>San Siro</td>
+        </tr>
+        <tr>
+            <td>2010-09-29</td>
+            <td>Bayern Munich</td>
+            <td>Manchester United</td>
+            <td>1 - 1</td>
+            <td>Allianz Arena</td>
+        </tr>
+        <tr>
+            <td>2010-10-19</td>
+            <td>Arsenal</td>
+            <td>Inter Milan</td>
+            <td>1 - 0</td>
+            <td>Emirates Stadium</td>
+        </tr>
+        <tr>
+            <td>2010-10-20</td>
+            <td>Real Madrid</td>
+            <td>Chelsea</td>
+            <td>2 - 2</td>
+            <td>Estadio Santiago Bernabéu</td>
+        </tr>
+        <tr>
+            <td>2010-11-02</td>
+            <td>Inter Milan</td>
+            <td>Arsenal</td>
+            <td>0 - 0</td>
+            <td>San Siro</td>
+        </tr>
+        <tr>
+            <td>2010-11-03</td>
+            <td>Chelsea</td>
+            <td>Real Madrid</td>
+            <td>2 - 0</td>
+            <td>Stamford Bridge</td>
+        </tr>
+    </table>
+</body>
+</html>

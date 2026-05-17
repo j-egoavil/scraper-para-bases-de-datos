@@ -1,0 +1,146 @@
+id_partido,fecha,marcador_local,marcador_visitante,lugar,id_torneo,id_equipo_local,id_equipo_visitante,match_url,raw
+1,2008-04-29,1,0,,1,1,2,/en/matches/b4ea27fa/Manchester-United-Arsenal-April-29-2009-Champions-League,Manchester Utd 1–0 Arsenal
+2,2008-05-05,1,3,,1,2,1,/en/matches/8bac8e45/Arsenal-Manchester-United-May-5-2009-Champions-League,Arsenal 1–3 Manchester Utd
+3,2008-04-28,0,0,,1,3,4,/en/matches/899a5701/Barcelona-Chelsea-April-28-2009-Champions-League,Barcelona 0–0 Chelsea
+4,2008-05-06,1,1,,1,4,3,/en/matches/10b70696/Chelsea-Barcelona-May-6-2009-Champions-League,Chelsea 1–1 Barcelona
+5,2008-04-08,4,0,,1,3,5,/en/matches/21665020/Barcelona-Bayern-Munich-April-8-2009-Champions-League,Barcelona 4–0 Bayern Munich
+6,2008-04-14,1,1,,1,5,3,/en/matches/9e15c00d/Bayern-Munich-Barcelona-April-14-2009-Champions-League,Bayern Munich 1–1 Barcelona
+7,2008-04-07,1,1,,1,6,2,/en/matches/53a5ceb2/Villarreal-Arsenal-April-7-2009-Champions-League,Villarreal 1–1 Arsenal
+8,2008-04-15,3,0,,1,2,6,/en/matches/b0f6b5e3/Arsenal-Villarreal-April-15-2009-Champions-League,Arsenal 3–0 Villarreal
+9,2008-04-07,2,2,,1,1,7,/en/matches/6e2e587e/Manchester-United-Porto-April-7-2009-Champions-League,Manchester Utd 2–2 Porto
+10,2008-04-15,0,1,,1,7,1,/en/matches/a151dc6a/Porto-Manchester-United-April-15-2009-Champions-League,Porto 0–1 Manchester Utd
+11,2008-04-08,1,3,,1,8,4,/en/matches/f09c53d0/Liverpool-Chelsea-April-8-2009-Champions-League,Liverpool 1–3 Chelsea
+12,2008-04-14,4,4,,1,4,8,/en/matches/9591f4dd/Chelsea-Liverpool-April-14-2009-Champions-League,Chelsea 4–4 Liverpool
+13,2008-02-25,0,5,,1,9,5,/en/matches/0c388763/Sporting-CP-Bayern-Munich-February-25-2009-Champions-League,Sporting CP 0–5 Bayern Munich
+14,2008-03-10,7,1,,1,5,9,/en/matches/1c441136/Bayern-Munich-Sporting-CP-March-10-2009-Champions-League,Bayern Munich 7–1 Sporting CP
+15,2008-02-25,0,1,,1,10,8,/en/matches/806311a0/Real-Madrid-Liverpool-February-25-2009-Champions-League,Real Madrid 0–1 Liverpool
+16,2008-03-10,4,0,,1,8,10,/en/matches/6739c571/Liverpool-Real-Madrid-March-10-2009-Champions-League,Liverpool 4–0 Real Madrid
+17,2008-02-24,1,0,,1,2,11,/en/matches/99cc5600/Arsenal-Roma-February-24-2009-Champions-League,Arsenal 1–0 Roma
+18,2008-03-11,1,0,,1,11,2,/en/matches/6967dc89/Roma-Arsenal-March-11-2009-Champions-League,Roma 1–0 Arsenal
+19,2008-02-24,1,1,,1,12,3,/en/matches/33ecfb4f/Lyon-Barcelona-February-24-2009-Champions-League,Lyon 1–1 Barcelona
+20,2008-03-11,5,2,,1,3,12,/en/matches/0e10d815/Barcelona-Lyon-March-11-2009-Champions-League,Barcelona 5–2 Lyon
+21,2008-02-24,0,0,,1,13,1,/en/matches/e550c9f0/Internazionale-Manchester-United-February-24-2009-Champions-League,Inter 0–0 Manchester Utd
+22,2008-03-11,2,0,,1,1,13,/en/matches/229d4791/Manchester-United-Internazionale-March-11-2009-Champions-League,Manchester Utd 2–0 Inter
+23,2008-02-24,2,2,,1,14,7,/en/matches/4a25e323/Atletico-Madrid-Porto-February-24-2009-Champions-League,Atlético Madrid 2–2 Porto
+24,2008-03-11,0,0,,1,7,14,/en/matches/bf58b3b9/Porto-Atletico-Madrid-March-11-2009-Champions-League,Porto 0–0 Atlético Madrid
+25,2008-02-25,1,0,,1,4,15,/en/matches/0b98e822/Chelsea-Juventus-February-25-2009-Champions-League,Chelsea 1–0 Juventus
+26,2008-03-10,2,2,,1,15,4,/en/matches/182c7b37/Juventus-Chelsea-March-10-2009-Champions-League,Juventus 2–2 Chelsea
+27,2008-02-25,1,1,,1,6,16,/en/matches/3b531936/Villarreal-Panathinaikos-February-25-2009-Champions-League,Villarreal 1–1 Panathinaikos
+28,2008-03-10,1,2,,1,16,6,/en/matches/cfbacce6/Panathinaikos-Villarreal-March-10-2009-Champions-League,Panathinaikos 1–2 Villarreal
+29,2009-05-27,2,0,,1,3,1,/en/matches/2fdd4a16/Barcelona-Manchester-United-May-27-2009-Champions-League,Barcelona 2–0 Manchester Utd
+30,2010-04-27,0,2,,2,10,3,/en/matches/ea6b136e/El-Clasico-Real-Madrid-Barcelona-April-27-2011-Champions-League,Real Madrid 0–2 Barcelona
+31,2010-05-03,1,1,,2,3,10,/en/matches/af5c5e5a/El-Clasico-Barcelona-Real-Madrid-May-3-2011-Champions-League,Barcelona 1–1 Real Madrid
+32,2010-04-26,0,2,,2,17,1,/en/matches/39b4587c/Schalke-04-Manchester-United-April-26-2011-Champions-League,Schalke 04 0–2 Manchester Utd
+33,2010-05-04,4,1,,2,1,17,/en/matches/33ad4bcd/Manchester-United-Schalke-04-May-4-2011-Champions-League,Manchester Utd 4–1 Schalke 04
+34,2010-04-05,4,0,,2,10,18,/en/matches/a3a21cb3/Real-Madrid-Tottenham-Hotspur-April-5-2011-Champions-League,Real Madrid 4–0 Tottenham Hotspur
+35,2010-04-13,0,1,,2,18,10,/en/matches/742a3e89/Tottenham-Hotspur-Real-Madrid-April-13-2011-Champions-League,Tottenham Hotspur 0–1 Real Madrid
+36,2010-04-06,0,1,,2,4,1,/en/matches/8a3f76c9/Chelsea-Manchester-United-April-6-2011-Champions-League,Chelsea 0–1 Manchester Utd
+37,2010-04-12,2,1,,2,1,4,/en/matches/624f6d0a/Manchester-United-Chelsea-April-12-2011-Champions-League,Manchester Utd 2–1 Chelsea
+38,2010-04-05,2,5,,2,13,17,/en/matches/3ea354d5/Internazionale-Schalke-04-April-5-2011-Champions-League,Inter 2–5 Schalke 04
+39,2010-04-13,2,1,,2,17,13,/en/matches/7bbb9877/Schalke-04-Internazionale-April-13-2011-Champions-League,Schalke 04 2–1 Inter
+40,2010-04-06,5,1,,2,3,19,/en/matches/a5ad4315/Barcelona-Shakhtar-Donetsk-April-6-2011-Champions-League,Barcelona 5–1 Shakhtar Donetsk
+41,2010-04-12,0,1,,2,19,3,/en/matches/56c23c7b/Shakhtar-Donetsk-Barcelona-April-12-2011-Champions-League,Shakhtar Donetsk 0–1 Barcelona
+42,2010-02-23,0,1,,2,13,5,/en/matches/e1b6c6b4/Internazionale-Bayern-Munich-February-23-2011-Champions-League,Inter 0–1 Bayern Munich
+43,2010-03-15,2,3,,2,5,13,/en/matches/6c98081a/Bayern-Munich-Internazionale-March-15-2011-Champions-League,Bayern Munich 2–3 Inter
+44,2010-02-22,0,2,,2,20,4,/en/matches/77256524/FC-Copenhagen-Chelsea-February-22-2011-Champions-League,FC Copenhagen 0–2 Chelsea
+45,2010-03-16,0,0,,2,4,20,/en/matches/a37a4a5d/Chelsea-FC-Copenhagen-March-16-2011-Champions-League,Chelsea 0–0 FC Copenhagen
+46,2010-02-16,2,1,,2,2,3,/en/matches/29aee5d7/Arsenal-Barcelona-February-16-2011-Champions-League,Arsenal 2–1 Barcelona
+47,2010-03-08,3,1,,2,3,2,/en/matches/d5a004bd/Barcelona-Arsenal-March-8-2011-Champions-League,Barcelona 3–1 Arsenal
+48,2010-02-23,0,0,,2,21,1,/en/matches/49a47163/Marseille-Manchester-United-February-23-2011-Champions-League,Marseille 0–0 Manchester Utd
+49,2010-03-15,2,1,,2,1,21,/en/matches/f848705c/Manchester-United-Marseille-March-15-2011-Champions-League,Manchester Utd 2–1 Marseille
+50,2010-02-16,2,3,,2,11,19,/en/matches/7ae5b637/Roma-Shakhtar-Donetsk-February-16-2011-Champions-League,Roma 2–3 Shakhtar Donetsk
+51,2010-03-08,3,0,,2,19,11,/en/matches/b8eeec43/Shakhtar-Donetsk-Roma-March-8-2011-Champions-League,Shakhtar Donetsk 3–0 Roma
+52,2010-02-22,1,1,,2,12,10,/en/matches/8ea209d5/Lyon-Real-Madrid-February-22-2011-Champions-League,Lyon 1–1 Real Madrid
+53,2010-03-16,3,0,,2,10,12,/en/matches/b74bc2bb/Real-Madrid-Lyon-March-16-2011-Champions-League,Real Madrid 3–0 Lyon
+54,2010-02-15,0,1,,2,22,18,/en/matches/a0274e57/Milan-Tottenham-Hotspur-February-15-2011-Champions-League,Milan 0–1 Tottenham Hotspur
+55,2010-03-09,0,0,,2,18,22,/en/matches/7f8835e3/Tottenham-Hotspur-Milan-March-9-2011-Champions-League,Tottenham Hotspur 0–0 Milan
+56,2010-02-15,1,1,,2,23,17,/en/matches/3490e6c7/Valencia-Schalke-04-February-15-2011-Champions-League,Valencia 1–1 Schalke 04
+57,2010-03-09,3,1,,2,17,23,/en/matches/8969058b/Schalke-04-Valencia-March-9-2011-Champions-League,Schalke 04 3–1 Valencia
+58,2011-05-28,3,1,,2,3,1,/en/matches/09f93bb8/Barcelona-Manchester-United-May-28-2011-Champions-League,Barcelona 3–1 Manchester Utd
+59,2014-05-06,3,0,,3,3,5,/en/matches/4897e3d6/Barcelona-Bayern-Munich-May-6-2015-Champions-League,Barcelona 3–0 Bayern Munich
+60,2014-05-12,3,2,,3,5,3,/en/matches/a3c30d27/Bayern-Munich-Barcelona-May-12-2015-Champions-League,Bayern Munich 3–2 Barcelona
+61,2014-05-05,2,1,,3,15,10,/en/matches/8d926545/Juventus-Real-Madrid-May-5-2015-Champions-League,Juventus 2–1 Real Madrid
+62,2014-05-13,1,1,,3,10,15,/en/matches/afc65e5c/Real-Madrid-Juventus-May-13-2015-Champions-League,Real Madrid 1–1 Juventus
+63,2014-04-15,3,1,,3,7,5,/en/matches/7445e40d/Porto-Bayern-Munich-April-15-2015-Champions-League,Porto 3–1 Bayern Munich
+64,2014-04-21,6,1,,3,5,7,/en/matches/7b39c578/Bayern-Munich-Porto-April-21-2015-Champions-League,Bayern Munich 6–1 Porto
+65,2014-04-14,0,0,,3,14,10,/en/matches/0227ab0b/El-Derbi-Madrileno-Atletico-Madrid-Real-Madrid-April-14-2015-Champions-League,Atlético Madrid 0–0 Real Madrid
+66,2014-04-22,1,0,,3,10,14,/en/matches/a37e0123/El-Derbi-Madrileno-Real-Madrid-Atletico-Madrid-April-22-2015-Champions-League,Real Madrid 1–0 Atlético Madrid
+67,2014-04-15,1,3,,3,24,3,/en/matches/28d52ca8/Paris-Saint-Germain-Barcelona-April-15-2015-Champions-League,Paris Saint-Germain 1–3 Barcelona
+68,2014-04-21,2,0,,3,3,24,/en/matches/05882dd8/Barcelona-Paris-Saint-Germain-April-21-2015-Champions-League,Barcelona 2–0 Paris Saint-Germain
+69,2014-04-14,1,0,,3,15,25,/en/matches/fb87dc35/Juventus-Monaco-April-14-2015-Champions-League,Juventus 1–0 Monaco
+70,2014-04-22,0,0,,3,25,15,/en/matches/bb13464c/Monaco-Juventus-April-22-2015-Champions-League,Monaco 0–0 Juventus
+71,2014-02-25,1,3,,3,2,25,/en/matches/1b45b91b/Arsenal-Monaco-February-25-2015-Champions-League,Arsenal 1–3 Monaco
+72,2014-03-17,0,2,,3,25,2,/en/matches/604a18b8/Monaco-Arsenal-March-17-2015-Champions-League,Monaco 0–2 Arsenal
+73,2014-02-24,2,1,,3,15,26,/en/matches/7def7f40/Juventus-Dortmund-February-24-2015-Champions-League,Juventus 2–1 Dortmund
+74,2014-03-18,0,3,,3,26,15,/en/matches/4c993c0d/Dortmund-Juventus-March-18-2015-Champions-League,Dortmund 0–3 Juventus
+75,2014-02-24,1,2,,3,27,3,/en/matches/c04b5aba/Manchester-City-Barcelona-February-24-2015-Champions-League,Manchester City 1–2 Barcelona
+76,2014-03-18,1,0,,3,3,27,/en/matches/061cc7ed/Barcelona-Manchester-City-March-18-2015-Champions-League,Barcelona 1–0 Manchester City
+77,2014-02-18,0,2,,3,17,10,/en/matches/e2c8e9dd/Schalke-04-Real-Madrid-February-18-2015-Champions-League,Schalke 04 0–2 Real Madrid
+78,2014-03-10,3,4,,3,10,17,/en/matches/a3278079/Real-Madrid-Schalke-04-March-10-2015-Champions-League,Real Madrid 3–4 Schalke 04
+79,2014-02-25,1,0,,3,28,14,/en/matches/97a12604/Leverkusen-Atletico-Madrid-February-25-2015-Champions-League,Leverkusen 1–0 Atlético Madrid
+80,2014-03-17,1,0,,3,14,28,/en/matches/1768117a/Atletico-Madrid-Leverkusen-March-17-2015-Champions-League,Atlético Madrid 1–0 Leverkusen
+81,2014-02-17,1,1,,3,24,4,/en/matches/92f02d19/Paris-Saint-Germain-Chelsea-February-17-2015-Champions-League,Paris Saint-Germain 1–1 Chelsea
+82,2014-03-11,2,2,,3,4,24,/en/matches/c8301a0a/Chelsea-Paris-Saint-Germain-March-11-2015-Champions-League,Chelsea 2–2 Paris Saint-Germain
+83,2014-02-18,1,1,,3,29,7,/en/matches/deeb593a/Basel-Porto-February-18-2015-Champions-League,Basel 1–1 Porto
+84,2014-03-10,4,0,,3,7,29,/en/matches/0a62a31f/Porto-Basel-March-10-2015-Champions-League,Porto 4–0 Basel
+85,2014-02-17,0,0,,3,19,5,/en/matches/c28f1b7f/Shakhtar-Donetsk-Bayern-Munich-February-17-2015-Champions-League,Shakhtar Donetsk 0–0 Bayern Munich
+86,2014-03-11,7,0,,3,5,19,/en/matches/181cfe0e/Bayern-Munich-Shakhtar-Donetsk-March-11-2015-Champions-League,Bayern Munich 7–0 Shakhtar Donetsk
+87,2015-06-06,3,1,,3,3,15,/en/matches/e6ef9f4b/Juventus-Barcelona-June-6-2015-Champions-League,Barcelona 3–1 Juventus
+88,2015-04-27,1,0,,4,14,5,/en/matches/987006a1/Atletico-Madrid-Bayern-Munich-April-27-2016-Champions-League,Atlético Madrid 1–0 Bayern Munich
+89,2015-05-03,2,1,,4,5,14,/en/matches/14615ae3/Bayern-Munich-Atletico-Madrid-May-3-2016-Champions-League,Bayern Munich 2–1 Atlético Madrid
+90,2015-04-26,0,0,,4,27,10,/en/matches/97119a3f/Manchester-City-Real-Madrid-April-26-2016-Champions-League,Manchester City 0–0 Real Madrid
+91,2015-05-04,1,0,,4,10,27,/en/matches/7938ed4b/Real-Madrid-Manchester-City-May-4-2016-Champions-League,Real Madrid 1–0 Manchester City
+92,2015-04-05,2,1,,4,3,14,/en/matches/5a971f31/Barcelona-Atletico-Madrid-April-5-2016-Champions-League,Barcelona 2–1 Atlético Madrid
+93,2015-04-13,2,0,,4,14,3,/en/matches/858996ab/Atletico-Madrid-Barcelona-April-13-2016-Champions-League,Atlético Madrid 2–0 Barcelona
+94,2015-04-06,2,0,,4,30,10,/en/matches/4951dedb/Wolfsburg-Real-Madrid-April-6-2016-Champions-League,Wolfsburg 2–0 Real Madrid
+95,2015-04-12,3,0,,4,10,30,/en/matches/c51ac50e/Real-Madrid-Wolfsburg-April-12-2016-Champions-League,Real Madrid 3–0 Wolfsburg
+96,2015-04-05,1,0,,4,5,31,/en/matches/8680355f/Bayern-Munich-Benfica-April-5-2016-Champions-League,Bayern Munich 1–0 Benfica
+97,2015-04-13,2,2,,4,31,5,/en/matches/8b7a896b/Benfica-Bayern-Munich-April-13-2016-Champions-League,Benfica 2–2 Bayern Munich
+98,2015-04-06,2,2,,4,24,27,/en/matches/dbb8a16b/Paris-Saint-Germain-Manchester-City-April-6-2016-Champions-League,Paris Saint-Germain 2–2 Manchester City
+99,2015-04-12,1,0,,4,27,24,/en/matches/d39170e6/Manchester-City-Paris-Saint-Germain-April-12-2016-Champions-League,Manchester City 1–0 Paris Saint-Germain
+100,2015-02-23,0,2,,4,2,3,/en/matches/b045230d/Arsenal-Barcelona-February-23-2016-Champions-League,Arsenal 0–2 Barcelona
+101,2015-03-16,3,1,,4,3,2,/en/matches/7f1594ed/Barcelona-Arsenal-March-16-2016-Champions-League,Barcelona 3–1 Arsenal
+102,2015-02-17,2,3,,4,32,30,/en/matches/849e644c/Gent-Wolfsburg-February-17-2016-Champions-League,Gent 2–3 Wolfsburg
+103,2015-03-08,1,0,,4,30,32,/en/matches/ca148907/Wolfsburg-Gent-March-8-2016-Champions-League,Wolfsburg 1–0 Gent
+104,2015-02-16,1,0,,4,31,33,/en/matches/eb2e2f34/Benfica-Zenit-February-16-2016-Champions-League,Benfica 1–0 Zenit
+105,2015-03-09,1,2,,4,33,31,/en/matches/a55feb70/Zenit-Benfica-March-9-2016-Champions-League,Zenit 1–2 Benfica
+106,2015-02-24,1,3,,4,34,27,/en/matches/8b31fee8/Dynamo-Kyiv-Manchester-City-February-24-2016-Champions-League,Dynamo Kyiv 1–3 Manchester City
+107,2015-03-15,0,0,,4,27,34,/en/matches/bb36786d/Manchester-City-Dynamo-Kyiv-March-15-2016-Champions-League,Manchester City 0–0 Dynamo Kyiv
+108,2015-02-17,0,2,,4,11,10,/en/matches/12b3ec91/Roma-Real-Madrid-February-17-2016-Champions-League,Roma 0–2 Real Madrid
+109,2015-03-08,2,0,,4,10,11,/en/matches/389ffaea/Real-Madrid-Roma-March-8-2016-Champions-League,Real Madrid 2–0 Roma
+110,2015-02-16,2,1,,4,24,4,/en/matches/778abb62/Paris-Saint-Germain-Chelsea-February-16-2016-Champions-League,Paris Saint-Germain 2–1 Chelsea
+111,2015-03-09,1,2,,4,4,24,/en/matches/d877be95/Chelsea-Paris-Saint-Germain-March-9-2016-Champions-League,Chelsea 1–2 Paris Saint-Germain
+112,2015-02-23,2,2,,4,15,5,/en/matches/66f62a80/Juventus-Bayern-Munich-February-23-2016-Champions-League,Juventus 2–2 Bayern Munich
+113,2015-03-16,4,2,,4,5,15,/en/matches/b2d86c82/Bayern-Munich-Juventus-March-16-2016-Champions-League,Bayern Munich 4–2 Juventus
+114,2015-02-24,0,0,,4,35,14,/en/matches/21a25bd6/PSV-Eindhoven-Atletico-Madrid-February-24-2016-Champions-League,PSV 0–0 Atlético Madrid
+115,2015-03-15,0,0,,4,14,35,/en/matches/3fca8691/Atletico-Madrid-PSV-Eindhoven-March-15-2016-Champions-League,Atlético Madrid 0–0 PSV
+116,2016-05-28,1,1,,4,10,14,/en/matches/0d02ed49/El-Derbi-Madrileno-Real-Madrid-Atletico-Madrid-May-28-2016-Champions-League,Real Madrid 1–1 Atlético Madrid
+117,2018-04-30,0,1,,5,18,36,/en/matches/41848af6/Tottenham-Hotspur-Ajax-April-30-2019-Champions-League,Tottenham Hotspur 0–1 Ajax
+118,2018-05-08,2,3,,5,36,18,/en/matches/09773f5a/Ajax-Tottenham-Hotspur-May-8-2019-Champions-League,Ajax 2–3 Tottenham Hotspur
+119,2018-05-01,3,0,,5,3,8,/en/matches/b45b35c3/Barcelona-Liverpool-May-1-2019-Champions-League,Barcelona 3–0 Liverpool
+120,2018-05-07,4,0,,5,8,3,/en/matches/20b882b6/Liverpool-Barcelona-May-7-2019-Champions-League,Liverpool 4–0 Barcelona
+121,2018-04-10,0,1,,5,1,3,/en/matches/6aa43ab6/Manchester-United-Barcelona-April-10-2019-Champions-League,Manchester Utd 0–1 Barcelona
+122,2018-04-16,3,0,,5,3,1,/en/matches/e5b5ebd1/Barcelona-Manchester-United-April-16-2019-Champions-League,Barcelona 3–0 Manchester Utd
+123,2018-04-09,2,0,,5,8,7,/en/matches/1ff096ec/Liverpool-Porto-April-9-2019-Champions-League,Liverpool 2–0 Porto
+124,2018-04-17,1,4,,5,7,8,/en/matches/1ab1a0b0/Porto-Liverpool-April-17-2019-Champions-League,Porto 1–4 Liverpool
+125,2018-04-09,1,0,,5,18,27,/en/matches/ecf6dedc/Tottenham-Hotspur-Manchester-City-April-9-2019-Champions-League,Tottenham Hotspur 1–0 Manchester City
+126,2018-04-17,4,3,,5,27,18,/en/matches/5a2a056f/Manchester-City-Tottenham-Hotspur-April-17-2019-Champions-League,Manchester City 4–3 Tottenham Hotspur
+127,2018-04-10,1,1,,5,36,15,/en/matches/7b2e2eab/Ajax-Juventus-April-10-2019-Champions-League,Ajax 1–1 Juventus
+128,2018-04-16,1,2,,5,15,36,/en/matches/07c5bd3b/Juventus-Ajax-April-16-2019-Champions-League,Juventus 1–2 Ajax
+129,2018-02-19,0,0,,5,8,5,/en/matches/e6e9abca/Liverpool-Bayern-Munich-February-19-2019-Champions-League,Liverpool 0–0 Bayern Munich
+130,2018-03-13,1,3,,5,5,8,/en/matches/f180a417/Bayern-Munich-Liverpool-March-13-2019-Champions-League,Bayern Munich 1–3 Liverpool
+131,2018-02-13,1,2,,5,36,10,/en/matches/ce83832e/Ajax-Real-Madrid-February-13-2019-Champions-League,Ajax 1–2 Real Madrid
+132,2018-03-05,1,4,,5,10,36,/en/matches/44e9ad70/Real-Madrid-Ajax-March-5-2019-Champions-League,Real Madrid 1–4 Ajax
+133,2018-02-13,3,0,,5,18,26,/en/matches/0dc09268/Tottenham-Hotspur-Dortmund-February-13-2019-Champions-League,Tottenham Hotspur 3–0 Dortmund
+134,2018-03-05,0,1,,5,26,18,/en/matches/48796bc8/Dortmund-Tottenham-Hotspur-March-5-2019-Champions-League,Dortmund 0–1 Tottenham Hotspur
+135,2018-02-20,2,3,,5,17,27,/en/matches/b10e8387/Schalke-04-Manchester-City-February-20-2019-Champions-League,Schalke 04 2–3 Manchester City
+136,2018-03-12,7,0,,5,27,17,/en/matches/fd403ee9/Manchester-City-Schalke-04-March-12-2019-Champions-League,Manchester City 7–0 Schalke 04
+137,2018-02-12,2,1,,5,11,7,/en/matches/a24037f9/Roma-Porto-February-12-2019-Champions-League,Roma 2–1 Porto
+138,2018-03-06,3,1,,5,7,11,/en/matches/5fcf551e/Porto-Roma-March-6-2019-Champions-League,Porto 3–1 Roma
+139,2018-02-19,0,0,,5,12,3,/en/matches/ab68aed2/Lyon-Barcelona-February-19-2019-Champions-League,Lyon 0–0 Barcelona
+140,2018-03-13,5,1,,5,3,12,/en/matches/b0f39178/Barcelona-Lyon-March-13-2019-Champions-League,Barcelona 5–1 Lyon
+141,2018-02-20,2,0,,5,14,15,/en/matches/e05e875d/Atletico-Madrid-Juventus-February-20-2019-Champions-League,Atlético Madrid 2–0 Juventus
+142,2018-03-12,3,0,,5,15,14,/en/matches/26537cb0/Juventus-Atletico-Madrid-March-12-2019-Champions-League,Juventus 3–0 Atlético Madrid
+143,2018-02-12,0,2,,5,1,24,/en/matches/59a63af6/Manchester-United-Paris-Saint-Germain-February-12-2019-Champions-League,Manchester Utd 0–2 Paris Saint-Germain
+144,2018-03-06,1,3,,5,24,1,/en/matches/bdb77399/Paris-Saint-Germain-Manchester-United-March-6-2019-Champions-League,Paris Saint-Germain 1–3 Manchester Utd
+145,2019-06-01,2,0,,5,8,18,/en/matches/96de6624/Tottenham-Hotspur-Liverpool-June-1-2019-Champions-League,Liverpool 2–0 Tottenham Hotspur
