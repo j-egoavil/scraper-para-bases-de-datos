@@ -1,41 +1,38 @@
 id_equipo,nombre,ciudad
-1,Manchester Utd,
-2,Arsenal,
-3,Barcelona,
-4,Chelsea,
-5,Bayern Munich,
-6,Villarreal,
-7,Porto,
-8,Liverpool,
-9,Sporting CP,
-10,Real Madrid,
-11,Roma,
-12,Lyon,
-13,Inter,
-14,Atlético Madrid,
-15,Juventus,
-16,Panathinaikos,
-17,Schalke 04,
-18,Tottenham Hotspur,
-19,Shakhtar Donetsk,
-20,FC Copenhagen,
-21,Marseille,
-22,Milan,
-23,Valencia,
-24,Paris Saint-Germain,
-25,Monaco,
-26,Dortmund,
-27,Manchester City,
-28,Leverkusen,
-29,Basel,
-30,Wolfsburg,
-31,Benfica,
-32,Gent,
-33,Zenit,
-34,Dynamo Kyiv,
-35,PSV,
-36,Ajax,
-37,AC Milan,
-38,FC Barcelona,
-39,Inter Milan,
-40,Manchester United,
+1,Manchester Utd,Manchester
+2,Arsenal,London
+3,Barcelona,Barcelona
+4,Chelsea,London
+5,Bayern Munich,Munich
+6,Villarreal,Villarreal
+7,Porto,Porto
+8,Liverpool,Liverpool
+9,Sporting CP,Lisbon
+10,Real Madrid,Madrid
+11,Roma,Rome
+12,Lyon,Lyon
+13,Inter,Milan
+14,Atlético Madrid,Madrid
+15,Juventus,Turin
+16,Panathinaikos,Athens
+17,Schalke 04,Gelsenkirchen
+18,Tottenham Hotspur,London
+19,Shakhtar Donetsk,Donetsk
+20,FC Copenhagen,Copenhagen
+21,Marseille,Marseille
+22,Milan,Milan
+23,Valencia,Valencia
+24,Paris Saint-Germain,Paris
+25,Monaco,Monaco
+26,Dortmund,Dortmund
+27,Manchester City,Manchester
+28,Leverkusen,Leverkusen
+29,Basel,Basel
+30,Wolfsburg,Wolfsburg
+31,Benfica,Lisbon
+32,Gent,Gent
+33,Zenit,Saint Petersburg
+34,Dynamo Kyiv,Kyiv
+35,PSV,Eindhoven
+36,Ajax,Amsterdam
+37,Inter Milan,Milan

@@ -16,6 +16,8 @@ import csv
 import argparse
 from datetime import datetime
 from bs4 import BeautifulSoup
+import unicodedata
+import difflib
 
 
 def extract_text(el):
@@ -133,6 +135,23 @@ def find_teams(soup):
             if len(text) >= 3 and len(text) <= 50:
                 teams.add(text)
     return list(sorted(teams))
+
+
+def normalize_name(name):
+    if not name:
+        return ''
+    # strip accents
+    name = unicodedata.normalize('NFKD', name).encode('ASCII', 'ignore').decode('ASCII')
+    name = name.lower()
+    # remove common prefixes/suffixes
+    for tok in ['fc ', 'f.c. ', 'cf ', 'c.f. ', 'ac ', 'a.c. ', 'real ', 'club ', 'the ']:
+        if name.startswith(tok):
+            name = name[len(tok):]
+    # remove punctuation
+    name = re.sub(r"[^a-z0-9\s]", ' ', name)
+    # collapse whitespace
+    name = re.sub(r"\s+", ' ', name).strip()
+    return name
 
 
 def find_matches(soup):
@@ -286,6 +305,7 @@ def main(input_dir, output_dir):
 
     tournaments = []
     teams_master = {}
+    # teams_master keyed by normalized name -> {id_equipo, nombre, ciudad}
     participa = set()
     matches_master = []
 
@@ -318,11 +338,20 @@ def main(input_dir, output_dir):
         for tname in found_teams:
             if not tname.strip():
                 continue
-            key = tname.lower()
-            if key not in teams_master:
-                teams_master[key] = {'id_equipo': next_team_id, 'nombre': tname, 'ciudad': ''}
-                next_team_id += 1
-            participa.add((t_id, teams_master[key]['id_equipo']))
+            norm = normalize_name(tname)
+            # direct match
+            if norm in teams_master:
+                tid = teams_master[norm]['id_equipo']
+            else:
+                # try fuzzy match against existing normalized keys
+                candidates = difflib.get_close_matches(norm, teams_master.keys(), n=1, cutoff=0.85)
+                if candidates:
+                    tid = teams_master[candidates[0]]['id_equipo']
+                else:
+                    tid = next_team_id
+                    teams_master[norm] = {'id_equipo': tid, 'nombre': tname, 'ciudad': ''}
+                    next_team_id += 1
+            participa.add((t_id, tid))
 
         found_matches = find_matches(soup)
         for m in found_matches:
@@ -336,11 +365,18 @@ def main(input_dir, output_dir):
                 v = 'VISITANTE'
                 
             for nm in (l, v):
-                key = nm.lower()
-                if key not in teams_master:
-                    teams_master[key] = {'id_equipo': next_team_id, 'nombre': nm, 'ciudad': ''}
-                    next_team_id += 1
-                    participa.add((t_id, teams_master[key]['id_equipo']))
+                norm = normalize_name(nm)
+                if norm in teams_master:
+                    pass
+                else:
+                    candidates = difflib.get_close_matches(norm, teams_master.keys(), n=1, cutoff=0.85)
+                    if candidates:
+                        # map to existing
+                        pass
+                    else:
+                        teams_master[norm] = {'id_equipo': next_team_id, 'nombre': nm, 'ciudad': ''}
+                        next_team_id += 1
+                participa.add((t_id, teams_master[norm]['id_equipo']))
 
             matches_master.append({
                 'id_partido': next_match_id,
@@ -349,8 +385,8 @@ def main(input_dir, output_dir):
                 'marcador_visitante': m['marcador_visitante'],
                 'lugar': m.get('lugar', ''),
                 'id_torneo': t_id,
-                'id_equipo_local': teams_master[l.lower()]['id_equipo'],
-                'id_equipo_visitante': teams_master[v.lower()]['id_equipo'],
+                'id_equipo_local': teams_master[normalize_name(l)]['id_equipo'],
+                'id_equipo_visitante': teams_master[normalize_name(v)]['id_equipo'],
                 'match_url': m.get('match_url', ''),
                 'raw': m['raw'],
             })

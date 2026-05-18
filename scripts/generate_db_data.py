@@ -3,22 +3,18 @@ import csv, random
 from collections import defaultdict
 
 TEAM_CITIES = {
-    'Real Madrid': 'Madrid', 'Barcelona': 'Barcelona', 'Juventus': 'Turin',
-    'Manchester Utd': 'Manchester', 'Arsenal': 'London', 'Chelsea': 'London',
-    'Bayern Munich': 'Munich', 'Inter': 'Milan', 'Roma': 'Rome',
-    'Tottenham Hotspur': 'London', 'Manchester City': 'Manchester',
-    'Liverpool': 'Liverpool', 'Schalke 04': 'Gelsenkirchen', 'Dortmund': 'Dortmund',
-    'Valencia': 'Valencia', 'Marseille': 'Marseille', 'Lyon': 'Lyon',
-    'Ajax': 'Amsterdam', 'PSV': 'Eindhoven', 'Shakhtar Donetsk': 'Donetsk', 'Dynamo Kyiv': 'Kyiv',
-    # Additional teams from extended seasons
-    'Villarreal': 'Villarreal', 'Porto': 'Porto', 'Sporting CP': 'Lisbon',
-    'Panathinaikos': 'Athens', 'Benfica': 'Lisbon', 'Gent': 'Gent',
-    'Zenit': 'Saint Petersburg', 'Leverkusen': 'Leverkusen', 'Basel': 'Basel',
-    'Wolfsburg': 'Wolfsburg', 'AC Milan': 'Milan', 'FC Barcelona': 'Barcelona',
-    'Inter Milan': 'Milan', 'Manchester United': 'Manchester',
-    # Variations/duplicates
-    'Atlético Madrid': 'Madrid', 'AtlÃ©tico Madrid': 'Madrid',
-    'FC Copenhagen': 'Copenhagen', 'Monaco': 'Monaco', 'Milan': 'Milan'
+    'Manchester Utd': 'Manchester', 'Arsenal': 'London', 'Barcelona': 'Barcelona',
+    'Chelsea': 'London', 'Bayern Munich': 'Munich', 'Villarreal': 'Villarreal',
+    'Porto': 'Porto', 'Liverpool': 'Liverpool', 'Sporting CP': 'Lisbon',
+    'Real Madrid': 'Madrid', 'Roma': 'Rome', 'Lyon': 'Lyon', 'Inter': 'Milan',
+    'Atlético Madrid': 'Madrid', 'Juventus': 'Turin', 'Panathinaikos': 'Athens',
+    'Schalke 04': 'Gelsenkirchen', 'Tottenham Hotspur': 'London', 'Shakhtar Donetsk': 'Donetsk',
+    'FC Copenhagen': 'Copenhagen', 'Marseille': 'Marseille', 'Milan': 'Milan',
+    'Valencia': 'Valencia', 'Paris Saint-Germain': 'Paris', 'Monaco': 'Monaco',
+    'Dortmund': 'Dortmund', 'Manchester City': 'Manchester', 'Leverkusen': 'Leverkusen',
+    'Basel': 'Basel', 'Wolfsburg': 'Wolfsburg', 'Benfica': 'Lisbon', 'Gent': 'Gent',
+    'Zenit': 'Saint Petersburg', 'Dynamo Kyiv': 'Kyiv', 'PSV': 'Eindhoven', 'Ajax': 'Amsterdam',
+    'AC Milan': 'Milan', 'FC Barcelona': 'Barcelona', 'Inter Milan': 'Milan', 'Manchester United': 'Manchester'
 }
 
 STADIUMS = {
@@ -27,11 +23,13 @@ STADIUMS = {
     'Milan': 'San Siro', 'Rome': 'Stadio Olimpico', 'Liverpool': 'Anfield',
     'Gelsenkirchen': 'Veltins-Arena', 'Dortmund': 'Signal Iduna Park',
     'Valencia': 'Mestalla', 'Marseille': 'Orange Velodrome', 'Lyon': 'Stade de Gerland',
-    'Amsterdam': 'Johan Cruijff Arena', 'Eindhoven': 'PSV Stadion', 'Donetsk': 'Donbass Arena', 
-    'Kyiv': 'NSC Olimpiyski', 'Villarreal': 'Estadio de la Cerámica', 'Porto': 'Dragao',
-    'Lisbon': 'Estádio da Luz', 'Gent': 'Gent Stadium', 'Saint Petersburg': 'Gazprom Arena',
-    'Leverkusen': 'BayArena', 'Basel': 'St. Jakob-Park', 'Wolfsburg': 'Volkswagen Arena',
-    'Athens': 'Apostolos Nikolaidis', 'Copenhagen': 'Parken', 'Monaco': 'Stade Louis II'
+    'Amsterdam': 'Johan Cruijff Arena', 'Eindhoven': 'PSV Stadion', 'Donbass Arena': 'Donbass Arena',
+    'Donetsk': 'Donbass Arena', 'Kyiv': 'NSC Olimpiyski', 'Villarreal': 'Estadio de la Cerámica',
+    'Porto': 'Dragao', 'Lisbon': 'Estádio da Luz', 'Gent': 'Gent Stadium',
+    'Saint Petersburg': 'Gazprom Arena', 'Leverkusen': 'BayArena', 'Basel': 'St. Jakob-Park',
+    'Wolfsburg': 'Volkswagen Arena', 'Athens': 'Apostolos Nikolaidis', 'Copenhagen': 'Parken',
+    'Monaco': 'Stade Louis II', 'Paris': 'Parc des Princes'
+    
 }
 
 PLAYER_NAMES = [
@@ -119,3 +117,81 @@ with open('p1version2_data.sql', 'w', encoding='utf-8') as f:
     f.write(sql)
 
 print(f"OK: {len(equipos)} eq, {len(partidos)} part, {jugador_id-1} jug, {gol_id-1} goles")
+
+# --- Also produce final CSVs ready for direct DB import
+try:
+    # Tournaments: keep only rows with both dates and add 'deporte'
+    tournaments = read_csv('output/tournaments.csv')
+    out_t = []
+    valid_t_ids = set()
+    for t in tournaments:
+        if t.get('fecha_inicio') and t.get('fecha_fin'):
+            out_t.append({'id_torneo': t['id_torneo'], 'nombre': t['nombre'],
+                          'fecha_inicio': t['fecha_inicio'], 'fecha_fin': t['fecha_fin'],
+                          'deporte': 'Fútbol'})
+            valid_t_ids.add(int(t['id_torneo']))
+
+    with open('output/tournaments.csv', 'w', encoding='utf-8', newline='') as tf:
+        writer = csv.DictWriter(tf, fieldnames=['id_torneo', 'nombre', 'fecha_inicio', 'fecha_fin', 'deporte'])
+        writer.writeheader()
+        for r in out_t:
+            writer.writerow(r)
+
+    # Teams: fill ciudad from TEAM_CITIES mapping (default 'Unknown')
+    out_teams = []
+    for e in equipos:
+        cname = TEAM_CITIES.get(e['nombre'], 'Unknown')
+        out_teams.append({'id_equipo': e['id_equipo'], 'nombre': e['nombre'], 'ciudad': cname})
+
+    with open('output/teams.csv', 'w', encoding='utf-8', newline='') as tf:
+        writer = csv.DictWriter(tf, fieldnames=['id_equipo', 'nombre', 'ciudad'])
+        writer.writeheader()
+        for r in out_teams:
+            writer.writerow(r)
+
+    # Partidos: write only DB columns and fill 'lugar' using local team's city -> stadium
+    out_partidos = []
+    for p in partidos:
+        try:
+            p_id = p['id_partido']
+            fecha = p['fecha']
+            ml = p['marcador_local'] or '0'
+            mv = p['marcador_visitante'] or '0'
+            id_t = int(p['id_torneo'])
+            if id_t not in valid_t_ids:
+                continue
+            local_id = int(p['id_equipo_local'])
+            local_name = teams_by_id.get(local_id, {}).get('nombre', '')
+            local_city = TEAM_CITIES.get(local_name, 'Unknown')
+            lugar = STADIUMS.get(local_city, f"{local_city} Stadium")
+            out_partidos.append({
+                'id_partido': p_id,
+                'fecha': fecha,
+                'marcador_local': ml,
+                'marcador_visitante': mv,
+                'lugar': lugar,
+                'id_torneo': p['id_torneo'],
+                'id_equipo_local': p['id_equipo_local'],
+                'id_equipo_visitante': p['id_equipo_visitante']
+            })
+        except Exception:
+            continue
+
+    with open('output/partidos.csv', 'w', encoding='utf-8', newline='') as pf:
+        writer = csv.DictWriter(pf, fieldnames=['id_partido','fecha','marcador_local','marcador_visitante','lugar','id_torneo','id_equipo_local','id_equipo_visitante'])
+        writer.writeheader()
+        for r in out_partidos:
+            writer.writerow(r)
+
+    # Participa: filter by valid tournaments
+    participa = read_csv('output/participa.csv')
+    out_part = [ {'id_torneo': p['id_torneo'], 'id_equipo': p['id_equipo']} for p in participa if p.get('id_torneo') and int(p['id_torneo']) in valid_t_ids ]
+    with open('output/participa.csv', 'w', encoding='utf-8', newline='') as pf:
+        writer = csv.DictWriter(pf, fieldnames=['id_torneo','id_equipo'])
+        writer.writeheader()
+        for r in out_part:
+            writer.writerow(r)
+
+    print('Wrote final CSVs: tournaments, teams, partidos, participa')
+except FileNotFoundError:
+    print('Warning: expected CSV inputs in output/ not found; skipping CSV finalization')

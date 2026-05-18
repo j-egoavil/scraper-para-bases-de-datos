@@ -347,3 +347,99 @@ id_jugador,nombre,fecha_nac,posicion,id_equipo
 346,Zinedine Zidane,1992-02-06,Centrocampista,29
 347,Ronaldinho,1975-07-15,Defensa,29
 348,Pele,1994-08-10,Portero,29
+349,Lionel Messi,1976-04-10,Delantero,30
+350,Luis Suarez,1984-12-28,Centrocampista,30
+351,Sergio Aguero,1989-02-22,Defensa,30
+352,Robert Lewandowski,1982-05-26,Portero,30
+353,David Villa,1995-10-22,Delantero,30
+354,Karim Benzema,1981-07-04,Centrocampista,30
+355,Raul Gonzalez,1992-04-21,Defensa,30
+356,Thierry Henry,1979-05-27,Portero,30
+357,Zinedine Zidane,1979-02-02,Delantero,30
+358,Ronaldinho,1980-05-20,Centrocampista,30
+359,Pele,1993-05-15,Defensa,30
+360,Gianluigi Buffon,1978-08-23,Portero,30
+361,Luis Suarez,1984-12-13,Delantero,31
+362,Sergio Aguero,1983-09-18,Centrocampista,31
+363,Robert Lewandowski,1990-08-03,Defensa,31
+364,David Villa,1994-01-14,Portero,31
+365,Karim Benzema,1985-10-09,Delantero,31
+366,Raul Gonzalez,1975-02-08,Centrocampista,31
+367,Thierry Henry,1993-10-01,Defensa,31
+368,Zinedine Zidane,1983-10-02,Portero,31
+369,Ronaldinho,1980-08-17,Delantero,31
+370,Pele,1995-08-09,Centrocampista,31
+371,Gianluigi Buffon,1980-10-14,Defensa,31
+372,Edwin van der Sar,1995-08-03,Portero,31
+373,Sergio Aguero,1990-06-14,Delantero,32
+374,Robert Lewandowski,1985-06-22,Centrocampista,32
+375,David Villa,1978-03-11,Defensa,32
+376,Karim Benzema,1988-12-16,Portero,32
+377,Raul Gonzalez,1984-11-13,Delantero,32
+378,Thierry Henry,1992-01-15,Centrocampista,32
+379,Zinedine Zidane,1977-06-09,Defensa,32
+380,Ronaldinho,1985-02-25,Portero,32
+381,Pele,1987-09-27,Delantero,32
+382,Gianluigi Buffon,1975-11-28,Centrocampista,32
+383,Edwin van der Sar,1992-08-14,Defensa,32
+384,Gerard Pique,1976-04-17,Portero,32
+385,Robert Lewandowski,1986-10-25,Delantero,33
+386,David Villa,1990-11-15,Centrocampista,33
+387,Karim Benzema,1976-04-09,Defensa,33
+388,Raul Gonzalez,1992-03-10,Portero,33
+389,Thierry Henry,1989-12-16,Delantero,33
+390,Zinedine Zidane,1978-01-21,Centrocampista,33
+391,Ronaldinho,1994-04-23,Defensa,33
+392,Pele,1980-05-18,Portero,33
+393,Gianluigi Buffon,1975-09-14,Delantero,33
+394,Edwin van der Sar,1977-04-27,Centrocampista,33
+395,Gerard Pique,1978-08-04,Defensa,33
+396,John Terry,1995-03-16,Portero,33
+397,David Villa,1984-09-23,Delantero,34
+398,Karim Benzema,1983-07-27,Centrocampista,34
+399,Raul Gonzalez,1990-08-08,Defensa,34
+400,Thierry Henry,1989-09-05,Portero,34
+401,Zinedine Zidane,1987-04-20,Delantero,34
+402,Ronaldinho,1991-12-05,Centrocampista,34
+403,Pele,1977-05-25,Defensa,34
+404,Gianluigi Buffon,1988-06-26,Portero,34
+405,Edwin van der Sar,1991-05-27,Delantero,34
+406,Gerard Pique,1975-05-24,Centrocampista,34
+407,John Terry,1984-10-19,Defensa,34
+408,Xavi Hernandez,1990-03-15,Portero,34
+409,Karim Benzema,1992-08-12,Delantero,35
+410,Raul Gonzalez,1985-09-25,Centrocampista,35
+411,Thierry Henry,1992-07-15,Defensa,35
+412,Zinedine Zidane,1985-04-23,Portero,35
+413,Ronaldinho,1982-10-13,Delantero,35
+414,Pele,1982-07-02,Centrocampista,35
+415,Gianluigi Buffon,1985-12-16,Defensa,35
+416,Edwin van der Sar,1987-07-22,Portero,35
+417,Gerard Pique,1995-03-16,Delantero,35
+418,John Terry,1976-03-17,Centrocampista,35
+419,Xavi Hernandez,1993-06-28,Defensa,35
+420,Andres Iniesta,1978-08-04,Portero,35
+421,Raul Gonzalez,1991-08-01,Delantero,36
+422,Thierry Henry,1979-07-28,Centrocampista,36
+423,Zinedine Zidane,1995-03-03,Defensa,36
+424,Ronaldinho,1990-05-11,Portero,36
+425,Pele,1994-12-13,Delantero,36
+426,Gianluigi Buffon,1995-02-28,Centrocampista,36
+427,Edwin van der Sar,1985-11-28,Defensa,36
+428,Gerard Pique,1992-07-11,Portero,36
+429,John Terry,1995-12-25,Delantero,36
+430,Xavi Hernandez,1990-09-02,Centrocampista,36
+431,Andres Iniesta,1994-02-08,Defensa,36
+432,Andrea Pirlo,1995-11-10,Portero,36
+433,Thierry Henry,1982-12-03,Delantero,37
+434,Zinedine Zidane,1988-02-25,Centrocampista,37
+435,Ronaldinho,1995-12-28,Defensa,37
+436,Pele,1978-08-06,Portero,37
+437,Gianluigi Buffon,1984-01-02,Delantero,37
+438,Edwin van der Sar,1985-01-10,Centrocampista,37
+439,Gerard Pique,1986-06-14,Defensa,37
+440,John Terry,1979-04-17,Portero,37
+441,Xavi Hernandez,1988-10-22,Delantero,37
+442,Andres Iniesta,1980-03-06,Centrocampista,37
+443,Andrea Pirlo,1977-10-28,Defensa,37
+444,Steven Gerrard,1987-10-22,Portero,37
