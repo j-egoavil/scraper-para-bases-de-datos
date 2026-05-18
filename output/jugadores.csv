@@ -1,0 +1,349 @@
+id_jugador,nombre,fecha_nac,posicion,id_equipo
+1,Lionel Messi,1995-02-01,Delantero,1
+2,Luis Suarez,1983-04-08,Centrocampista,1
+3,Sergio Aguero,1979-12-04,Defensa,1
+4,Robert Lewandowski,1992-02-19,Portero,1
+5,David Villa,1988-01-01,Delantero,1
+6,Karim Benzema,1977-04-08,Centrocampista,1
+7,Raul Gonzalez,1991-10-01,Defensa,1
+8,Thierry Henry,1992-04-23,Portero,1
+9,Zinedine Zidane,1995-12-18,Delantero,1
+10,Ronaldinho,1988-04-15,Centrocampista,1
+11,Pele,1993-05-26,Defensa,1
+12,Gianluigi Buffon,1975-03-23,Portero,1
+13,Luis Suarez,1988-06-09,Delantero,2
+14,Sergio Aguero,1979-04-25,Centrocampista,2
+15,Robert Lewandowski,1985-02-03,Defensa,2
+16,David Villa,1987-02-12,Portero,2
+17,Karim Benzema,1986-10-09,Delantero,2
+18,Raul Gonzalez,1976-12-15,Centrocampista,2
+19,Thierry Henry,1992-02-13,Defensa,2
+20,Zinedine Zidane,1977-09-10,Portero,2
+21,Ronaldinho,1995-10-28,Delantero,2
+22,Pele,1986-10-07,Centrocampista,2
+23,Gianluigi Buffon,1977-01-22,Defensa,2
+24,Edwin van der Sar,1982-05-03,Portero,2
+25,Sergio Aguero,1982-02-13,Delantero,3
+26,Robert Lewandowski,1983-08-21,Centrocampista,3
+27,David Villa,1986-03-12,Defensa,3
+28,Karim Benzema,1986-04-22,Portero,3
+29,Raul Gonzalez,1983-12-22,Delantero,3
+30,Thierry Henry,1995-02-20,Centrocampista,3
+31,Zinedine Zidane,1995-03-18,Defensa,3
+32,Ronaldinho,1982-03-15,Portero,3
+33,Pele,1987-05-21,Delantero,3
+34,Gianluigi Buffon,1992-04-22,Centrocampista,3
+35,Edwin van der Sar,1985-01-08,Defensa,3
+36,Gerard Pique,1976-06-13,Portero,3
+37,Robert Lewandowski,1983-02-07,Delantero,4
+38,David Villa,1993-12-11,Centrocampista,4
+39,Karim Benzema,1981-11-16,Defensa,4
+40,Raul Gonzalez,1987-11-15,Portero,4
+41,Thierry Henry,1979-05-05,Delantero,4
+42,Zinedine Zidane,1982-12-18,Centrocampista,4
+43,Ronaldinho,1992-05-24,Defensa,4
+44,Pele,1993-07-19,Portero,4
+45,Gianluigi Buffon,1987-06-08,Delantero,4
+46,Edwin van der Sar,1979-09-16,Centrocampista,4
+47,Gerard Pique,1977-01-28,Defensa,4
+48,John Terry,1978-03-21,Portero,4
+49,David Villa,1980-11-14,Delantero,5
+50,Karim Benzema,1994-02-13,Centrocampista,5
+51,Raul Gonzalez,1987-10-15,Defensa,5
+52,Thierry Henry,1991-05-18,Portero,5
+53,Zinedine Zidane,1975-11-24,Delantero,5
+54,Ronaldinho,1978-11-18,Centrocampista,5
+55,Pele,1983-11-11,Defensa,5
+56,Gianluigi Buffon,1978-05-14,Portero,5
+57,Edwin van der Sar,1980-08-01,Delantero,5
+58,Gerard Pique,1983-09-25,Centrocampista,5
+59,John Terry,1980-09-04,Defensa,5
+60,Xavi Hernandez,1995-05-27,Portero,5
+61,Karim Benzema,1995-09-20,Delantero,6
+62,Raul Gonzalez,1981-03-12,Centrocampista,6
+63,Thierry Henry,1980-09-25,Defensa,6
+64,Zinedine Zidane,1991-01-20,Portero,6
+65,Ronaldinho,1985-08-01,Delantero,6
+66,Pele,1978-06-27,Centrocampista,6
+67,Gianluigi Buffon,1984-04-02,Defensa,6
+68,Edwin van der Sar,1982-10-03,Portero,6
+69,Gerard Pique,1977-12-16,Delantero,6
+70,John Terry,1977-09-25,Centrocampista,6
+71,Xavi Hernandez,1979-03-22,Defensa,6
+72,Andres Iniesta,1990-09-06,Portero,6
+73,Raul Gonzalez,1983-09-28,Delantero,7
+74,Thierry Henry,1994-07-07,Centrocampista,7
+75,Zinedine Zidane,1992-12-23,Defensa,7
+76,Ronaldinho,1981-12-10,Portero,7
+77,Pele,1987-11-21,Delantero,7
+78,Gianluigi Buffon,1986-08-17,Centrocampista,7
+79,Edwin van der Sar,1989-02-08,Defensa,7
+80,Gerard Pique,1982-02-11,Portero,7
+81,John Terry,1975-10-18,Delantero,7
+82,Xavi Hernandez,1982-10-08,Centrocampista,7
+83,Andres Iniesta,1975-02-23,Defensa,7
+84,Andrea Pirlo,1995-01-08,Portero,7
+85,Thierry Henry,1977-01-28,Delantero,8
+86,Zinedine Zidane,1985-02-17,Centrocampista,8
+87,Ronaldinho,1982-05-22,Defensa,8
+88,Pele,1990-04-18,Portero,8
+89,Gianluigi Buffon,1979-12-19,Delantero,8
+90,Edwin van der Sar,1993-08-08,Centrocampista,8
+91,Gerard Pique,1990-07-07,Defensa,8
+92,John Terry,1978-02-22,Portero,8
+93,Xavi Hernandez,1988-06-14,Delantero,8
+94,Andres Iniesta,1988-08-28,Centrocampista,8
+95,Andrea Pirlo,1976-11-21,Defensa,8
+96,Steven Gerrard,1995-02-02,Portero,8
+97,Zinedine Zidane,1987-12-11,Delantero,9
+98,Ronaldinho,1978-04-07,Centrocampista,9
+99,Pele,1981-09-15,Defensa,9
+100,Gianluigi Buffon,1979-07-06,Portero,9
+101,Edwin van der Sar,1983-08-08,Delantero,9
+102,Gerard Pique,1977-08-26,Centrocampista,9
+103,John Terry,1992-02-02,Defensa,9
+104,Xavi Hernandez,1995-09-27,Portero,9
+105,Andres Iniesta,1975-02-25,Delantero,9
+106,Andrea Pirlo,1982-03-14,Centrocampista,9
+107,Steven Gerrard,1990-08-07,Defensa,9
+108,Patrick Vieira,1987-01-06,Portero,9
+109,Ronaldinho,1987-01-13,Delantero,10
+110,Pele,1983-08-10,Centrocampista,10
+111,Gianluigi Buffon,1988-12-24,Defensa,10
+112,Edwin van der Sar,1992-11-23,Portero,10
+113,Gerard Pique,1990-03-07,Delantero,10
+114,John Terry,1984-04-02,Centrocampista,10
+115,Xavi Hernandez,1993-12-18,Defensa,10
+116,Andres Iniesta,1976-12-11,Portero,10
+117,Andrea Pirlo,1976-01-19,Delantero,10
+118,Steven Gerrard,1990-09-28,Centrocampista,10
+119,Patrick Vieira,1991-03-02,Defensa,10
+120,Claude Makele,1991-02-28,Portero,10
+121,Pele,1980-02-20,Delantero,11
+122,Gianluigi Buffon,1977-11-28,Centrocampista,11
+123,Edwin van der Sar,1982-07-04,Defensa,11
+124,Gerard Pique,1993-04-19,Portero,11
+125,John Terry,1994-01-20,Delantero,11
+126,Xavi Hernandez,1977-07-22,Centrocampista,11
+127,Andres Iniesta,1993-10-17,Defensa,11
+128,Andrea Pirlo,1985-05-07,Portero,11
+129,Steven Gerrard,1985-04-09,Delantero,11
+130,Patrick Vieira,1987-03-22,Centrocampista,11
+131,Claude Makele,1995-05-15,Defensa,11
+132,Didier Drogba,1985-02-01,Portero,11
+133,Gianluigi Buffon,1989-10-19,Delantero,12
+134,Edwin van der Sar,1978-02-18,Centrocampista,12
+135,Gerard Pique,1981-09-09,Defensa,12
+136,John Terry,1979-06-03,Portero,12
+137,Xavi Hernandez,1982-06-10,Delantero,12
+138,Andres Iniesta,1980-08-27,Centrocampista,12
+139,Andrea Pirlo,1992-12-10,Defensa,12
+140,Steven Gerrard,1994-11-17,Portero,12
+141,Patrick Vieira,1975-11-27,Delantero,12
+142,Claude Makele,1992-05-22,Centrocampista,12
+143,Didier Drogba,1978-03-09,Defensa,12
+144,Gonzalo Higuain,1978-02-24,Portero,12
+145,Edwin van der Sar,1992-03-09,Delantero,13
+146,Gerard Pique,1984-10-07,Centrocampista,13
+147,John Terry,1985-04-22,Defensa,13
+148,Xavi Hernandez,1995-05-17,Portero,13
+149,Andres Iniesta,1990-05-28,Delantero,13
+150,Andrea Pirlo,1976-02-21,Centrocampista,13
+151,Steven Gerrard,1988-05-02,Defensa,13
+152,Patrick Vieira,1975-06-25,Portero,13
+153,Claude Makele,1979-11-09,Delantero,13
+154,Didier Drogba,1980-12-15,Centrocampista,13
+155,Gonzalo Higuain,1992-12-14,Defensa,13
+156,Arjen Robben,1992-01-04,Portero,13
+157,Gerard Pique,1977-12-05,Delantero,14
+158,John Terry,1992-01-27,Centrocampista,14
+159,Xavi Hernandez,1986-10-18,Defensa,14
+160,Andres Iniesta,1979-07-05,Portero,14
+161,Andrea Pirlo,1976-05-12,Delantero,14
+162,Steven Gerrard,1976-06-07,Centrocampista,14
+163,Patrick Vieira,1982-11-04,Defensa,14
+164,Claude Makele,1986-09-28,Portero,14
+165,Didier Drogba,1988-10-24,Delantero,14
+166,Gonzalo Higuain,1979-04-28,Centrocampista,14
+167,Arjen Robben,1980-03-14,Defensa,14
+168,Frank Ribery,1975-03-24,Portero,14
+169,John Terry,1985-07-26,Delantero,15
+170,Xavi Hernandez,1982-05-06,Centrocampista,15
+171,Andres Iniesta,1978-07-28,Defensa,15
+172,Andrea Pirlo,1976-08-08,Portero,15
+173,Steven Gerrard,1981-08-12,Delantero,15
+174,Patrick Vieira,1984-04-08,Centrocampista,15
+175,Claude Makele,1975-11-07,Defensa,15
+176,Didier Drogba,1987-06-09,Portero,15
+177,Gonzalo Higuain,1977-05-12,Delantero,15
+178,Arjen Robben,1995-09-13,Centrocampista,15
+179,Frank Ribery,1992-06-01,Defensa,15
+180,Mesut Ozil,1978-05-06,Portero,15
+181,Xavi Hernandez,1993-05-02,Delantero,16
+182,Andres Iniesta,1978-10-14,Centrocampista,16
+183,Andrea Pirlo,1986-12-26,Defensa,16
+184,Steven Gerrard,1985-07-20,Portero,16
+185,Patrick Vieira,1991-02-13,Delantero,16
+186,Claude Makele,1993-04-09,Centrocampista,16
+187,Didier Drogba,1976-12-14,Defensa,16
+188,Gonzalo Higuain,1975-09-26,Portero,16
+189,Arjen Robben,1992-11-24,Delantero,16
+190,Frank Ribery,1981-06-14,Centrocampista,16
+191,Mesut Ozil,1977-11-11,Defensa,16
+192,Angel Di Maria,1994-06-22,Portero,16
+193,Andres Iniesta,1978-12-10,Delantero,17
+194,Andrea Pirlo,1991-05-22,Centrocampista,17
+195,Steven Gerrard,1988-06-13,Defensa,17
+196,Patrick Vieira,1984-09-05,Portero,17
+197,Claude Makele,1981-07-22,Delantero,17
+198,Didier Drogba,1987-11-24,Centrocampista,17
+199,Gonzalo Higuain,1980-10-19,Defensa,17
+200,Arjen Robben,1984-07-18,Portero,17
+201,Frank Ribery,1975-05-10,Delantero,17
+202,Mesut Ozil,1981-07-26,Centrocampista,17
+203,Angel Di Maria,1993-10-21,Defensa,17
+204,Eden Hazard,1985-08-15,Portero,17
+205,Andrea Pirlo,1989-11-07,Delantero,18
+206,Steven Gerrard,1991-08-26,Centrocampista,18
+207,Patrick Vieira,1980-11-03,Defensa,18
+208,Claude Makele,1984-09-22,Portero,18
+209,Didier Drogba,1995-10-11,Delantero,18
+210,Gonzalo Higuain,1977-04-22,Centrocampista,18
+211,Arjen Robben,1984-04-26,Defensa,18
+212,Frank Ribery,1981-03-01,Portero,18
+213,Mesut Ozil,1976-04-16,Delantero,18
+214,Angel Di Maria,1994-02-15,Centrocampista,18
+215,Eden Hazard,1988-11-19,Defensa,18
+216,Cristiano Ronaldo,1981-12-23,Portero,18
+217,Steven Gerrard,1987-08-13,Delantero,19
+218,Patrick Vieira,1982-03-21,Centrocampista,19
+219,Claude Makele,1975-02-25,Defensa,19
+220,Didier Drogba,1988-04-06,Portero,19
+221,Gonzalo Higuain,1991-08-02,Delantero,19
+222,Arjen Robben,1992-04-28,Centrocampista,19
+223,Frank Ribery,1978-08-05,Defensa,19
+224,Mesut Ozil,1989-11-17,Portero,19
+225,Angel Di Maria,1992-10-11,Delantero,19
+226,Eden Hazard,1989-10-27,Centrocampista,19
+227,Cristiano Ronaldo,1991-07-27,Defensa,19
+228,Lionel Messi,1992-08-06,Portero,19
+229,Patrick Vieira,1990-08-09,Delantero,20
+230,Claude Makele,1982-11-09,Centrocampista,20
+231,Didier Drogba,1991-08-21,Defensa,20
+232,Gonzalo Higuain,1982-05-15,Portero,20
+233,Arjen Robben,1977-12-10,Delantero,20
+234,Frank Ribery,1982-05-11,Centrocampista,20
+235,Mesut Ozil,1985-09-03,Defensa,20
+236,Angel Di Maria,1979-03-08,Portero,20
+237,Eden Hazard,1987-12-05,Delantero,20
+238,Cristiano Ronaldo,1981-02-14,Centrocampista,20
+239,Lionel Messi,1988-06-18,Defensa,20
+240,Luis Suarez,1989-07-02,Portero,20
+241,Claude Makele,1981-07-13,Delantero,21
+242,Didier Drogba,1993-12-01,Centrocampista,21
+243,Gonzalo Higuain,1993-07-16,Defensa,21
+244,Arjen Robben,1975-06-10,Portero,21
+245,Frank Ribery,1987-07-18,Delantero,21
+246,Mesut Ozil,1992-10-08,Centrocampista,21
+247,Angel Di Maria,1990-04-09,Defensa,21
+248,Eden Hazard,1988-08-01,Portero,21
+249,Cristiano Ronaldo,1987-06-22,Delantero,21
+250,Lionel Messi,1987-12-06,Centrocampista,21
+251,Luis Suarez,1989-03-20,Defensa,21
+252,Sergio Aguero,1992-01-13,Portero,21
+253,Didier Drogba,1993-10-22,Delantero,22
+254,Gonzalo Higuain,1975-02-21,Centrocampista,22
+255,Arjen Robben,1988-03-28,Defensa,22
+256,Frank Ribery,1989-03-02,Portero,22
+257,Mesut Ozil,1983-07-11,Delantero,22
+258,Angel Di Maria,1981-08-11,Centrocampista,22
+259,Eden Hazard,1985-07-09,Defensa,22
+260,Cristiano Ronaldo,1988-05-27,Portero,22
+261,Lionel Messi,1977-08-01,Delantero,22
+262,Luis Suarez,1992-01-12,Centrocampista,22
+263,Sergio Aguero,1982-11-03,Defensa,22
+264,Robert Lewandowski,1995-01-25,Portero,22
+265,Gonzalo Higuain,1975-04-07,Delantero,23
+266,Arjen Robben,1975-10-05,Centrocampista,23
+267,Frank Ribery,1982-03-16,Defensa,23
+268,Mesut Ozil,1978-10-07,Portero,23
+269,Angel Di Maria,1989-12-09,Delantero,23
+270,Eden Hazard,1986-03-20,Centrocampista,23
+271,Cristiano Ronaldo,1994-12-23,Defensa,23
+272,Lionel Messi,1978-03-10,Portero,23
+273,Luis Suarez,1978-10-01,Delantero,23
+274,Sergio Aguero,1984-10-22,Centrocampista,23
+275,Robert Lewandowski,1987-07-23,Defensa,23
+276,David Villa,1981-02-19,Portero,23
+277,Arjen Robben,1995-04-04,Delantero,24
+278,Frank Ribery,1984-11-20,Centrocampista,24
+279,Mesut Ozil,1978-10-26,Defensa,24
+280,Angel Di Maria,1976-06-18,Portero,24
+281,Eden Hazard,1988-11-12,Delantero,24
+282,Cristiano Ronaldo,1977-09-21,Centrocampista,24
+283,Lionel Messi,1985-01-28,Defensa,24
+284,Luis Suarez,1988-08-04,Portero,24
+285,Sergio Aguero,1988-06-21,Delantero,24
+286,Robert Lewandowski,1989-12-05,Centrocampista,24
+287,David Villa,1988-03-24,Defensa,24
+288,Karim Benzema,1991-11-09,Portero,24
+289,Frank Ribery,1994-09-25,Delantero,25
+290,Mesut Ozil,1990-08-14,Centrocampista,25
+291,Angel Di Maria,1993-05-11,Defensa,25
+292,Eden Hazard,1982-02-09,Portero,25
+293,Cristiano Ronaldo,1989-04-25,Delantero,25
+294,Lionel Messi,1989-10-20,Centrocampista,25
+295,Luis Suarez,1987-06-01,Defensa,25
+296,Sergio Aguero,1990-06-06,Portero,25
+297,Robert Lewandowski,1990-04-12,Delantero,25
+298,David Villa,1983-06-09,Centrocampista,25
+299,Karim Benzema,1994-12-09,Defensa,25
+300,Raul Gonzalez,1992-01-17,Portero,25
+301,Mesut Ozil,1981-02-08,Delantero,26
+302,Angel Di Maria,1988-08-18,Centrocampista,26
+303,Eden Hazard,1982-12-16,Defensa,26
+304,Cristiano Ronaldo,1995-12-16,Portero,26
+305,Lionel Messi,1989-01-03,Delantero,26
+306,Luis Suarez,1984-04-13,Centrocampista,26
+307,Sergio Aguero,1982-05-22,Defensa,26
+308,Robert Lewandowski,1993-06-16,Portero,26
+309,David Villa,1992-09-12,Delantero,26
+310,Karim Benzema,1988-12-18,Centrocampista,26
+311,Raul Gonzalez,1985-06-23,Defensa,26
+312,Thierry Henry,1989-05-10,Portero,26
+313,Angel Di Maria,1983-04-04,Delantero,27
+314,Eden Hazard,1981-06-04,Centrocampista,27
+315,Cristiano Ronaldo,1992-12-06,Defensa,27
+316,Lionel Messi,1981-04-24,Portero,27
+317,Luis Suarez,1990-05-24,Delantero,27
+318,Sergio Aguero,1993-09-20,Centrocampista,27
+319,Robert Lewandowski,1984-02-27,Defensa,27
+320,David Villa,1981-05-08,Portero,27
+321,Karim Benzema,1986-03-10,Delantero,27
+322,Raul Gonzalez,1975-12-18,Centrocampista,27
+323,Thierry Henry,1979-05-02,Defensa,27
+324,Zinedine Zidane,1976-09-10,Portero,27
+325,Eden Hazard,1979-11-28,Delantero,28
+326,Cristiano Ronaldo,1990-02-28,Centrocampista,28
+327,Lionel Messi,1975-10-10,Defensa,28
+328,Luis Suarez,1990-08-15,Portero,28
+329,Sergio Aguero,1985-03-02,Delantero,28
+330,Robert Lewandowski,1983-08-04,Centrocampista,28
+331,David Villa,1977-07-16,Defensa,28
+332,Karim Benzema,1977-10-21,Portero,28
+333,Raul Gonzalez,1976-03-05,Delantero,28
+334,Thierry Henry,1993-05-03,Centrocampista,28
+335,Zinedine Zidane,1982-02-18,Defensa,28
+336,Ronaldinho,1988-10-20,Portero,28
+337,Cristiano Ronaldo,1994-04-25,Delantero,29
+338,Lionel Messi,1991-07-15,Centrocampista,29
+339,Luis Suarez,1989-05-28,Defensa,29
+340,Sergio Aguero,1993-07-10,Portero,29
+341,Robert Lewandowski,1993-10-02,Delantero,29
+342,David Villa,1994-12-04,Centrocampista,29
+343,Karim Benzema,1981-11-07,Defensa,29
+344,Raul Gonzalez,1983-11-03,Portero,29
+345,Thierry Henry,1980-04-06,Delantero,29
+346,Zinedine Zidane,1992-02-06,Centrocampista,29
+347,Ronaldinho,1975-07-15,Defensa,29
+348,Pele,1994-08-10,Portero,29
